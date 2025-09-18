@@ -23,7 +23,12 @@ const handleSelect = (option) => {
     
     // Vänta 2 sekunder innan vi skickar svaret vidare
     setTimeout(() => {
+        if (correct){
+        <h>rätt svar</h>
+
+      }
       onSecAnswer(pickedWord, correct);
+      
     }, 2000);
 
 };
@@ -53,7 +58,16 @@ return (
         
             </button>     
          ))}
-       </div>
+        </div>
+        {selected && (
+        <p style={{ marginTop: '1rem' }}>
+            {isCorrect
+            ? '!'
+            : `❌ Fel. Rätt svar är "${pickedWord.artikel}".`}
+        </p>
+        )}
+
+      
 </div>
 
     

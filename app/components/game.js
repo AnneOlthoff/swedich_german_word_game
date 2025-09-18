@@ -14,7 +14,7 @@ export default function Game() {
   const [refreshKey, setRefreshKey] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
   const [showFollowUpQuestion, setShowFollowUpQuestion] = useState(false);
-  const [waitingForFollowUpAnswer, setWaitingForFollowUpAnswer] = useState(false);
+  
 
 
   // Hämta ord från JSON
@@ -45,58 +45,54 @@ export default function Game() {
 
 
 
-    const handleFollowUpAnswer = (word, correct) => {
-      setWaitingForFollowUpAnswer(false);
-      setShowFollowUpQuestion(false);
+  const handleFollowUpAnswer = (word, correct) => {
+    
+    setShowFollowUpQuestion(false);
+    
+    console.log(`Svar på ${word.artikel}: ${correct ? 'rätt' : 'fel'}`);
       
-      console.log(`Svar på ${word.artikel}: ${correct ? 'rätt' : 'fel'}`);
+        goToNextWord(word, correct);
+    
+  };
 
-        // Vänta 2 sekunder innan nästa ord
+  const goToNextWord = (word, correct) => {
+
+      if (correct) {
+        setCorrectAnswers(prev => [...prev, word]);
+        setSelectedWords(prevWords =>
+          prevWords.filter(w => w.swedich !== word.swedich)
+        );
+        setCurrentWordIndex(0);
+      } else {
+        setWrongAnswers(prev => [...prev, word]);
+        setCurrentWordIndex(prev => {
+          const isLast = prev >= selectedWords.length - 1;
+          return isLast ? 0 : prev + 1;
+        });
+      }
+
+        setRefreshKey(prev => prev + 1); // 🔁 tvinga omrendering
       
-          goToNextWord(word, correct);
-       
-      
-    };
-
-    const goToNextWord = (word, correct) => {
-
-        if (correct) {
-          setCorrectAnswers(prev => [...prev, word]);
-          setSelectedWords(prevWords =>
-            prevWords.filter(w => w.swedich !== word.swedich)
-          );
-          setCurrentWordIndex(0);
-        } else {
-          setWrongAnswers(prev => [...prev, word]);
-          setCurrentWordIndex(prev => {
-            const isLast = prev >= selectedWords.length - 1;
-            return isLast ? 0 : prev + 1;
-          });
-        }
-
-          setRefreshKey(prev => prev + 1); // 🔁 tvinga omrendering
-        
-    }
+  }
 
   const handleAnswer = (word, correct) => {
     console.log(`Svar på ${word.swedich}: ${correct ? 'rätt' : 'fel'}`);
 
-    //ändra till nytt ord automatiskt efter man svarart
-
+    //dubbelkolla om det är rätt svar samt om det finns en möjlig följdfråga i jsonfilen
+    
+    //att göra: lägg till check om conjugation finns 
     const hasFollowUp = word.artikel !== undefined ;
 
     
       if (correct && hasFollowUp) {
        
-        // Visa följdfråga
+         // Visa följdfråga
         
           setShowFollowUpQuestion(true);
-          setWaitingForFollowUpAnswer(true);
         
-
       } else {
         
-      // Gå vidare direkt
+        // Gå vidare direkt
           setTimeout(() => {
             goToNextWord(word, correct);
           }, 2000);
