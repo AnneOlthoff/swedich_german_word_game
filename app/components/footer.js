@@ -12,11 +12,7 @@ export default function Footer() {
       padding: '1rem',
       textAlign: 'center',
       backgroundColor: 'var(--background-secondary)',
-      marginTop: '2rem',
-      borderTop: '1px solid var(--divider-color)',
-     
-        
-      
+      borderTop: '1px solid var(--divider-color)',   
     },
    
   };

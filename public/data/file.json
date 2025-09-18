@@ -1,370 +1,136 @@
-
 {
-  "projects": [
-
-
+  "translations": [
     {
-      "id": 1,
-      "what": "White-label app",
-      "images": [
-        {
-          "image": "/images/malar_light.png",
-          "imcap": "Drafts of a ligher version for Mälarenergi, focusing on using there primary blue and secondary orange on grapichs and as texts."
-        },
-        {
-          "image": "/images/malar_blue.png",
-          "imcap": "Draft of a darker version for Mälarenergi using a deeper blue for better contrast with their secondary orange witch is WCAG AA compliant."
-        },
-        {
-          "image": "/images/malar_final.png",
-          "imcap": "Picked draft: mainly using wine red and deeper blue to follow their design guidelines while maximizing contrast."
-        }
-       
-      ],
-      "heading": "Designing for Everyone: White-label UX with a Personal Touch",
-      "subheading": "Balancing customization, consistency, and accessibility",
-      "introduction": "When designing a mobile-friendly energy consumption graph, several key decisions shaped the final outcome:",
-     
-      "sections": [
-        {
-          "title" : "Overview",
-          "sectionOne": "Bitvis offers a white-label app for electricity retailers in Sweden, designed to make each end customer feel seen and prioritized. This required an interface that felt personal and on-brand, without fragmenting the core product or adding complexity. Each retailer had its own view of customer needs, which gave us valuable, ongoing user feedback. The challenge: How do you create a tailored experience for each client while maintaining consistency, accessibility, and ease of maintenance?"
- 
-          
-        },
-        
-        {
-          "title" : "A Modular Foundation with Flexible Branding for a “Homely” Experience",
-          "sectionOne": "Each retailer had unique brand requirements — from color schemes and typography to tone of voice, as well as their own feature requests. To support this, we introduced a design system built around:",
-          "steps": [
-          "Customizable design tokens for colors, typography, and spacing",
-          "Figma variables to quickly create and present tailored design drafts — as seen to the left, where we explored three brand themes for the same customer.",
-          "A modular app architecture that allows smaller feature add-ons to highlight each retailer’s unique services"
-          ]
-        },
-        {
-          "title" : "Prioritizing Accessibility Across Custom Themes",
-          "sectionOne": "Different color schemes and branding requirements introduced a risk: inconsistent contrast ratios or color combinations that could fail accessibility standards — especially as smaller electricity retailers often had graphical brand books with colors that weren’t ideal for user interfaces or WCAG AA compliance. To maintain accessibility:",
-          "steps": [
-            "Every theme variant was tested for color blindness compatibility and AA compliance",
-            "When needed, we created new color schemes that still preserved the 'homely' brand feel"
-            ]
-            
-        },
-        {
-          "title" : "Scaling Design with Frontend Collaboration",
-          "sectionOne": "Design and development worked closely to ensure the white-label system was scalable and maintainable. Every new component was tested across multiple customer themes to ensure it worked seamlessly with minimal need for special treatment per electricity retailer."
-       
-        },
-        {
-          "title": "Skills Highlighted",
-          "steps": [
-            "Design systems",
-            "Accessibility ",
-            "White-label product design",
-            "Designing for a B2B system",
-            "UX consistency across clients"
-          ]
-        }
-      ]
       
-    },
-
-
-
-
-
-
-
-
-
-    {
-      "id": 3,
-      "what": "Graphs for small screens",
-      "images": [
-        
-        {
-          "image": "/images/analysis.png",
-          "imcap": "The step graph allows users to visualize electricity usage over time, with an optional secondary graph for comparisons, for example, prices versus purchased electricity. A datepicker overlay guides users through selecting a time interval (day, month, or year), followed by a specific period to explore in detail."
-        }
-       
-      ],
-      "heading": "Designing graphs for smal screens",
-      "subheading": "Optimizing Data Visualization for an Electrical Consumption App",
-      "introduction": "When designing a mobile-friendly energy consumption graph, several key decisions shaped the final outcome:",
-     
-      "sections": [
-        {
-          "title" : "Overview",
-          "sectionOne": "One of the key pages in an electrical consumption app is where users can monitor their energy usage and costs. While users want insights into their consumption habits across different time periods—ranging from hourly to yearly—electricity companies also aim to help them recognize patterns and adjust their behaviors. This presents a design challenge: how can we create a clear, accessible, and engaging graph that serves both perspectives while remaining easy to use on small screens? "
-          
-        },
-        {
-          "title" : "1. Choosing the Right Graph Type",
-          "sectionOne": "After exploring several options, we settled on a step graph as the most suitable choice. It blends the advantages of line and bar graphs, providing clarity and a more interactive experience without misrepresenting the data.",
-          
-          "steps": [
-            "A line graph suggests continuous data, which doesn’t accurately represent hourly electricity readings where each hour should be treated as a discrete point on the x-axis. However, one advantage of line graphs is that they feel more interactive, inviting users to naturally drag along the curve with their fingers, especially on mobile.",
-            "A bar graph visualizes discrete data more correctly, clearly separating each hourly value. On the downside, bars tend to feel more static and can make touch interactions less smooth, especially on smaller screens, where hovering or selecting with precision becomes harder.",
-            "By combining the advantages of both, a step graph became the optimal choice. It offers the structural clarity of bars while maintaining the inviting, interactive feel of a line graph. This makes it easy for users to recognize consumption patterns and navigate the data seamlessly on mobile devices."
-          ]
-        },
-        {
-          "title" : "2. Improving Data Readability on Mobile",
-          "sectionOne": "Traditional tooltips are commonly used in graphs to display data when hovering, but this pattern does not translate well to mobile apps. On touchscreens, tooltips often end up hidden behind the user’s finger, making them difficult to read. To avoid covering too much of the graph, tooltip text also tends to be small, which further reduces legibility. To solve this, we implemented large, fixed-position data values that remain visible without requiring interaction, ensuring that key information is easy to read — even when navigating with thumbs.",   "steps": [   
-              ]
-       
-        },
-        {
-          "title" : "3.  Comparing Different Data Types Without Overload",
-          "sectionOne": "Users needed to compare both electricity consumption (kWh) and cost per kWh within the same graph. However, multi-variable graphs risk becoming overwhelming. To balance clarity and functionality:",
-          "steps": [   
-           "We introduced dual Y-axes with matching visual styles.",
-           "Users can choose to toggle comparison data, keeping the default view simple for less advanced users while still enabling deeper insights for those who want them. "
-            ]
-       
-        },
-        {
-          "title" : "4. Enhancing Readability Through Visual Design",
-          "sectionOne": "To clearly separate datasets:",
-          "steps": [   
-           "The main consumption line features a subtle gradient to give it depth without distraction.",
-           "Comparison lines use a white border to remain distinct even when colors overlap, without introducing additional gradients or noise.",
-           "Color choices were made with accessibility in mind, ensuring that all users — including those with color vision deficiencies — can clearly interpret the data.", 
-           "Additionally, to ensure accessibility for users with color vision deficiencies, we introduced small graphical markers (circles and squares) on both the graph lines and the corresponding data labels."
-                 ]
-       
-        },
-        {
-          "title" : "5. The date picker for the graph",
-          "sectionOne": "We also designed a date picker tailored for mobile use, enabling users to easily switch between day, week, month, and year views. It adapts seamlessly to small screens and allows users to explore historical data without friction. "
-        },
-        {
-          "title": "Skills Highlighted",
-          "steps": [
-            "User experience (UX)",
-            "Data Visualization",
-            "Accesability"
-          ]
-        }
-      ]
-      
+      "swedich": "hus",
+      "german": "Haus",
+      "type": "substantiv",
+      "artikel": "das",
+      "plural": "Häuser"
     },
     {
-  "id": 3,
-  "what": "Concept of a Dashboard",
-  "images": [
-    
+      "swedich": "göra",
+      "german": "machen",
+      "type": "verb",
+      "conjugation": {
+        "ich": "mache",
+        "du": "machst",
+        "er/sie": "macht",
+        "wir": "machen",
+        "ihr": "macht",
+        "sie/Sie": "machen"
+      }
+    },
     {
-      "image": "/images/powerFlow_components.png",
-      "imcap": "UI components including buttons, graph, and list elements. Created to demonstrate how Power Flow could evolve into a more intuitive and engaging dashboard experience."
+      "swedich": "gift",
+      "german": "verheiratet",
+      "type": "other"
+    },
+    {
+      "swedich": "jämförelse",
+      "german": "Vergleich",
+      "type": "substantiv",
+      "artikel": "der",
+      "plural": "Vergleiche"
+    },
+    {
+      "swedich": "öva",
+      "german": "üben",
+      "type": "verb",
+      "conjugation": {
+        "ich": "übe",
+        "du": "übst",
+        "er/sie": "übt",
+        "wir": "üben",
+        "ihr": "übt",
+        "sie/Sie": "üben"
+      }
+    },
+    {
+      "swedich": "siffra",
+      "german": "Zahl",
+      "type": "substantiv",
+      "artikel": "die",
+      "plural": "Zahlen"
+    },
+    {
+      "swedich": "väska",
+      "german": "Tasche",
+      "type": "substantiv",
+      "artikel": "die",
+      "plural": "Taschen"
+    },
+    {
+      "swedich": "samtal",
+      "german": "Gespräch",
+      "type": "substantiv",
+      "artikel": "das",
+      "plural": "Gespräche"
+    },
+    {
+      "swedich": "åka",
+      "german": "fahren",
+      "type": "verb",
+      "conjugation": {
+        "ich": "fahre",
+        "du": "fährst",
+        "er/sie": "fährt",
+        "wir": "fahren",
+        "ihr": "fahrt",
+        "sie/Sie": "fahren"
+      }
+    },
+    {
+      "swedich": "äta",
+      "german": "essen",
+      "type": "verb",
+      "conjugation": {
+        "ich": "esse",
+        "du": "isst",
+        "er/sie": "isst",
+        "wir": "essen",
+        "ihr": "esst",
+        "sie/Sie": "essen"
+      }
+    },
+    {
+      "swedich": "heta",
+      "german": "heißen",
+      "type": "verb",
+      "conjugation": {
+        "ich": "heiße",
+        "du": "heißt",
+        "er/sie": "heißt",
+        "wir": "heißen",
+        "ihr": "heißt",
+        "sie/Sie": "heißen"
+      }
+    },
+    {
+      "swedich": "stol",
+      "german": "Stuhl",
+      "type": "substantiv",
+      "artikel": "der",
+      "plural": "Stühle"
+    },
+    {
+      "swedich": "lärare (manlig)",
+      "german": "Lehrer",
+      "type": "substantiv",
+      "artikel": "der",
+      "plural": "Lehrer"
+    },
+    {
+      "swedich": "lärare (kvinnlig)",
+      "german": "Lehrerin",
+      "type": "substantiv",
+      "artikel": "die",
+      "plural": "Lehrerinnen"
+    },
+    {
+      "swedich": "varning",
+      "german": "Achtung",
+      "type": "other"
     }
-  ],
-  "heading": "Reimagining Energy Dashboards: A Vision for Power Flow",
-  "subheading": "Designing clarity, emotion, and usability into technical systems",
-  "introduction": "Together with a colleague, I created a visionary concept for Power Flow — a dashboard system used by energy retailers. The goal was to explore how the interface could evolve into something more intuitive, emotionally engaging, and user-friendly. The concept was used in sales and internal discussions to spark ideas and shift focus toward UX-driven development.",
-  "sections": [
-    {
-      "title": "Overview",
-      "sectionOne": "Power Flow was already in use, but the existing product had limited UX and was shaped primarily by technical constraints. Our concept aimed to show what a future version could look like and be used as a conversation starter plus a tool for sales. We focused on real-time energy data, user-friendly visuals, and a warm, approachable tone."
-    },
-    {
-      "title": "Designing with Emotion and Clarity",
-      "sectionOne": "We spoke with current customers to understand what they wanted from a dashboard. Based on their feedback, we designed a layout that combined real-time graphs, map views, and customer lists. To make the interface feel less intimidating, we used pastel tones and soft lilac: colors that stood out in presentations and created a homely, non-technical atmosphere.",
-      "steps": [
-        "Graph panel showing electricity usage, EV charging, and solar production",
-        "Map panel highlighting areas of high consumption",
-        "List view showing customer status and activity",
-        "Interactive buttons and filters designed for clarity and ease of use"
-      ]
-    },
-    {
-      "title": "Sales Integration and Strategic Impact",
-      "sectionOne": "The concept was used in pitch decks and demos to show what Power Flow could become. It helped shift conversations from technical limitations to user-centered possibilities, and positioned our team as UX-driven innovators."
-    },
-    {
-      "title": "Skills Highlighted",
-      "steps": [
-        "Dashboard UX design",
-        "Visual storytelling",
-        "Figma prototyping",
-        "Customer research",
-        "Designing for emotional tone"
-      ]
-    },
-    {
-      "title": "What I Learned",
-      "sectionOne": "Designing visionary concepts is not just about aesthetics, it's about strategic communication. I learned how to use design to spark ideas, support sales, and advocate for better user experiences in technical domains. I also deepened my understanding of how visual tone can influence perception and engagement."
-    }
-  ]
-},
-    {
-      "id": 4,
-      "what": "Simple Porfolio",
-      "images": [
-        {
-          "image": "/images/logga.svg",
-          "imcap": "SVG animation doubling as a personal line art logo. One continuous line writes my name, with the surrounding box symbolizing the 'O' in my surname. "
-        }
-       
-      ],
-      "heading": "Implementaion and Designing a simple portfolio",
-      "subheading": "A Project for learning more about react (2025)",
-      "introduction": "This webpage is a space where you can get a quick and honest impression of who I am and the work I do. My focus has been on creating a simple and intuitive design without relying on unnecessary animations or flashy distractions. Instead, I’ve built this portfolio to reflect my passion for simplicity, clarity, and functionality.",
-
-     
-      "sections": [
-        {
-          "title" : "Overview",
-          "sectionOne": "This webpage is a space where you can get a quick and honest impression of who I am and the work I do. I’ve focused on keeping the design simple and intuitive, avoiding excessive CSS animations —but I couldn't resist adding a playful SVG animation of a logo."
-        },
-        {
-          "title" : "Design Process",
-          "sectionOne": "I have designed this page naturally, drawing inspiration from others and selecting elements that align with my three guiding principles: simplicity, clarity, and efficiency.",
-         
-          "steps": [            
-            "Efficiency: While I would love for my readers to learn everything about me, I respect their valuable time and aim to deliver key insights quickly. ",
-            "Clarity: I want visitors to get a quick glimpse of my work fast enough to capture interest but slow enough to intrigue leaving them wanting to know more.",
-            "Simplicity: To be kind to the developer, which happens to be me"
-          ]
-       
-        },
-         {
-          "title" : "Colors and Theme Adaptation",
-          "sectionOne": "The color palette of this portfolio adapts automatically to the visitor’s system theme, creating a smoother and more comfortable experience whether in light or dark mode. This avoids the jarring effect of suddenly landing on a bright page when browsing in dark mode, or a dark page when in light mode. In light mode, the design features a warm beige background and deep green text, chosen for their softness and readability. These same colors are also used in my CV to maintain a consistent and calming visual identity across materials. The dark mode version offers high contrast while remaining easy on the eyes, staying true to my design principles of clarity, simplicity, and efficiency."
-        
-        },
-        {
-          "title" : "Creating the webb page, using React",
-          "sectionOne": "Every part of this portfolio is built using React and Next.js. Building this portfolio has been a learning journey, where I’ve honed my skills in React while keeping the design and functionality aligned with my principles of simplicity, clarity, and efficiency. "
-        },
-        {
-          "title": "Skills Highlighted",
-          "steps": [
-            "User experience (UX)",
-            "SVG-animations",
-            "Front-end development with React"
-          ]
-        }
-      ]
-      
-    },
-
-    {
-      "id": 5,
-      "what": "OpenSpace",
-      "images":[
-        {
-          "image": "/images/firstdraft.png",
-          "imcap": "Early interface concept showing Earth always in view, with narrative text anchored to the side. The layout was designed to support both immersion and readability."
-        },
-         {
-          "image": "/images/storyline.png",
-          "imcap": "First draft over the storyline when Antarctica is picked: (1) Satellites, (2) Overview of surface currents, (3) A more detailed view of the surface currents, (4) Overview on how the ice melts over Antarctica, (5) Glaciers, (6) Consequences"
-        },
-        {
-          "image": "/images/introduction_blue.png",
-          "imcap": "The starting page of the interface is were the user can pick a story. When the program starts the instruction button in the left corner in blinking to get the user’s attention." 
-        },
-        {
-          "image": "/images/grace.png",
-          "imcap": "Visualization of ice melt over time using GRACE data. Colors indicate changes in ice mass, with blue and orange chosen to represent loss and gain due to their better accessibility for color blindness. The color legend helps interpret the intensity of melting."
-        }
-       
-      ],
-      
-      "heading": "Interactive Visualization of Climate Change in the OpenSpace Project",
-      "subheading": "Master’s Thesis, Linköping University at New York University (2022) ",
-      "introduction": "Designing an interactive storytelling experience about Antarctic ice melt",
-      "sections": [
-        {
-          "title": "Overview",
-          "sectionOne": "This project was part of my master’s thesis in media technology at Linköping University, in collaboration with the OpenSpace project, NASA, and the American Museum of Natural History. My goal was to design an interactive visualization of climate change data, focused on Antarctic glaciers, for a general audience.",
-          "sectionTwo": "The challenge was to take complex satellite datasets and make them understandable, engaging, and explorable through visual storytelling in OpenSpace, a scientific visualization platform used in museums and planetariums."
-          },
-        {
-          "title": "My Role",
-          "sectionOne": "I was responsible for the full UX and data visualization process.",
-          "steps": [
-            "Researched and storyboarded the climate story with input from experts",
-            "Designed and implemented the user interface in React",
-            "Developed two navigation modes: a structured narrative and an open-world exploration",
-            "Converted scientific datasets from raw formats to visual layers (NetCDF to GeoTIFF to VRT)",
-            "Conducted user testing and iterated based on feedback"
-          ]
-        },
-        {
-          "title": "Problem",
-          "sectionOne": "Climate change data is typically created for researchers. Visualizations are dense, interfaces are complex, and non-expert users often struggle to understand the impact of these changes. ",
-          "sectionTwo": "The question I focused on was: How might we design a visual and interactive experience that allows the general public to explore glacier melting in Antarctica without prior scientific knowledge?"
-      
-        },
-        {
-          "title": "Design Process",
-          "sectionOne": "The design process included four key phases from research to implementation and testing.",
-          "subsections": [
-            {
-              "title": "1. Understanding the data and story",
-              "sectionOne": "I began by taking an online course on climate science and meeting regularly with a climate physicist at the American Museum of Natural History. Together we identified the Thwaites Glacier (also known as the Doomsday Glacier) as the focal point of the story. I selected satellite datasets such as GRACE (gravity-based ice mass loss) and ECCO (ocean currents) and converted them using Python, GDAL and QGIS into formats that could be displayed on a virtual 3D globe in OpenSpace."
-            },
-            {
-              "title": "2. Storyboarding and UX design",
-              "sectionOne": "I explored different forms of interactive storytelling and decided to implement two modes:",
-              "subSteps": [
-                "A decision-based narrative, where users could follow a guided story about glacier melting and sea-level rise",
-                "An open-world mode, where users could freely explore datasets, switch layers, and zoom in on different parts of Earth"
-              ],
-              "sectionTwo": "Using Figma, I sketched layouts for both story modes, tested UI component placement, and iterated on navigation flows. I focused on keeping Earth in view at all times, with side panels for text, legends, and time controls."
-            },
-            {
-              "title": "3. Interface implementation in React",
-              "sectionOne": "I developed the interface using React, integrating it with OpenSpace’s OpenGL backend through a custom API. The interface included:",
-              "subSteps": [
-                "A timeline controller to step through time-based datasets",
-                "Next and previous buttons for the narrative mode",
-                "A story selector and category menu for the open-world mode",
-                "Dynamic color legends and info panels that updated per dataset"
-              ],
-              "sectionTwo": "Each component was connected to a JSON-based story API that made it easy to update or extend content."
-            },
-            {
-              "title":"4. User testing and iteration",
-              "sectionOne": "I conducted think-aloud user testing with seven participants, including climate scientists, OpenSpace developers, and lay users. The sessions revealed several key usability issues:",
-              "subSteps" : [
-                "Users misunderstood color mappings (e.g., thought red-blue meant temperature, not ice mass)",
-                "Spinning Earth made it hard to focus on reading content",
-                "Text lengths needed balancing between too much detail and too little guidance"
-              ],
-              "sectionTwo": "I adjusted the interface accordingly: slowed down animations, clarified legends, refined color schemes, and reorganized information for better accessibility."
-            }
-          ]
-        },
-        {
-          "title": "Outcome",
-          "sectionOne": "The final interface was successfully integrated into OpenSpace and tested with users of varying backgrounds. It allowed non-experts to explore scientific climate data and learn through interaction.",
-          "steps": [
-            "Follow a narrative about glacier melt and sea-level rise",
-            "Explore real climate datasets with minimal friction",
-            "Gain a spatial understanding of global currents and local effects"
-          ],
-          "sectionTwo": "The storytelling format helped users emotionally connect to abstract scientific data, while the visual tools supported intuitive learning"
-        },
-        {
-          "title": "Key Skills",
-          "steps": [
-            "UX and interaction design for scientific visualization",
-            "Interface development in React",
-            "Data transformation and geospatial analysis",
-            "Interactive storytelling and narrative UX",
-            "User testing and iteration"
-          ]
-        },
-        {
-          "title": "What I Learned",
-          "sectionOne": "Designing for scientific communication requires careful balance between accuracy and accessibility. I learned how to translate abstract climate data into an intuitive experience, and how to use storytelling as a tool for engagement and education. I also deepened my skills in cross-functional collaboration, working closely with researchers, developers, and museum professionals."
-        }
-      ]
-    }
-  ]
+  ] 
 }
-

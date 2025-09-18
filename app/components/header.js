@@ -25,18 +25,9 @@ export default function Header() {
       <header style={styles.header}>
        
           <div style={styles.links}>
+            Swedich to German word game
           </div>
-          <div style={styles.links}>
           
-            <Link href="#my-work" onClick={handleScroll} scroll={false} style={styles.link}>My work</Link>
-            <Link href="/about" style={styles.link}>About me</Link>
-          <a href="https://github.com/AnneOlthoff" style={styles.link}>
-            GitHub
-          </a>
-          <a href="https://www.linkedin.com/in/anne-olthoff/" style={styles.link}>
-            LinkedIn
-          </a>
-          </div>
        
        
       </header>
@@ -61,7 +52,7 @@ export default function Header() {
     
     },
     links: {
-     alignItems: 'left'
+     alignItems: 'right'
     },
     
     top: {

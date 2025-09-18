@@ -5,9 +5,9 @@ import Head from 'next/head';
 
 
 import Header from './components/header';
-import Projects from './components/projects';
+import Game from './components/game'
 import Footer from './components/footer';
-import SVGAnimation from './components/svganimation';
+import './globals.css'
 
 export default function Home() {
 
@@ -18,16 +18,15 @@ export default function Home() {
         <title>My Portfolio</title>
         <meta name="description" content="Whoo" />
       </Head>
-      <div>
+     
+      <div className="flex flex-col min-h-screen">
         <Header />
-      
-        <SVGAnimation/>
-        
-        <div id="my-work" style={{marginTop: '4px'}}  >
-           <Projects/>
+        <div className="flex-grow">
+          <Game />
         </div>
         <Footer />
       </div>
+
     </>
   );
 }
