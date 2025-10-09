@@ -1,8 +1,9 @@
 'use client';
 import { useState, useEffect } from 'react';
 import '../globals.css';
-import WordQ from './wordQuestion.js';
+import SingleWordQ from './singleWordQuestion.js';
 import ArtikelQ from './artikelQuestion.js'
+import KasusQ from './kasusQuestion.js'
 import ConjugationQ from "./conjugationQuestion.js"
 
 export default function Game() {
@@ -60,7 +61,7 @@ export default function Game() {
       if (correct) {
         setCorrectAnswers(prev => [...prev, word]);
         setSelectedWords(prevWords =>
-          prevWords.filter(w => w.swedich !== word.swedich)
+          prevWords.filter(w => w.swedish !== word.swedish)
         );
         setCurrentWordIndex(0);
       } else {
@@ -76,7 +77,7 @@ export default function Game() {
   }
 
   const handleAnswer = (word, correct) => {
-    console.log(`Svar på ${word.swedich}: ${correct ? 'rätt' : 'fel'}`);
+    console.log(`Svar på ${word.swedish}: ${correct ? 'rätt' : 'fel'}`);
 
     //dubbelkolla om det är rätt svar samt om det finns en möjlig följdfråga i jsonfilen
     
@@ -110,35 +111,48 @@ export default function Game() {
     ) : selectedWords.length > 0 && currentWordIndex < selectedWords.length ? (
       <div>
           <p>Antal kvar: {selectedWords.length}</p>
-          <WordQ
-            key={refreshKey} // 🔁 detta tvingar komponenten att laddas om
-            pickedWord={selectedWords[currentWordIndex]}
-            allWords={allWords}
-            onAnswer={handleAnswer}
-          />
-        {showFollowUpQuestion && (
-          selectedWords[currentWordIndex].conjugation !== undefined  ? (
-          <div>
-          {console.log("Nuvarande ord:", selectedWords[currentWordIndex])}
-
-            <ConjugationQ 
+          
+          {selectedWords[currentWordIndex].kasusOptions  ? (
+            <KasusQ
               pickedWord = {selectedWords[currentWordIndex]}
-              onSecAnswer={handleFollowUpAnswer}
-            />
-            </div>
+              onAnswer={handleAnswer}
+             />
+            
+          ): (
+             <>
+              <SingleWordQ
+                key={refreshKey} // 🔁 detta tvingar komponenten att laddas om
+                pickedWord={selectedWords[currentWordIndex]}
+                allWords={allWords}
+                onAnswer={handleAnswer}
+               />
+           
+              {showFollowUpQuestion && (
+                selectedWords[currentWordIndex].conjugation !== undefined  ? (
+                <div>
+                {console.log("Nuvarande ord:", selectedWords[currentWordIndex])}
 
-          ): selectedWords[currentWordIndex].artikel !== undefined ? (
-              <div>
-              {console.log("Nuvarande ord:", selectedWords[currentWordIndex])}
+                  <ConjugationQ 
+                    pickedWord = {selectedWords[currentWordIndex]}
+                    onSecAnswer={handleFollowUpAnswer}
+                  />
+                  </div>
 
-              <ArtikelQ 
-                pickedWord = {selectedWords[currentWordIndex]}
-                onSecAnswer={handleFollowUpAnswer}
+                ): selectedWords[currentWordIndex].artikel !== undefined ? (
+                    <div>
+                    {console.log("Nuvarande ord:", selectedWords[currentWordIndex])}
 
-              />
-              </div>
+                    <ArtikelQ 
+                      pickedWord = {selectedWords[currentWordIndex]}
+                      onSecAnswer={handleFollowUpAnswer}
 
-          ): null 
+                    />
+                    </div>
+
+                ):null 
+
+              )}
+            </>
 
           )}
         </div>

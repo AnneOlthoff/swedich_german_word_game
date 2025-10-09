@@ -2,14 +2,14 @@
   "translations": [
     {
       
-      "swedich": "hus",
+      "swedish": "hus",
       "german": "Haus",
       "type": "substantiv",
       "artikel": "das",
       "plural": "Häuser"
     },
     {
-      "swedich": "göra",
+      "swedish": "göra",
       "german": "machen",
       "type": "verb",
       "conjugation": {
@@ -22,19 +22,19 @@
       }
     },
     {
-      "swedich": "gift",
+      "swedish": "gift",
       "german": "verheiratet",
       "type": "other"
     },
     {
-      "swedich": "jämförelse",
+      "swedish": "jämförelse",
       "german": "Vergleich",
       "type": "substantiv",
       "artikel": "der",
       "plural": "Vergleiche"
     },
     {
-      "swedich": "öva",
+      "swedish": "öva",
       "german": "üben",
       "type": "verb",
       "conjugation": {
@@ -47,28 +47,28 @@
       }
     },
     {
-      "swedich": "siffra",
+      "swedish": "siffra",
       "german": "Zahl",
       "type": "substantiv",
       "artikel": "die",
       "plural": "Zahlen"
     },
     {
-      "swedich": "väska",
+      "swedish": "väska",
       "german": "Tasche",
       "type": "substantiv",
       "artikel": "die",
       "plural": "Taschen"
     },
     {
-      "swedich": "samtal",
+      "swedish": "samtal",
       "german": "Gespräch",
       "type": "substantiv",
       "artikel": "das",
       "plural": "Gespräche"
     },
     {
-      "swedich": "åka",
+      "swedish": "åka",
       "german": "fahren",
       "type": "verb",
       "conjugation": {
@@ -81,7 +81,7 @@
       }
     },
     {
-      "swedich": "äta",
+      "swedish": "äta",
       "german": "essen",
       "type": "verb",
       "conjugation": {
@@ -94,7 +94,7 @@
       }
     },
     {
-      "swedich": "heta",
+      "swedish": "heta",
       "german": "heißen",
       "type": "verb",
       "conjugation": {
@@ -107,30 +107,89 @@
       }
     },
     {
-      "swedich": "stol",
+      "swedish": "stol",
       "german": "Stuhl",
       "type": "substantiv",
       "artikel": "der",
       "plural": "Stühle"
     },
     {
-      "swedich": "lärare (manlig)",
+      "swedish": "lärare (manlig)",
       "german": "Lehrer",
       "type": "substantiv",
       "artikel": "der",
       "plural": "Lehrer"
     },
     {
-      "swedich": "lärare (kvinnlig)",
+      "swedish": "lärare (kvinnlig)",
       "german": "Lehrerin",
       "type": "substantiv",
       "artikel": "die",
       "plural": "Lehrerinnen"
     },
     {
-      "swedich": "varning",
+      "swedish": "varning",
       "german": "Achtung",
       "type": "other"
+    },
+    
+    
+    {
+      "swedish": "Jag hyr en liten lägenhet i Berlin.",
+      "german": "Ich miete eine kleine Wohnung in Berlin.",
+      "type": "sentence",
+      "kasusOptions": [
+        "Ich miete eine kleinen Wohnung in Berlin.",
+        "Ich miete eine kleine Wohnung in Berlin.",
+        "Ich miete einen kleinen Wohnung in Berlin."
+      ],
+      "explanation": "„Wohnung“ är feminin. Med obestämd artikel i ackusativ feminin blir det „eine kleine Wohnung“. Adjektivet får ändelsen -e."
+    },
+    {
+      "swedish": "Vi arbetar i ett stort kontor.",
+      "german": "Wir arbeiten in einem großen Büro.",
+      "type": "sentence",
+      "kasusOptions": [
+        "Wir arbeiten in einem großes Büro.",
+        "Wir arbeiten in einem großen Büro.",
+        "Wir arbeiten in einer großen Büro."
+      ],
+      "explanation": "„Büro“ är neutrum. Prepositionen „in“ med plats → dativ. Dativ neutrum med obestämd artikel = „einem großen Büro“."
+    },
+    {
+      "swedish": "Hon bor nära den gamla stationen.",
+      "german": "Sie wohnt in der Nähe des alten Bahnhofs.",
+      "type": "sentence",
+      "kasusOptions": [
+        "Sie wohnt in der Nähe des alten Bahnhofs.",
+        "Sie wohnt in der Nähe von dem alten Bahnhof.",
+        "Sie wohnt in der Nähe der alten Bahnhof."
+      ],
+      "explanation": "„Bahnhof“ är maskulin. „in der Nähe“ kräver genitiv → „des alten Bahnhofs“. Adjektivet får -en, substantivet får -s."
+    },
+    {
+      "swedish": "Jag dricker en kall kaffe på jobbet.",
+      "german": "Ich trinke einen kalten Kaffee bei der Arbeit.",
+      "type": "sentence",
+      "kasusOptions": [
+        "Ich trinke einen kalten Kaffee bei der Arbeit.",
+        "Ich trinke ein kalter Kaffee bei der Arbeit.",
+        "Ich trinke einen kalter Kaffee bei der Arbeit."
+      ],
+      "explanation": "„Kaffee“ är maskulin och står i ackusativ → „einen kalten Kaffee“. Adjektivet får -en."
+    },
+    {
+      "swedish": "De besöker de berömda museerna i Berlin.",
+      "german": "Sie besuchen die berühmten Museen in Berlin.",
+      "type": "sentence",
+      "kasusOptions": [
+        "Sie besuchen die berühmten Museen in Berlin.",
+        "Sie besuchen die berühmte Museen in Berlin.",
+        "Sie besuchen den berühmten Museen in Berlin."
+      ],
+      "explanation": "„Museen“ är plural och ackusativ → „die berühmten Museen“. Adjektivet får -en i plural med bestämd artikel."
     }
+
+
   ] 
 }

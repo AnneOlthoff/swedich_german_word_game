@@ -3,68 +3,75 @@ import { useState, useEffect, useRef } from 'react';
 
 import '../globals.css'
 
-export default function ArtikelQuestion({ pickedWord, onSecAnswer }) {
+export default function ArtikelQuestion({ pickedWord, onAnswer }) {
 const [options, setOptions] = useState([]);
 const [selected, setSelected] = useState(null);
 const [isCorrect, setIsCorrect] = useState(null);
 
 useEffect(() => {
+
     setSelected(null);
     setIsCorrect(null);
-    setOptions(['der', 'die', 'das'])
+
+    setOptions([pickedWord.kasusOptions[0], pickedWord.kasusOptions[1], pickedWord.kasusOptions[2]])
     
 }, [pickedWord]);
 
-
-
 const handleSelect = (option) => {
     setSelected(option);
-    const correct = option === pickedWord.artikel;
+    const correct = option === pickedWord.german;
     setIsCorrect(correct);
     
-    // Vänta 2 sekunder innan vi skickar svaret vidare
+    // Vänta 6 sekunder innan vi skickar svaret vidare
     setTimeout(() => {
-        if (correct){
-        <h>rätt svar</h>
-
-      }
-      onSecAnswer(pickedWord, correct);
-      
-    }, 2000);
+       onAnswer(pickedWord, correct);
+    }, 6000);
 
 };
 
 return (
 
 <div style={styles.container}>
-      <h3>Vilken artikel har ordet?</h3>
-     
-         <div style={styles.buttonContainer}>
+        <h3>Vilken är den rätta översättningen för</h3>
+        <h4>{pickedWord.swedish}</h4>
+
+        <div style={styles.buttonContainer}>
         {options.map((opt) => (
                 
             <button
-              key = {opt}
+            key = {opt}
                 onClick={() => handleSelect(opt)}
                 style={{
                     ...styles.button,
                     border: selected === opt
-                    ? (pickedWord.artikel === opt ? '1px solid #68af68ff' : '1px solid #cf535fff')
+                    ? (pickedWord.german === opt ? '1px solid #68af68ff' : '1px solid #cf535fff')
                     : '1px solid #ccc',
                     backgroundColor: selected === opt
-                    ? (pickedWord.artikel === opt ? ' #294d29ff' : '#511117ff')
+                    ? (pickedWord.german === opt ? ' #294d29ff' : '#511117ff')
                     : '#000'
                 }}
                 >
-                    {opt}
-        
+                {opt}
+
             </button>     
-         ))}
+        ))}
         </div>
         {selected && (
         <p style={{ marginTop: '1rem' }}>
             {isCorrect
-            ? '!'
-            : `❌ Fel. Rätt svar är "${pickedWord.artikel}".`}
+            ? (
+                <>
+                    Rätt! <br />
+                    förklaring: "{pickedWord.explanation}"
+                </>
+             )
+            :(
+                <>
+                    ❌ fel! rätt svar är "{pickedWord.german}"<br />
+                    förklaring: "{pickedWord.explanation}"
+                </>
+             )
+            }
         </p>
         )}
 

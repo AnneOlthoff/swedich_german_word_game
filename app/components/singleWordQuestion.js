@@ -12,7 +12,7 @@ useEffect(() => {
 
     // Hämta två slumpmässiga felaktiga alternativ
     const wrongOptions = allWords
-        .filter(w => w.german !== pickedWord.artikel)
+        .filter(w => w.german !== pickedWord.german && !w.swedish.includes(" ")) //vill inte få förslag på meningar
         .sort(() => 0.5 - Math.random())
         .slice(0, 2);
 
@@ -37,7 +37,7 @@ const handleSelect = (option) => {
 return (
 
 <div style={styles.container}>
-      <h3>Vad är tyska för: <strong>{pickedWord.swedich}</strong>?</h3>
+      <h3>Vad är tyska för: <strong>{pickedWord.swedish}</strong>?</h3>
       
       
       <div style={styles.buttonContainer}>
