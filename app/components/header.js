@@ -24,9 +24,11 @@ export default function Header() {
     return (
       <header style={styles.header}>
        
-          <div style={styles.links}>
-            Swedich to German word game
-          </div>
+          <h3>
+            <strong>
+             Swedish to German word game
+            </strong>
+          </h3>
           
        
        
@@ -37,38 +39,21 @@ export default function Header() {
   const styles = {
     header: {
       position: 'sticky',
-      top: '0px',
-      display: 'flex',
+      
+      
       justifyContent: 'space-between', 
       alignItems: 'center', 
-      paddingLeft: '24px',
-      paddingTop: '32px',
-      paddingBottom: '8px',
+      textAlign: 'center',
       
-      paddingRight: '20px',
+      paddingTop: '16px',
+      paddingBottom: '16px',
+      
       backgroundColor: 'var(--background-secondary)',
       borderBottom: '1px solid var(--divider-color)',
       
     
     },
-    links: {
-     alignItems: 'right'
-    },
     
-    top: {
-      textAlign: "right"
-    },
-    title: {
-      fontSize: '2.5rem',
-      margin: '0',
-    },
-    social: {
-      marginTop: '0.5rem',
-    },
-    link: {
-      margin: '0 0.5rem',
-      color: 'var( --text-color-secondary)',
-      textDecoration: 'none',
-    },
+    
    
   };

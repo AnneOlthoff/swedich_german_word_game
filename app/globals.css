@@ -5,11 +5,13 @@
 :root {
   --background: #faf9f6;
   --background-secondary: #faf9f6;
-  --background-third: #fdfdfd;
+  --background-third: #ffffff;
   --heading: #18645c;
   --heading-secondary: #062c29;
   --text:  #07312d;
   --divider-color: #d9d4ce;
+  --correctAnswer : rgb(146, 187, 146);
+  --wrongAnswer: rgb(232, 133, 143); 
   
   
 }
@@ -23,6 +25,8 @@
     --heading-secondary: #ffffff;
     --text: #E9E9E9;
     --divider-color: #0a0a0a; /* mörkare i dark mode */
+    --correctAnswer : #294d29ff;
+    --wrongAnswer: #511117ff;
   }
   
 }
@@ -47,9 +51,14 @@ h3 {
   font-size: 22px;
   margin-top: 1rem;
 
-  font-weight: 600;
+  font-weight: 500;
   color: var(--heading);
 }
+
+h3 strong {
+  font-weight: 800;
+}
+
 h4{
   font-size: 18px;
   font-weight: 600;

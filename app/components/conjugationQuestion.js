@@ -1,66 +1,94 @@
-'use client';
-import { useState, useEffect, useRef } from 'react';
+"use client";
+import { useState, useEffect, useRef } from "react";
 
-import '../globals.css'
+import "../globals.css";
+import AnsButton from "./answerButton.js";
 
-export default function ConjugationQuestion({ pickedWord }) {
-const [options, setOptions] = useState([]);
-const [selected, setSelected] = useState(null);
-const [isCorrect, setIsCorrect] = useState(null);
+export default function ConjugationQuestion({ pickedWord, onSecAnswer }) {
+  const [options, setOptions] = useState([]);
+  const [selected, setSelected] = useState(null);
+  const [isCorrect, setIsCorrect] = useState(null);
 
-useEffect(() => {
+  const [pronoun, setPronoun] = useState(null);
+  const [correctForm, setCorrectForm] = useState(null);
 
-    
-}, []);
+  useEffect(() => {
+    setSelected(null);
+    setIsCorrect(null);
 
+    const conjugationPairs = Object.entries(pickedWord.conjugation);
+    const [randomPronoun, randomForm] =
+      conjugationPairs[Math.floor(Math.random() * conjugationPairs.length)];
 
+    setPronoun(randomPronoun);
+    setCorrectForm(randomForm);
 
+    // Skapa svarsalternativ (rätt + 2 fel)
+    const wrongForms = conjugationPairs
+      .filter(([p, f]) => f !== randomForm)
+      .map(([p, f]) => f)
+      .sort(() => 0.5 - Math.random())
+      .slice(0, 2);
 
+    const mixedOptions = [...wrongForms, randomForm].sort(
+      () => 0.5 - Math.random()
+    );
 
-return (
+ 
+    setOptions(mixedOptions);
+  }, [pickedWord]);
 
-<div style={styles.container}>
-      <h3>har böjing <strong>{pickedWord.conjugation.du}</strong>?</h3>
-     
+  const handleSelect = (option) => {
+    setSelected(option);
+    const correct = option === correctForm;
+    setIsCorrect(correct);
 
-      
-      
-      
-</div>
+    setTimeout(() => {
+      onSecAnswer(pickedWord, correct);
+    }, 2000);
+  };
 
-    
-);
+  return (
+    <div>
+      <h3>
+        Hur böjer man <strong>{pickedWord.german}</strong> med{" "}
+        <strong>{pronoun}</strong>?
+      </h3>
 
-
+      <div style={styles.buttonContainer}>
+        {options.map((opt, index) => (
+          <div key={`${opt}-${index}`}>
+            <AnsButton
+              option={opt}
+              selected={selected}
+              correctValue={correctForm}
+              handleSelect={() => handleSelect(opt)}
+            />
+          </div>
+        ))}
+      </div>
+      {selected && (
+        <p style={{ marginTop: "1rem" }}>
+          {isCorrect ? (
+            <>Rätt!</>
+          ) : (
+            <>
+              ❌ fel! rätt svar är "{correctForm}"<br />
+            </>
+          )}
+        </p>
+      )}
+    </div>
+  );
 }
 
 const styles = {
-  container: {
-    paddingLeft: '10%',
-    paddingRight: '2rem',
-    paddingTop: '1rem',
-    textAlign: 'center',
-    marginLeft: 'auto',
-    marginRight: 'auto',
-  },
-
+  
   buttonContainer: {
-    paddingTop: '2rem',
-    display: 'flex',
-    gap: '2rem',
-    justifyContent: 'center', // ← centrera horisontellt
-    alignItems: 'center',
+    paddingTop: "2rem",
+    display: "flex",
+    gap: "2rem",
+    justifyContent: "center", // ← centrera horisontellt
+    alignItems: "center",
   },
-  button: {
-    display: 'block',
-    margin: '0.5rem 0',
-    padding: '0.5rem 1rem',
-    fontSize: '1rem',
-    cursor: 'pointer',
-    borderRadius: '4px',
-    border: '1px solid #ccc',
-    color: '#ccc',
-    
-  }
-
 };
