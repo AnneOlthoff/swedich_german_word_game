@@ -42,7 +42,7 @@ export default function WordQuestion({ pickedWord, allWords, onAnswer }) {
       ):pickedWord.fill !== undefined ?(
         <div>
       <h3>
-        Fyll i det saknade ordet: 
+        Fyll i det som saknas: 
       </h3> 
       <h4>{pickedWord.fill}</h4>
       </div>

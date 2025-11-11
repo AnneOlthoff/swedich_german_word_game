@@ -6,6 +6,7 @@ import ArtikelQ from "./artikelQuestion.js";
 import KasusQ from "./kasusQuestion.js";
 import ConjugationQ from "./conjugationQuestion.js";
 import PrepositionQ from "./prepositionQuestion.js";
+import AdjDeclensionQ from "./adjDeclensionQ.js";
 
 export default function Game() {
   const [selectedWords, setSelectedWords] = useState([]);
@@ -25,20 +26,21 @@ export default function Game() {
         const wordBank = data.translations;
 
         const verbs = wordBank.filter((w) => w.type === "verb");
-        const artikelWords = wordBank.filter(w => w.artikel !== undefined );
+        const nouns = wordBank.filter(w => w.type == "noun" );
         const kasusWords = wordBank.filter(w => w.options !== undefined);
         const otherWords = wordBank.filter(w => w.type == "other");
         const prepositionWords = wordBank.filter(w => w.preposition !== undefined);
+        const AdjDeclensionWords = wordBank.filter(w => w.adj_declension !== undefined);
 
         const getRandom = (arr) => arr[Math.floor(Math.random() * arr.length)];
 
         //vilka typer av frågor vill vi ställa
         const selected = [
+          getRandom(otherWords),
           getRandom(verbs),
-          getRandom(artikelWords),
           getRandom(kasusWords),
           getRandom(prepositionWords),
-          getRandom(otherWords)
+          getRandom(AdjDeclensionWords)
         ];
 
         const remaining = wordBank.filter((w) => !selected.includes(w));
@@ -124,6 +126,13 @@ export default function Game() {
               pickedWord={selectedWords[currentWordIndex]}
               onAnswer={handleAnswer}
             />
+          ): selectedWords[currentWordIndex].adj_declension ? (
+                  <div>
+                    <AdjDeclensionQ
+                      pickedWord={selectedWords[currentWordIndex]}
+                      onSecAnswer={handleFollowUpAnswer}
+                    />
+                  </div>
           ) : (
             <>
               <SingleWordQ
@@ -155,6 +164,7 @@ export default function Game() {
                       onSecAnswer={handleFollowUpAnswer}
                     />
                   </div>
+                  
                 ) : null)}
             </>
           )}

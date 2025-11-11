@@ -1,212 +1,897 @@
 {
   "translations": [
     {
+      "swedish": "florist",
+      "german": "Floristin",
+      "type": "noun",
+      "theme": "profession",
+      "artikel": "die",
+      "plural": "Floristinnen"
+    },
+    {
+      "swedish": "tandläkare",
+      "german": "Zahnarzt",
+      "type": "noun",
+      "theme": "profession",
+      "artikel": "der",
+      "plural": "Zahnärzte"
+    },
+    {
+      "swedish": "frisör",
+      "german": "Friseur",
+      "type": "noun",
+      "theme": "profession",
+      "artikel": "der",
+      "plural": "Friseure"
+    },
+    {
+      "swedish": "pilot",
+      "german": "Pilotin",
+      "type": "noun",
+      "theme": "profession",
+      "artikel": "die",
+      "plural": "Pilotinnen"
+    },
+    {
+      "swedish": "kock",
+      "german": "Köchin",
+      "type": "noun",
+      "theme": "profession",
+      "artikel": "die",
+      "plural": "Köchinnen"
+    },
+    {
+      "swedish": "chef",
+      "german": "Chef",
+      "type": "noun",
+      "theme": "profession",
+      "artikel": "der",
+      "plural": "Chefs"
+    },
+    {
+      "swedish": "sjuksyster",
+      "german": "Krankenschwester",
+      "type": "noun",
+      "theme": "profession",
+      "artikel": "die",
+      "plural": "Krankenschwestern"
+    },
+    {
+      "swedish": "programmerare",
+      "german": "Programmierer",
+      "type": "noun",
+      "theme": "profession",
+      "artikel": "der",
+      "plural": "Programmierer"
+    },
+    {
+      "swedish": "taxichaufför",
+      "german": "Taxifahrerin",
+      "type": "noun",
+      "theme": "profession",
+      "artikel": "die",
+      "plural": "Taxifahrerinnen"
+    },
+    {
+      "swedish": "musiker",
+      "german": "Musiker",
+      "type": "noun",
+      "theme": "profession",
+      "artikel": "der",
+      "plural": "Musiker"
+    },
+    {
+      "swedish": "sekreterare",
+      "german": "Sekretärin",
+      "type": "noun",
+      "theme": "profession",
+      "artikel": "die",
+      "plural": "Sekretärinnen"
+    },
+    {
+      "swedish": "konstnär",
+      "german": "Künstler",
+      "type": "noun",
+      "theme": "profession",
+      "artikel": "der",
+      "plural": "Künstler"
+    },
+    {
+      "swedish": "ingenjör",
+      "german": "Ingenieurin",
+      "type": "noun",
+      "theme": "profession",
+      "artikel": "die",
+      "plural": "Ingenieurinnen"
+    },
+    {
+      "swedish": "servitör",
+      "german": "Kellner",
+      "type": "noun",
+      "theme": "profession",
+      "artikel": "der",
+      "plural": "Kellner"
+    },
+    {
+      "swedish": "lärare",
+      "german": "Lehrerin",
+      "type": "noun",
+      "theme": "profession",
+      "artikel": "die",
+      "plural": "Lehrerinnen"
+    },
+    {
+      "swedish": "polis",
+      "german": "Polizist",
+      "type": "noun",
+      "theme": "profession",
+      "artikel": "der",
+      "plural": "Polizisten"
+    },
+    {
+      "swedish": "mekatroniktekniker",
+      "german": "Kfz-Mechatronikerin",
+      "type": "noun",
+      "theme": "profession",
+      "artikel": "die",
+      "plural": "Kfz-Mechatronikerinnen"
+    },
+    {
+      "swedish": "brandman",
+      "german": "Feuerwehrmann",
+      "type": "noun",
+      "theme": "profession",
+      "artikel": "der",
+      "plural": "Feuerwehrmänner"
+    },
+    {
+      "swedish": "läkare",
+      "german": "Ärztin",
+      "type": "noun",
+      "theme": "profession",
+      "artikel": "die",
+      "plural": "Ärztinnen"
+    },
+    {
+      "swedish": "fotbollsspelare",
+      "german": "Fußballspielerin",
+      "type": "noun",
+      "theme": "profession",
+      "artikel": "die",
+      "plural": "Fußballspielerinnen"
+    },
+    {
+      "swedish": "säljare",
+      "german": "Verkäufer",
+      "type": "noun",
+      "theme": "profession",
+      "artikel": "der",
+      "plural": "Verkäufer"
+    },
+    {
+      "swedish": "snickare",
+      "german": "Tischlerin",
+      "type": "noun",
+      "theme": "profession",
+      "artikel": "die",
+      "plural": "Tischlerinnen"
+    },
+    {
+      "swedish": "kundtjänst",
+      "german": "Call-Center-Agent",
+      "type": "noun",
+      "theme": "profession",
+      "artikel": "der",
+      "plural": "Call-Center-Agenten"
+    },
+    {
+      "swedish": "elektriker",
+      "german": "Elektrikerin",
+      "type": "noun",
+      "theme": "profession",
+      "artikel": "die",
+      "plural": "Elektrikerinnen"
+    },
+    {
+      "swedish": "tränare",
+      "german": "Trainer",
+      "type": "noun",
+      "theme": "profession",
+      "artikel": "der",
+      "plural": "Trainer"
+    },
+    {
+      "swedish": "busschaufför",
+      "german": "Busfahrerin",
+      "type": "noun",
+      "theme": "profession",
+      "artikel": "die",
+      "plural": "Busfahrerinnen"
+    },
+    {
+      "swedish": "förbundskansler",
+      "german": "Kanzler",
+      "type": "noun",
+      "theme": "profession",
+      "artikel": "der",
+      "plural": "Kanzler"
+    },
+    {
+      "swedish": "journalist",
+      "german": "Journalistin",
+      "type": "noun",
+      "theme": "profession",
+      "artikel": "die",
+      "plural": "Journalistinnen"
+    },
+    {
+      "swedish": "bibliotekarie",
+      "german": "Bibliothekar",
+      "type": "noun",
+      "theme": "profession",
+      "artikel": "der",
+      "plural": "Bibliothekare"
+    },
+    {
+      "swedish": "bonde",
+      "german": "Bäuerin",
+      "type": "noun",
+      "theme": "profession",
+      "artikel": "die",
+      "plural": "Bäuerinnen"
+    },
+
+    {
+      "swedish": "blus",
+      "german": "Bluse",
+      "type": "noun",
+      "theme": "clothes",
+      "artikel": "die",
+      "plural": "Blusen"
+    },
+
+    {
+      "swedish": "skjorta",
+      "german": "Hemd",
+      "type": "noun",
+      "theme": "clothes",
+      "artikel": "das",
+      "plural": "Hemden"
+    },
+    {
+      "swedish": "bälte",
+      "german": "Gürtel",
+      "type": "noun",
+      "theme": "clothes",
+      "artikel": "der",
+      "plural": "Gürtel"
+    },
+    {
+      "swedish": "hatt",
+      "german": "Hut",
+      "type": "noun",
+      "theme": "clothes",
+      "artikel": "der",
+      "plural": "Hüte"
+    },
+
+    {
+      "swedish": "jeans",
+      "german": "Jeans",
+      "type": "noun",
+      "theme": "clothes",
+      "artikel": "die",
+      "plural": "Jeans"
+    },
+
+    {
+      "swedish": "Schuh",
+      "german": "Bluse",
+      "type": "noun",
+      "theme": "clothes",
+      "artikel": "der",
+      "plural": "Schuhe"
+    },
+    {
+      "swedish": "stövel",
+      "german": "Stiefel",
+      "type": "noun",
+      "theme": "clothes",
+      "artikel": "der",
+      "plural": "Stiefel"
+    },
+    {
+      "swedish": "halsuk",
+      "german": "Schal",
+      "type": "noun",
+      "theme": "clothes",
+      "artikel": "der",
+      "plural": "Schals"
+    },
+    {
+      "swedish": "kappa",
+      "german": "Mantel",
+      "type": "noun",
+      "theme": "clothes",
+      "artikel": "der",
+      "plural": "Mäntel"
+    },
+    {
+      "swedish": "jacka",
+      "german": "Jacke",
+      "type": "noun",
+      "theme": "clothes",
+      "artikel": "die",
+      "plural": "Jacken"
+    },
+    {
+      "swedish": "klänning",
+      "german": "Kleid",
+      "type": "noun",
+      "theme": "clothes",
+      "artikel": "das",
+      "plural": "kleider"
+    },
+    {
+      "swedish": "tjol",
+      "german": "Rock",
+      "type": "noun",
+      "theme": "clothes",
+      "artikel": "der",
+      "plural": "Röcke"
+    },
+    {
+      "swedish": "tröja",
+      "german": "Pullover",
+      "type": "noun",
+      "theme": "clothes",
+      "artikel": "der",
+      "plural": "Pullover"
+    },
+    {
+      "swedish": "byxor",
+      "german": "Hose",
+      "type": "noun",
+      "theme": "clothes",
+      "artikel": "die",
+      "plural": "Hosen"
+    },
+    {
+      "swedish": "kostym",
+      "german": "Anzug",
+      "type": "noun",
+      "theme": "clothes",
+      "artikel": "der",
+      "plural": "Anzüge"
+    },
+    {
       "swedish": "bord",
       "german": "Tisch",
-      "type": "substantiv",
+      "type": "noun",
+      "theme": "house",
       "artikel": "der",
       "plural": "Tische"
+    },
+
+    {
+      "swedish": "jordgubben",
+      "german": "Erdbeere",
+      "type": "noun",
+      "theme": "food",
+      "artikel": "die",
+      "plural": "Erdbeeren"
+    },
+    {
+      "swedish": "gurkan",
+      "german": "Gurke",
+      "type": "noun",
+      "theme": "food",
+      "artikel": "die",
+      "plural": "Gurken"
+    },
+    {
+      "swedish": "mjölken",
+      "german": "Milch",
+      "type": "noun",
+      "theme": "food",
+      "artikel": "die",
+      "plural": "Milch"
+    },
+    {
+      "swedish": "köttet",
+      "german": "Fleisch",
+      "type": "noun",
+      "theme": "food",
+      "artikel": "das",
+      "plural": "-"
+    },
+    {
+      "swedish": "fisken",
+      "german": "Fisch",
+      "type": "noun",
+      "theme": "food",
+      "artikel": "der",
+      "plural": "Fische"
+    },
+    {
+      "swedish": "osten",
+      "german": "Käse",
+      "type": "noun",
+      "theme": "food",
+      "artikel": "der",
+      "plural": "Käse"
+    },
+    {
+      "swedish": "fläskköttet",
+      "german": "Schweinefleisch",
+      "type": "noun",
+      "theme": "food",
+      "artikel": "das",
+      "plural": "-"
+    },
+    {
+      "swedish": "chokladen",
+      "german": "Schokolade",
+      "type": "noun",
+      "theme": "food",
+      "artikel": "die",
+      "plural": "Schokoladen"
+    },
+    {
+      "swedish": "ägget",
+      "german": "Ei",
+      "type": "noun",
+      "theme": "food",
+      "artikel": "das",
+      "plural": "Eier"
+    },
+    {
+      "swedish": "nötköttet",
+      "german": "Rindfleisch",
+      "type": "noun",
+      "theme": "food",
+      "artikel": "das",
+      "plural": "-"
+    },
+    {
+      "swedish": "tomaten",
+      "german": "Tomate",
+      "type": "noun",
+      "theme": "food",
+      "artikel": "die",
+      "plural": "Tomaten"
+    },
+    {
+      "swedish": "kycklingen",
+      "german": "Hähnchen",
+      "type": "noun",
+      "theme": "food",
+      "artikel": "das",
+      "plural": "Hähnchen"
+    },
+    {
+      "swedish": "potatisen",
+      "german": "Kartoffel",
+      "type": "noun",
+      "theme": "food",
+      "artikel": "die",
+      "plural": "Kartoffeln"
+    },
+    {
+      "swedish": "surdegsbrödet",
+      "german": "Sauerteigbrot",
+      "type": "noun",
+      "theme": "food",
+      "artikel": "das",
+      "plural": "Sauerteigbrote"
+    },
+    {
+      "swedish": "äpplet",
+      "german": "Apfel",
+      "type": "noun",
+      "theme": "food",
+      "artikel": "der",
+      "plural": "Äpfel"
+    },
+    {
+      "swedish": "kaffet",
+      "german": "Kaffee",
+      "type": "noun",
+      "theme": "food",
+      "artikel": "der",
+      "plural": "Kaffees"
+    },
+    {
+      "swedish": "grönsakerna",
+      "german": "Gemüse",
+      "type": "noun",
+      "theme": "food",
+      "artikel": "das",
+      "plural": "Gemüse"
+    },
+    {
+      "swedish": "frukt",
+      "german": "Obst",
+      "type": "noun",
+      "theme": "food",
+      "artikel": "das",
+      "plural": "Obst"
+    },
+    {
+      "swedish": "kakan",
+      "german": "Kuchen",
+      "type": "noun",
+      "theme": "food",
+      "artikel": "der",
+      "plural": "Kuchen"
+    },
+    {
+      "swedish": "korven",
+      "german": "Wurst",
+      "type": "noun",
+      "theme": "food",
+      "artikel": "die",
+      "plural": "Würste"
+    },
+    {
+      "swedish": "surkålen",
+      "german": "Sauerkraut",
+      "type": "noun",
+      "theme": "food",
+      "artikel": "das",
+      "plural": "Sauerkraut"
+    },
+    {
+      "swedish": "yoghurten",
+      "german": "Joghurt",
+      "type": "noun",
+      "theme": "food",
+      "artikel": "der",
+      "plural": "Joghurts"
+    },
+    {
+      "swedish": "bananen",
+      "german": "Banane",
+      "type": "noun",
+      "theme": "food",
+      "artikel": "die",
+      "plural": "Bananen"
+    },
+    {
+      "swedish": "riset",
+      "german": "Reis",
+      "type": "noun",
+      "theme": "food",
+      "artikel": "der",
+      "plural": "Reis"
+    },
+    {
+      "swedish": "grädden",
+      "german": "Sahne",
+      "type": "noun",
+      "theme": "food",
+      "artikel": "die",
+      "plural": "Sahne"
+    },
+    {
+      "swedish": "pasta",
+      "german": "Nudeln",
+      "type": "noun",
+      "theme": "food",
+      "artikel": "die",
+      "plural": "Nudeln"
+    },
+    {
+      "swedish": "senap",
+      "german": "Senf",
+      "type": "noun",
+      "theme": "food",
+      "artikel": "der",
+      "plural": "Senf"
+    },
+    {
+      "swedish": "oljan",
+      "german": "Öl",
+      "type": "noun",
+      "theme": "food",
+      "artikel": "das",
+      "plural": "Öle"
+    },
+    {
+      "swedish": "smöret",
+      "german": "Butter",
+      "type": "noun",
+      "theme": "food",
+      "artikel": "die",
+      "plural": "Butter"
+    },
+    {
+      "swedish": "apelsinjuicen",
+      "german": "Orangensaft",
+      "type": "noun",
+      "theme": "food",
+      "artikel": "der",
+      "plural": "Orangensäfte"
+    },
+
+    {
+      "swedish": "film",
+      "german": "Film",
+      "type": "noun",
+      "theme": "other",
+      "artikel": "der",
+      "plural": "Filme"
+    },
+
+    {
+      "swedish": "färglada",
+      "german": "Bunte",
+      "type": "other"
+    },
+    {
+      "swedish": "prickig",
+      "german": "gepunktetes",
+      "type": "other"
+    },
+    {
+      "swedish": "randig",
+      "german": "gestreiftes",
+      "type": "other"
+    },
+    {
+      "swedish": "timme",
+      "german": "Stunde",
+      "type": "noun",
+      "theme": "other",
+      "artikel": "die",
+      "plural": "Stundens"
+    },
+
+    {
+      "swedish": "busshållplats",
+      "german": "Haltestelle",
+      "type": "noun",
+      "theme": "other",
+      "artikel": "die",
+      "plural": "Haltestellen"
+    },
+    {
+      "swedish": "tangentbord",
+      "german": "Tastatur",
+      "type": "noun",
+      "theme": "house",
+      "artikel": "die",
+      "plural": "Tastaturen"
     },
     {
       "swedish": "golvlampa",
       "german": "Stehlampe",
-      "type": "substantiv",
+      "type": "noun",
+      "theme": "house",
       "artikel": "die",
       "plural": "Stehlampen"
     },
     {
       "swedish": "kudde",
       "german": "Kissen",
-      "type": "substantiv",
+      "type": "noun",
+      "theme": "house",
       "artikel": "das",
       "plural": "Kissen"
     },
     {
       "swedish": "skrivbord",
       "german": "Schreibtisch",
-      "type": "substantiv",
+      "type": "noun",
+      "theme": "house",
       "artikel": "der",
       "plural": "Schreibtische"
     },
     {
       "swedish": "tvättmaskin",
       "german": "Waschmaschine",
-      "type": "substantiv",
+      "type": "noun",
+      "theme": "house",
       "artikel": "die",
       "plural": ""
     },
     {
       "swedish": "soffa",
       "german": "Sofa",
-      "type": "substantiv",
+      "type": "noun",
+      "theme": "house",
       "artikel": "das",
       "plural": "Sofas"
     },
     {
       "swedish": "köksskåp",
       "german": "Küchenschrank",
-      "type": "substantiv",
+      "type": "noun",
+      "theme": "house",
       "artikel": "der",
       "plural": "Küchenschränke"
     },
     {
       "swedish": "vas",
       "german": "Vase",
-      "type": "substantiv",
+      "type": "noun",
+      "theme": "house",
       "artikel": "die",
       "plural": "Vasen"
     },
     {
       "swedish": "affisch",
       "german": "Poster",
-      "type": "substantiv",
+      "type": "noun",
+      "theme": "house",
       "artikel": "das",
       "plural": "Poster"
     },
     {
       "swedish": "skåp",
       "german": "Schrank",
-      "type": "substantiv",
+      "type": "noun",
+      "theme": "house",
       "artikel": "der",
       "plural": "Schränke"
     },
     {
       "swedish": "planta",
       "german": "Pflanze",
-      "type": "substantiv",
+      "type": "noun",
+      "theme": "house",
       "artikel": "die",
       "plural": "Pflanzen"
     },
     {
       "swedish": "bokhylla",
       "german": "Bücherregal",
-      "type": "substantiv",
+      "type": "noun",
+      "theme": "house",
       "artikel": "das",
       "plural": "Bücherregale"
     },
     {
       "swedish": "tv",
       "german": "Fernseher",
-      "type": "substantiv",
+      "type": "noun",
+      "theme": "house",
       "artikel": "der",
       "plural": "Fernseher"
     },
     {
       "swedish": "diskmaskin",
       "german": "Spülmaschine",
-      "type": "substantiv",
+      "type": "noun",
+      "theme": "house",
       "artikel": "die",
       "plural": ""
     },
     {
       "swedish": "Säng",
       "german": "Bett",
-      "type": "substantiv",
+      "type": "noun",
+      "theme": "house",
       "artikel": "das",
       "plural": "Betten"
     },
     {
       "swedish": "spis",
       "german": "Herd",
-      "type": "substantiv",
+      "type": "noun",
+      "theme": "house",
       "artikel": "der",
       "plural": "Herde"
     },
     {
       "swedish": "diskbänk",
       "german": "Spüle",
-      "type": "substantiv",
+      "type": "noun",
+      "theme": "house",
       "artikel": "die",
       "plural": "Spülen"
     },
     {
       "swedish": "whiteboard",
       "german": "Whiteboard",
-      "type": "substantiv",
+      "type": "noun",
+      "theme": "house",
       "artikel": "das",
       "plural": ""
     },
     {
       "swedish": "kylskåp",
       "german": "Kühlschrank",
-      "type": "substantiv",
+      "type": "noun",
+      "theme": "house",
       "artikel": "der",
       "plural": ""
     },
     {
       "swedish": "lampa",
       "german": "Lampe",
-      "type": "substantiv",
+      "type": "noun",
+      "theme": "house",
       "artikel": "die",
       "plural": "Lampen"
     },
     {
       "swedish": "hylla",
       "german": "Regal",
-      "type": "substantiv",
+      "type": "noun",
+      "theme": "house",
       "artikel": "das",
       "plural": "Regale"
     },
     {
       "swedish": "spegel",
       "german": "Spiegel",
-      "type": "substantiv",
+      "type": "noun",
+      "theme": "house",
       "artikel": "der",
       "plural": "Spiegel"
     },
     {
       "swedish": "matbord",
       "german": "Esstisch",
-      "type": "substantiv",
+      "type": "noun",
+      "theme": "house",
       "artikel": "der",
       "plural": "Esstische"
     },
     {
       "swedish": "barnsäng",
       "german": "Kinderbett",
-      "type": "substantiv",
+      "type": "noun",
+      "theme": "house",
       "artikel": "das",
       "plural": "Kinderbetten"
     },
     {
       "swedish": "fåtölj",
       "german": "Sessel",
-      "type": "substantiv",
+      "type": "noun",
+      "theme": "house",
       "artikel": "der",
       "plural": "Sessel"
     },
     {
       "swedish": "köksbord",
       "german": "Küchentisch",
-      "type": "substantiv",
+      "type": "noun",
+      "theme": "house",
       "artikel": "der",
       "plural": ""
     },
     {
       "swedish": "Kontorsstol",
       "german": "Bürostuhl",
-      "type": "substantiv",
+      "type": "noun",
+      "theme": "house",
       "artikel": "der",
       "plural": "Bürostühle"
     },
     {
       "swedish": "Matta",
       "german": "Teppich",
-      "type": "substantiv",
+      "type": "noun",
+      "theme": "house",
       "artikel": "der",
       "plural": "Teppiche"
     },
     {
       "swedish": "Stol",
       "german": "Stuhl",
-      "type": "substantiv",
+      "type": "noun",
+      "theme": "house",
       "artikel": "der",
       "plural": "Stühle"
     },
     {
       "swedish": "Garderob",
       "german": "Kleidschrank",
-      "type": "substantiv",
+      "type": "noun",
+      "theme": "house",
       "artikel": "der",
       "plural": ""
     },
@@ -214,7 +899,8 @@
     {
       "swedish": "Hus",
       "german": "Haus",
-      "type": "substantiv",
+      "type": "noun",
+      "theme": "house",
       "artikel": "das",
       "plural": "Häuser"
     },
@@ -225,7 +911,7 @@
       "conjugation": {
         "ich": "mache",
         "du": "machst",
-        "er/sie": "macht",
+        "er/sie/es": "macht",
         "wir": "machen",
         "ihr": "macht",
         "sie/Sie": "machen"
@@ -236,44 +922,49 @@
       "german": "Verheiratet",
       "type": "other"
     },
+
     {
       "swedish": "Jämförelse",
       "german": "Vergleich",
-      "type": "substantiv",
+      "type": "noun",
+      "theme": "other",
       "artikel": "der",
       "plural": "Vergleiche"
     },
     {
-      "swedish": "Öva",
-      "german": "Üben",
+      "swedish": "rådgiva",
+      "german": "beraten",
       "type": "verb",
       "conjugation": {
-        "ich": "übe",
-        "du": "übst",
-        "er/sie": "übt",
-        "wir": "üben",
-        "ihr": "übt",
-        "sie/Sie": "üben"
+        "ich": "berate",
+        "du": "berätst",
+        "er/sie/es/es": "berät",
+        "wir": "beraten",
+        "ihr": "beratet",
+        "sie/Sie": "beraten"
       }
     },
     {
       "swedish": "Siffra",
       "german": "Zahl",
-      "type": "substantiv",
+      "type": "noun",
+      "theme": "other",
       "artikel": "die",
       "plural": "Zahlen"
     },
     {
       "swedish": "Väska",
       "german": "Tasche",
-      "type": "substantiv",
+      "type": "noun",
+      "theme": "clothes",
       "artikel": "die",
       "plural": "Taschen"
     },
     {
       "swedish": "Samtal",
       "german": "Gespräch",
-      "type": "substantiv",
+      "type": "noun",
+      "theme": "other",
       "artikel": "das",
       "plural": "Gespräche"
     },
@@ -284,7 +975,7 @@
       "conjugation": {
         "ich": "fahre",
         "du": "fährst",
-        "er/sie": "fährt",
+        "er/sie/es": "fährt",
         "wir": "fahren",
         "ihr": "fahrt",
         "sie/Sie": "fahren"
@@ -297,7 +988,7 @@
       "conjugation": {
         "ich": "esse",
         "du": "isst",
-        "er/sie": "isst",
+        "er/sie/es": "isst",
         "wir": "essen",
         "ihr": "esst",
         "sie/Sie": "essen"
@@ -310,30 +1001,164 @@
       "conjugation": {
         "ich": "heiße",
         "du": "heißt",
-        "er/sie": "heißt",
+        "er/sie/es": "heißt",
         "wir": "heißen",
         "ihr": "heißt",
         "sie/Sie": "heißen"
       }
     },
+
+    {
+      "swedish": "Har",
+      "german": "Haben",
+      "type": "verb",
+      "conjugation": {
+        "ich": "habe",
+        "du": "hast",
+        "er/sie/es": "hat",
+        "wir": "haben",
+        "ihr": "habt",
+        "sie/Sie": "haben"
+      },
+      "conjugation_preteritum": {
+        "ich": "hatte",
+        "du": "hattest",
+        "er/sie/es": "hatte",
+        "wir": "hatten",
+        "ihr": "hattet",
+        "sie/Sie": "hatten"
+      }
+    },
+    {
+      "swedish": "Resa",
+      "german": "Fahren",
+      "type": "verb",
+      "conjugation": {
+        "ich": "fahre",
+        "du": "fährst",
+        "er/sie/es": "fährt",
+        "wir": "fahren",
+        "ihr": "fahrt",
+        "sie/Sie": "fahren"
+      },
+      "conjugation_preteritum": {
+        "ich": "fuhr",
+        "du": "fuhrst",
+        "er/sie/es": "fuhr",
+        "wir": "fuhren",
+        "ihr": "fuhrt",
+        "sie/Sie": "furhen"
+      }
+    },
+
+    {
+      "swedish": "Rida",
+      "german": "Reiten",
+      "type": "verb",
+      "conjugation": {
+        "ich": "reite",
+        "du": "reitest",
+        "er/sie/es": "reitet",
+        "wir": "reiten",
+        "ihr": "reitet",
+        "sie/Sie": "reiten"
+      },
+      "conjugation_preteritum": {
+        "ich": "ritt",
+        "du": "reitest",
+        "er/sie/es": "ritt",
+        "wir": "ritten",
+        "ihr": "rittet",
+        "sie/Sie": "ritten"
+      }
+    },
+
+    {
+      "swedish": "Bli",
+      "german": "Werden",
+      "type": "verb",
+      "conjugation": {
+        "ich": "werde",
+        "du": "wirst",
+        "er/sie/es": "wird",
+        "wir": "werden",
+        "ihr": "werdet",
+        "sie/Sie": "werden"
+      },
+      "conjugation_preteritum": {
+        "ich": "wurde",
+        "du": "wurdest",
+        "er/sie/es": "wurde",
+        "wir": "wurden",
+        "ihr": "wurdet",
+        "sie/Sie": "wurden"
+      }
+    },
+
+    {
+      "swedish": "Förbli",
+      "german": "Bleiben",
+      "type": "verb",
+      "conjugation": {
+        "ich": "bleibe",
+        "du": "bleibst",
+        "er/sie/es": "bleibt",
+        "wir": "bleiben",
+        "ihr": "bleibt",
+        "sie/Sie": "bleiben"
+      },
+      "conjugation_preteritum": {
+        "ich": "blieb",
+        "du": "bleibst",
+        "er/sie/es": "bleib",
+        "wir": "bleiben",
+        "ihr": "bleibt",
+        "sie/Sie": "bleiben"
+      }
+    },
+
+    {
+      "swedish": "är/vara",
+      "german": "Sein",
+      "type": "verb",
+      "conjugation": {
+        "ich": "bin",
+        "du": "bist",
+        "er/sie/es": "ist",
+        "wir": "sind",
+        "ihr": "seid",
+        "sie/Sie": "sind"
+      },
+      "conjugation_preteritum": {
+        "ich": "war",
+        "du": "warst",
+        "er/sie/es": "war",
+        "wir": "waren",
+        "ihr": "wart",
+        "sie/Sie": "waren"
+      }
+    },
     {
       "swedish": "stol",
       "german": "Stuhl",
-      "type": "substantiv",
+      "type": "noun",
+      "theme": "other",
       "artikel": "der",
       "plural": "Stühle"
     },
     {
       "swedish": "Lärare (manlig)",
       "german": "Lehrer",
-      "type": "substantiv",
+      "type": "noun",
+      "theme": "other",
       "artikel": "der",
       "plural": "Lehrer"
     },
     {
       "swedish": "Lärare (kvinnlig)",
       "german": "Lehrerin",
-      "type": "substantiv",
+      "type": "noun",
+      "theme": "other",
       "artikel": "die",
       "plural": "Lehrerinnen"
     },
@@ -343,6 +1168,76 @@
       "type": "other"
     },
 
+    {
+      "swedish": "Tyvärr",
+      "german": "Leider",
+      "type": "other"
+    },
+    {
+      "swedish": "professionellt",
+      "german": "Beruflich",
+      "type": "other"
+    },
+    {
+      "swedish": "och",
+      "german": "Und",
+      "type": "other",
+      "conjunction": "coordinating"
+    },
+    {
+      "swedish": "eller",
+      "german": "oder",
+      "type": "other",
+      "conjunction": "coordinating"
+    },
+    {
+      "swedish": "men",
+      "german": "aber",
+      "type": "other",
+      "conjunction": "coordinating"
+    },
+    {
+      "swedish": "för",
+      "german": "denn",
+      "type": "other",
+      "conjunction": "coordinating"
+    },
+    {
+      "swedish": "att",
+      "german": "dass",
+      "type": "other",
+      "conjunction": "uncoordinating"
+    },
+    {
+      "swedish": "därför att",
+      "german": "weil",
+      "type": "other",
+      "conjunction": "uncoordinating"
+    },
+    {
+      "swedish": "om",
+      "german": "wenn",
+      "type": "other",
+      "conjunction": "uncoordinating"
+    },
+    {
+      "swedish": "som",
+      "german": "als",
+      "type": "other",
+      "conjunction": "uncoordinating"
+    },
+    {
+      "swedish": "så att",
+      "german": "Damit",
+      "type": "other",
+      "conjunction": "uncoordinating"
+    },
+    {
+      "swedish": "tills",
+      "german": "Bis",
+      "type": "other",
+      "conjunction": "uncoordinating"
+    },
     {
       "swedish": "Jag hyr en liten lägenhet i Berlin.",
       "german": "Ich miete eine kleine Wohnung in Berlin.",
@@ -374,7 +1269,7 @@
         "Sie wohnt in der Nähe von dem alten Bahnhof.",
         "Sie wohnt in der Nähe der alten Bahnhof."
       ],
-      "explanation": "„Bahnhof“ är maskulin. „in der Nähe“ kräver genitiv → „des alten Bahnhofs“. Adjektivet får -en, substantivet får -s."
+      "explanation": "„Bahnhof“ är maskulin. „in der Nähe“ kräver genitiv → „des alten Bahnhofs“. Adjektivet får -en, nounet får -s."
     },
     {
       "swedish": "Jag dricker en kall kaffe på jobbet.",
@@ -388,184 +1283,265 @@
       "explanation": "„Kaffee“ är maskulin och står i ackusativ → „einen kalten Kaffee“. Adjektivet får -en."
     },
 
+    {
+      "fill": "Ich lege das Buch ___ das Bett.",
+      "german": "Auf",
+      "preposition": "auf",
+      "kasus": "Ackusativ",
+      "explanation": "Prepositionen 'auf' används med ackusativ här eftersom det handlar om en rörelse mot en plats. 'das Bett' är ackusativformen av 'das Bett'."
+    },
+    {
+      "fill": "Das Buch liegt ___ dem Bett.",
+      "german": "Auf",
+      "preposition": "auf",
+      "kasus": "Dativ",
+      "explanation": "Prepositionen 'auf' används med dativ här eftersom det beskriver var något befinner sig. 'dem Bett' är dativformen av 'das Bett'."
+    },
+    {
+      "fill": "Ich gehe ___ den Park.",
+      "german": "Durch",
+      "preposition": "durch",
+      "kasus": "Ackusativ",
+      "explanation": "Prepositionen 'durch' styr alltid ackusativ och uttrycker rörelse genom något. 'den Park' är ackusativformen av 'der Park'."
+    },
+    {
+      "fill": "Das Geschenk ist ___ dich.",
+      "german": "Für",
+      "preposition": "für",
+      "kasus": "Ackusativ",
+      "explanation": "Prepositionen 'für' styr ackusativ och uttrycker mottagare. 'dich' är ackusativformen av 'du'."
+    },
+    {
+      "fill": "Das ist ___ die Regeln.",
+      "german": "Gegen",
+      "preposition": "gegen",
+      "kasus": "Ackusativ",
+      "explanation": "Prepositionen 'gegen' styr ackusativ och uttrycker motstånd. 'die Regeln' är ackusativformen av 'die Regel'."
+    },
+    {
+      "fill": "Ich komme nicht ___ dich klar.",
+      "german": "Ohne",
+      "preposition": "ohne",
+      "kasus": "Ackusativ",
+      "explanation": "Prepositionen 'ohne' styr ackusativ och uttrycker frånvaro. 'dich' är ackusativformen av 'du'."
+    },
+    {
+      "fill": "Wir sitzen ___ den Tisch.",
+      "german": "Um",
+      "preposition": "um",
+      "kasus": "Ackusativ",
+      "explanation": "Prepositionen 'um' styr ackusativ och uttrycker placering runt något. 'den Tisch' är ackusativformen av 'der Tisch'."
+    },
+    {
+      "fill": "Ich komme ___ dem Haus.",
+      "german": "Aus",
+      "preposition": "aus",
+      "kasus": "Dativ",
+      "explanation": "Prepositionen 'aus' styr dativ och uttrycker ursprung. 'dem Haus' är dativformen av 'das Haus'."
+    },
+    {
+      "fill": "Ich bin ___ meiner Freundin.",
+      "german": "Bei",
+      "preposition": "bei",
+      "kasus": "Dativ",
+      "explanation": "Prepositionen 'bei' styr dativ och uttrycker närhet. 'meiner Freundin' är dativformen av 'meine Freundin'."
+    },
+    {
+      "fill": "Ich fahre ___ Berlin.",
+      "german": "Nach",
+      "preposition": "nach",
+      "kasus": "Dativ",
+      "explanation": "Prepositionen 'nach' styr dativ och uttrycker destinationer. 'Berlin' används utan artikel men är ändå dativ."
+    },
+    {
+      "fill": "Ich lebe ___ einem Jahr in Berlin.",
+      "german": "Seit",
+      "preposition": "seit",
+      "kasus": "Dativ",
+      "explanation": "Prepositionen 'seit' styr dativ och uttrycker tidsperioder. 'einem Jahr' är dativformen av 'ein Jahr'."
+    },
+    {
+      "fill": "Ich komme ___ der Schule.",
+      "german": "Von",
+      "preposition": "von",
+      "kasus": "Dativ",
+      "explanation": "Prepositionen 'von' styr dativ och uttrycker ursprung. 'der Schule' är dativformen av 'die Schule'."
+    },
+    {
+      "fill": "Ich gehe ___ meinem Freund.",
+      "german": "Zu",
+      "preposition": "zu",
+      "kasus": "Dativ",
+      "explanation": "Prepositionen 'zu' styr dativ och uttrycker riktning mot personer. 'meinem Freund' är dativformen av 'mein Freund'."
+    },
+    {
+      "fill": "Ich stelle den Stuhl ___ die Wand.",
+      "german": "An",
+      "preposition": "an",
+      "kasus": "Akkusativ",
+      "explanation": "Prepositionen 'an' styr ackusativ vid rörelse mot en plats. Här betyder 'an die Wand' att stolen placeras intill väggen"
+    },
+    {
+      "fill": "Der Stuhl steht ___ der Wand.",
+      "german": "An",
+      "preposition": "an",
+      "kasus": "Dativ",
+      "explanation": "Prepositionen 'an' styr dativ när det handlar om befintlig position. 'der Wand' är dativformen av 'die Wand'."
+    },
+    {
+      "fill": "Ich stelle den Schrank ___ das Fenster.",
+      "german": "Neben",
+      "preposition": "neben",
+      "kasus": "Ackusativ",
+      "explanation": "Prepositionen 'neben' styr ackusativ vid rörelse. 'das Fenster' är ackusativformen av 'das Fenster'."
+    },
+    {
+      "fill": "Der Schrank steht ___ dem Fenster.",
+      "german": "Neben",
+      "preposition": "neben",
+      "kasus": "Dativ",
+      "explanation": "Prepositionen 'neben' styr dativ vid position. 'dem Fenster' är dativformen av 'das Fenster'."
+    },
+    {
+      "fill": "Ich stelle den Stuhl ___ den Tisch.",
+      "german": "Vor",
+      "preposition": "vor",
+      "kasus": "Ackusativ",
+      "explanation": "Prepositionen 'vor' styr ackusativ vid rörelse. 'den Tisch' är ackusativformen av 'der Tisch'."
+    },
+    {
+      "fill": "Der Stuhl steht ___ dem Tisch.",
+      "german": "Vor",
+      "preposition": "vor",
+      "kasus": "Dativ",
+      "explanation": "Prepositionen 'vor' styr dativ vid position. 'dem Tisch' är dativformen av 'der Tisch'."
+    },
+    {
+      "fill": "Ich lege das Buch ___ das Regal.",
+      "german": "In",
+      "preposition": "in",
+      "kasus": "Ackusativ",
+      "explanation": "Prepositionen 'in' styr ackusativ vid rörelse in i något. 'das Regal' är ackusativformen av 'das Regal'."
+    },
+    {
+      "fill": "Das Buch liegt ___ dem Regal.",
+      "german": "In",
+      "preposition": "in",
+      "kasus": "Dativ",
+      "explanation": "Prepositionen 'in' styr dativ vid position. 'dem Regal' är dativformen av 'das Regal'."
+    },
+    {
+      "fill": "Ich stelle den Stuhl ___ den Tisch und das Regal.",
+      "german": "Zwischen",
+      "preposition": "zwischen",
+      "kasus": "Ackusativ",
+      "explanation": "Prepositionen 'zwischen' styr ackusativ vid rörelse. 'den Tisch und das Regal' är ackusativformer."
+    },
+    {
+      "fill": "Der Stuhl steht ___ dem Tisch und dem Regal.",
+      "german": "Zwischen",
+      "preposition": "zwischen",
+      "kasus": "Dativ",
+      "explanation": "Prepositionen 'zwischen' styr dativ vid position. 'dem Tisch und dem Regal' är dativformer."
+    },
+    {
+      "fill": "Simon hängt eine starke Lampe ___ den Tisch.",
+      "german": "Über",
+      "preposition": "über",
+      "kasus": "Ackusativ",
+      "explanation": "Prepositionen 'über' används med ackusativ här eftersom det handlar om en rörelse mot en plats. Lampan hängs upp ovanför bordet, och 'den Tisch' är ackusativformen av 'der Tisch'."
+    },
+    {
+      "fill": " ___ Fernsehturm sehen wir die East Side Gallery im Osten.",
+      "german": "Vom",
+      "preposition": "von",
+      "kasus": "dativ",
+      "explanation": "Det blir vom pga von + dem, och man använder von (inte aus) när man pratar om en utsiktspunkt från tornet, inte inifrån."
+    },
+    {
+      "fill": "Die Lampe hängt ___ dem Tisch.",
+      "german": "Über",
+      "preposition": "über",
+      "kasus": "Dativ",
+      "explanation": "Prepositionen 'über' används med dativ här eftersom det beskriver var något befinner sig. Lampan är redan upphängd ovanför bordet, och 'dem Tisch' är dativformen av 'der Tisch'."
+    },
 
-
-    
-  {
-    "fill": "Ich lege das Buch ___ das Bett.",
-    "german": "Auf",
-    "preposition": "auf",
-    "kasus": "Ackusativ",
-    "explanation": "Prepositionen 'auf' används med ackusativ här eftersom det handlar om en rörelse mot en plats. 'das Bett' är ackusativformen av 'das Bett'."
-  },
-  {
-    "fill": "Das Buch liegt ___ dem Bett.",
-    "german": "Auf",
-    "preposition": "auf",
-    "kasus": "Dativ",
-    "explanation": "Prepositionen 'auf' används med dativ här eftersom det beskriver var något befinner sig. 'dem Bett' är dativformen av 'das Bett'."
-  },
-  {
-    "fill": "Ich gehe ___ den Park.",
-    "german": "Durch",
-    "preposition": "durch",
-    "kasus": "Ackusativ",
-    "explanation": "Prepositionen 'durch' styr alltid ackusativ och uttrycker rörelse genom något. 'den Park' är ackusativformen av 'der Park'."
-  },
-  {
-    "fill": "Das Geschenk ist ___ dich.",
-    "german": "Für",
-    "preposition": "für",
-    "kasus": "Ackusativ",
-    "explanation": "Prepositionen 'für' styr ackusativ och uttrycker mottagare. 'dich' är ackusativformen av 'du'."
-  },
-  {
-    "fill": "Das ist ___ die Regeln.",
-    "german": "Gegen",
-    "preposition": "gegen",
-    "kasus": "Ackusativ",
-    "explanation": "Prepositionen 'gegen' styr ackusativ och uttrycker motstånd. 'die Regeln' är ackusativformen av 'die Regel'."
-  },
-  {
-    "fill": "Ich komme nicht ___ dich klar.",
-    "german": "Ohne",
-    "preposition": "ohne",
-    "kasus": "Ackusativ",
-    "explanation": "Prepositionen 'ohne' styr ackusativ och uttrycker frånvaro. 'dich' är ackusativformen av 'du'."
-  },
-  {
-    "fill": "Wir sitzen ___ den Tisch.",
-    "german": "Um",
-    "preposition": "um",
-    "kasus": "Ackusativ",
-    "explanation": "Prepositionen 'um' styr ackusativ och uttrycker placering runt något. 'den Tisch' är ackusativformen av 'der Tisch'."
-  },
-  {
-    "fill": "Ich komme ___ dem Haus.",
-    "german": "Aus",
-    "preposition": "aus",
-    "kasus": "Dativ",
-    "explanation": "Prepositionen 'aus' styr dativ och uttrycker ursprung. 'dem Haus' är dativformen av 'das Haus'."
-  },
-  {
-    "fill": "Ich bin ___ meiner Freundin.",
-    "german": "Bei",
-    "preposition": "bei",
-    "kasus": "Dativ",
-    "explanation": "Prepositionen 'bei' styr dativ och uttrycker närhet. 'meiner Freundin' är dativformen av 'meine Freundin'."
-  },
-  {
-    "fill": "Ich fahre ___ Berlin.",
-    "german": "Nach",
-    "preposition": "nach",
-    "kasus": "Dativ",
-    "explanation": "Prepositionen 'nach' styr dativ och uttrycker destinationer. 'Berlin' används utan artikel men är ändå dativ."
-  },
-  {
-    "fill": "Ich lebe ___ einem Jahr in Berlin.",
-    "german": "Seit",
-    "preposition": "seit",
-    "kasus": "Dativ",
-    "explanation": "Prepositionen 'seit' styr dativ och uttrycker tidsperioder. 'einem Jahr' är dativformen av 'ein Jahr'."
-  },
-  {
-    "fill": "Ich komme ___ der Schule.",
-    "german": "Von",
-    "preposition": "von",
-    "kasus": "Dativ",
-    "explanation": "Prepositionen 'von' styr dativ och uttrycker ursprung. 'der Schule' är dativformen av 'die Schule'."
-  },
-  {
-    "fill": "Ich gehe ___ meinem Freund.",
-    "german": "Zu",
-    "preposition": "zu",
-    "kasus": "Dativ",
-    "explanation": "Prepositionen 'zu' styr dativ och uttrycker riktning mot personer. 'meinem Freund' är dativformen av 'mein Freund'."
-  },  
-  {
-    "fill": "Ich stelle den Stuhl ___ die Wand.",
-    "german": "An",
-    "preposition": "an",
-    "kasus": "Akkusativ",
-    "explanation": "Prepositionen 'an' styr ackusativ vid rörelse mot en plats. Här betyder 'an die Wand' att stolen placeras intill väggen"
-  },  
-  {
-    "fill": "Der Stuhl steht ___ der Wand.",
-    "german": "An",
-    "preposition": "an",
-    "kasus": "Dativ",
-    "explanation": "Prepositionen 'an' styr dativ när det handlar om befintlig position. 'der Wand' är dativformen av 'die Wand'."
-  },
-  {
-    "fill": "Ich stelle den Schrank ___ das Fenster.",
-    "german": "Neben",
-    "preposition": "neben",
-    "kasus": "Ackusativ",
-    "explanation": "Prepositionen 'neben' styr ackusativ vid rörelse. 'das Fenster' är ackusativformen av 'das Fenster'."
-  },
-  {
-    "fill": "Der Schrank steht ___ dem Fenster.",
-    "german": "Neben",
-    "preposition": "neben",
-    "kasus": "Dativ",
-    "explanation": "Prepositionen 'neben' styr dativ vid position. 'dem Fenster' är dativformen av 'das Fenster'."
-  },
-  {
-    "fill": "Ich stelle den Stuhl ___ den Tisch.",
-    "german": "Vor",
-    "preposition": "vor",
-    "kasus": "Ackusativ",
-    "explanation": "Prepositionen 'vor' styr ackusativ vid rörelse. 'den Tisch' är ackusativformen av 'der Tisch'."
-  },
-  {
-    "fill": "Der Stuhl steht ___ dem Tisch.",
-    "german": "Vor",
-    "preposition": "vor",
-    "kasus": "Dativ",
-    "explanation": "Prepositionen 'vor' styr dativ vid position. 'dem Tisch' är dativformen av 'der Tisch'."
-  },
-  {
-    "fill": "Ich lege das Buch ___ das Regal.",
-    "german": "In",
-    "preposition": "in",
-    "kasus": "Ackusativ",
-    "explanation": "Prepositionen 'in' styr ackusativ vid rörelse in i något. 'das Regal' är ackusativformen av 'das Regal'."
-  },
-  {
-    "fill": "Das Buch liegt ___ dem Regal.",
-    "german": "In",
-    "preposition": "in",
-    "kasus": "Dativ",
-    "explanation": "Prepositionen 'in' styr dativ vid position. 'dem Regal' är dativformen av 'das Regal'."
-  },
-  {
-    "fill": "Ich stelle den Stuhl ___ den Tisch und das Regal.",
-    "german": "Zwischen",
-    "preposition": "zwischen",
-    "kasus": "Ackusativ",
-    "explanation": "Prepositionen 'zwischen' styr ackusativ vid rörelse. 'den Tisch und das Regal' är ackusativformer."
-  },
-  {
-    "fill": "Der Stuhl steht ___ dem Tisch und dem Regal.",
-    "german": "Zwischen",
-    "preposition": "zwischen",
-    "kasus": "Dativ",
-    "explanation": "Prepositionen 'zwischen' styr dativ vid position. 'dem Tisch und dem Regal' är dativformer."
-  },
-  {
-    "fill": "Simon hängt eine starke Lampe ___ den Tisch.",
-    "german": "Über",
-    "preposition": "über",
-    "kasus": "Ackusativ",
-    "explanation": "Prepositionen 'über' används med ackusativ här eftersom det handlar om en rörelse mot en plats. Lampan hängs upp ovanför bordet, och 'den Tisch' är ackusativformen av 'der Tisch'."
-  },
-  {
-    "fill": "Die Lampe hängt ___ dem Tisch.",
-    "german": "Über",
-    "preposition": "über",
-    "kasus": "Dativ",
-    "explanation": "Prepositionen 'über' används med dativ här eftersom det beskriver var något befinner sig. Lampan är redan upphängd ovanför bordet, och 'dem Tisch' är dativformen av 'der Tisch'."
-  }
-
-
-  ]}
+    {
+      "fill": "Ich sehe einen alt_ Mann im Garten.",
+      "ending": "-en",
+      "german": "alt",
+      "adj_declension": "schwach",
+      "explanation": "nounet 'Mann' är maskulin. Artikeln 'einen' visar ackusativändelsen, därför svag böjning (-en)."
+    },
+    {
+      "fill": "Das ist ein schön_ Wetter heute.",
+      "ending": "-es",
+      "german": "schön",
+      "adj_declension": "stark",
+      "explanation": "nounet 'Wetter' är neutrum. Artikeln 'ein' har ingen ändelse i nominativ, därför stark böjning (-es)."
+    },
+    {
+      "fill": "Wir kaufen zwei rot_ Rosen für den Geburtstag.",
+      "ending": "-e",
+      "german": "rot",
+      "adj_declension": "stark",
+      "explanation": "nounet 'Rosen' är feminin plural. Ingen artikel som visar kasus, därför stark böjning (-e)."
+    },
+    {
+      "fill": "Sie wohnt in einer groß_ Stadt.",
+      "ending": "-en",
+      "german": "groß",
+      "adj_declension": "schwach",
+      "explanation": "nounet 'Stadt' är feminin. Artikeln 'einer' visar dativändelsen, därför svag böjning (-en)."
+    },
+    {
+      "fill": "Ich trinke Kaffee aus der klein_ Tasse.",
+      "ending": "-en",
+      "german": "kleine",
+      "adj_declension": "schwach",
+      "explanation": "nounet 'Tasse' är feminin. Bestämd artikel 'der' visar dativ, därför svag böjning (-en)."
+    },
+    {
+      "fill": "Er liest ein interessant_ Buch.",
+      "ending": "-es",
+      "german": "interessant",
+      "adj_declension": "stark",
+      "explanation": "nounet 'Buch' är neutrum. Artikeln 'ein' har ingen ackusativändelse, därför stark böjning (-es)."
+    },
+    {
+      "fill": "Wir sprechen über dieses schwierig_ Problem.",
+      "ending": "-e",
+      "german": "schwierig",
+      "adj_declension": "schwach",
+      "explanation": "nounet 'Problem' är neutrum. Demonstrativt pronomen 'dieses' visar kasus, därför svag böjning (-e)."
+    },
+    {
+      "fill": "Er hat keine gut_ Idee.",
+      "ending": "-e",
+      "german": "gut",
+      "adj_declension": "schwach",
+      "explanation": "nounet 'Idee' är feminin. Artikeln 'keine' visar nominativändelsen, därför svag böjning (-e)."
+    },
+    {
+      "fill": "Das sind schön_ Häuser.",
+      "ending": "-e",
+      "german": "schön",
+      "adj_declension": "stark",
+      "explanation": "nounet 'Häuser' är neutrum plural. Ingen artikel, därför stark böjning (-e). Das är enbart ett demonstrativt pronomen som betyder 'Det'. "
+    },
+    {
+      "fill": "Die schön_ Häuser sind groß",
+      "ending": "-en",
+      "german": "schönen Häuser",
+      "adj_declension": "schwach",
+      "explanation": "nounet 'Häuser' är neutrum plural. Bestämd artikel 'die' visar ackusativ, därför svag böjning (-en)."
+    },
+    {
+      "fill": "Ich sehe einen alt_ Mann auf der Straße.",
+      "ending": "-en",
+      "german": "alt",
+      "adj_declension": "schwach",
+      "explanation": "nounet 'Mann' är maskulin. Artikeln 'einen' visar ackusativ, därför svag böjning (-en)."
+    }
+  ]
+}

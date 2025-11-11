@@ -52,7 +52,7 @@ export default function ConjugationQuestion({ pickedWord, onSecAnswer }) {
     <div>
       <h3>
         Hur böjer man <strong>{pickedWord.german}</strong> med{" "}
-        <strong>{pronoun}</strong>?
+        <strong>{pronoun}</strong> i presens?
       </h3>
 
       <div style={styles.buttonContainer}>
