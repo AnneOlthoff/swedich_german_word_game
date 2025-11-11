@@ -1,8 +1,10 @@
+// ask for the correct conjugation for the used verb depending on person - ex ich bin, du bist
+
+
 "use client";
 import { useState, useEffect, useRef } from "react";
 
-import "../globals.css";
-import AnsButton from "./answerButton.js";
+import AnsButton from "../../answerButton.js";
 
 export default function ConjugationQuestion({ pickedWord, onSecAnswer }) {
   const [options, setOptions] = useState([]);

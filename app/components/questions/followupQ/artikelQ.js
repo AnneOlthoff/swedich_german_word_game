@@ -1,10 +1,12 @@
 "use client";
+
+// ask for coorect artikle after translation of a noun
+
 import { useState, useEffect, useRef } from "react";
 
-import "../globals.css";
-import AnsButton from "./answerButton.js";
+import AnsButton from "../../answerButton.js";
 
-export default function PrepositionQuestion({ pickedWord, onSecAnswer }) {
+export default function ArtikelQuestion({ pickedWord, onSecAnswer }) {
   const [options, setOptions] = useState([]);
   const [selected, setSelected] = useState(null);
   const [isCorrect, setIsCorrect] = useState(null);
@@ -12,69 +14,56 @@ export default function PrepositionQuestion({ pickedWord, onSecAnswer }) {
   useEffect(() => {
     setSelected(null);
     setIsCorrect(null);
-    setOptions(["Ackusativ", "Dativ", "Genetiv"]);
+    setOptions(["der", "die", "das"]);
   }, [pickedWord]);
 
   const handleSelect = (option) => {
     setSelected(option);
-    const correct = option === pickedWord.kasus;
+    const correct = option === pickedWord.artikel;
     setIsCorrect(correct);
 
     // Vänta 2 sekunder innan vi skickar svaret vidare
     setTimeout(() => {
       onSecAnswer(pickedWord, correct);
-    }, 12000);
+    }, 2000);
   };
 
   return (
     <div>
-      <h3>Prepositionen styr?</h3>
+      <h3>Vilken artikel har ordet?</h3>
 
       <div style={styles.buttonContainer}>
         {options.map((opt, index) => (
           <div key={`${opt}-${index}`}>
             <AnsButton
-              option={opt}
-              selected={selected }
-              correctValue={pickedWord.kasus}
+              option={opt + " " + pickedWord.german}
+              selected={selected + " " + pickedWord.german}
+              correctValue={pickedWord.artikel + " " + pickedWord.german}
               handleSelect={() => handleSelect(opt)}
             />
           </div>
         ))}
       </div>
       {selected && (
-        <div style={{ marginTop: "1rem" }}>
-          {isCorrect ? (
-            <div style={styles.answerContainer}>
-              Rätt! <br />
-              förklaring: "{pickedWord.explanation}"
-            </div>
-          ) : (
-            <div style={styles.answerContainer}>
-              ❌ fel! rätt svar är "{pickedWord.kasus}"<br />
-              förklaring: "{pickedWord.explanation}"
-            </div>
-          )}
-        </div>
+        <p style={{ marginTop: "1rem" }}>
+          {isCorrect
+            ? "Rätt!"
+            : `❌ Fel. Rätt svar är "${
+                pickedWord.artikel + " " + pickedWord.german
+              }".`}
+        </p>
       )}
     </div>
   );
 }
 
 const styles = {
+
   buttonContainer: {
     paddingTop: "1rem",
     display: "flex",
     gap: "2rem",
     justifyContent: "center", // ← centrera horisontellt
-
-    margin: "auto"
-  },
-  answerContainer: {
-    paddingLeft: "4rem",
-    paddingRight: "4rem",
-    maxWidth: "30rem",
-    margin: "auto"
-
+    alignItems: "center",
   }
 };

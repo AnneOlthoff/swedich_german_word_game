@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
-import AnsButton from "./answerButton.js";
-import "../globals.css";
+import "../../globals.css";
+import AnsButton from "../answerButton.js";
 
 export default function WordQuestion({ pickedWord, allWords, onAnswer }) {
   const [options, setOptions] = useState([]);
@@ -10,10 +10,13 @@ export default function WordQuestion({ pickedWord, allWords, onAnswer }) {
 
   useEffect(() => {
     // Hämta två slumpmässiga felaktiga alternativ
-    const wrongOptions = allWords
-      .filter((w) => w.german !== pickedWord.german && !w.german.includes(" ")) //vill inte få förslag på meningar
+    const flatList = flattenQuestions(allWords);
+    
+    const wrongOptions = flatList
+      .filter(w => w.german && w.german !== pickedWord.german && !w.german.includes(" ")) // ignorera meningar
       .sort(() => 0.5 - Math.random())
       .slice(0, 2);
+
 
     // Blanda rätt och fel
     const mixed = [...wrongOptions, pickedWord].sort(() => 0.5 - Math.random());
@@ -32,6 +35,18 @@ export default function WordQuestion({ pickedWord, allWords, onAnswer }) {
     }, 2000);
   
   };
+
+const flattenQuestions = (questions) => {
+  return [
+    ...(questions.nouns || []),
+    ...(questions.verbs || []),
+    ...(questions.adj_declension || []),
+    ...(questions.prepositions || []),
+    ...(questions.conjunction || []),
+    ...(questions.other || [])
+  ];
+};
+
 
   return (
     <div>

@@ -1,10 +1,11 @@
+// what presposition is used in the prev asked sentence
+
 "use client";
 import { useState, useEffect, useRef } from "react";
 
-import "../globals.css";
-import AnsButton from "./answerButton.js";
+import AnsButton from "../../answerButton.js";
 
-export default function AdjDeclensionQ({ pickedWord, onSecAnswer }) {
+export default function PrepositionQuestion({ pickedWord, onSecAnswer }) {
   const [options, setOptions] = useState([]);
   const [selected, setSelected] = useState(null);
   const [isCorrect, setIsCorrect] = useState(null);
@@ -12,13 +13,14 @@ export default function AdjDeclensionQ({ pickedWord, onSecAnswer }) {
   useEffect(() => {
     setSelected(null);
     setIsCorrect(null);
-    setOptions(["-er", "-en", "-em", "-es", "-e"]);
-  }, [pickedWord])
+    setOptions(["Ackusativ", "Dativ", "Genetiv"]);
+  }, [pickedWord]);
 
   const handleSelect = (option) => {
     setSelected(option);
-    const correct = option === pickedWord.ending;
+    const correct = option === pickedWord.kasus;
     setIsCorrect(correct);
+    console.log(pickedWord.kasus, " ", option)
 
     // Vänta 2 sekunder innan vi skickar svaret vidare
     setTimeout(() => {
@@ -28,24 +30,20 @@ export default function AdjDeclensionQ({ pickedWord, onSecAnswer }) {
 
   return (
     <div>
-      <h3>Vilken är den rätta adjektivböjningen?</h3>
-      <h4>{pickedWord.fill}</h4>
-      
-       
+      <h3>Prepositionen styr?</h3>
+
       <div style={styles.buttonContainer}>
         {options.map((opt, index) => (
           <div key={`${opt}-${index}`}>
             <AnsButton
               option={opt}
-              selected={selected}
-              correctValue={pickedWord.ending}
+              selected={selected }
+              correctValue={pickedWord.kasus}
               handleSelect={() => handleSelect(opt)}
             />
           </div>
-       
         ))}
       </div>
-        {console.log("selected; " , selected , " picked word ", pickedWord.ending)}
       {selected && (
         <div style={{ marginTop: "1rem" }}>
           {isCorrect ? (
@@ -55,7 +53,7 @@ export default function AdjDeclensionQ({ pickedWord, onSecAnswer }) {
             </div>
           ) : (
             <div style={styles.answerContainer}>
-              ❌ fel! rätt svar är "{pickedWord.ending}"<br />
+              ❌ fel! rätt svar är "{pickedWord.kasus}"<br />
               förklaring: "{pickedWord.explanation}"
             </div>
           )}

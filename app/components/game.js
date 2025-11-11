@@ -1,12 +1,14 @@
+
 "use client";
 import { useState, useEffect } from "react";
 import "../globals.css";
-import SingleWordQ from "./singleWordQuestion.js";
-import ArtikelQ from "./artikelQuestion.js";
-import KasusQ from "./kasusQuestion.js";
-import ConjugationQ from "./conjugationQuestion.js";
-import PrepositionQ from "./prepositionQuestion.js";
-import AdjDeclensionQ from "./adjDeclensionQ.js";
+import SingleWordQ from "./questions/singleWordQ.js";
+import ArtikelQ from "./questions/followupQ/artikelQ.js";
+import ConjugationQ from "./questions/followupQ/conjugationQ.js";
+import PrepositionQ from "./questions/followupQ/prepositionQ.js";
+import AdjDeclensionQ from "./questions/adjDeclensionQ.js";
+
+import {selectTrainingWords } from "../utils/wordSelector.js"
 
 export default function Game() {
   const [selectedWords, setSelectedWords] = useState([]);
@@ -23,35 +25,11 @@ export default function Game() {
     fetch("/data/file.json")
       .then((res) => res.json())
       .then((data) => {
-        const wordBank = data.translations;
-
-        const verbs = wordBank.filter((w) => w.type === "verb");
-        const nouns = wordBank.filter(w => w.type == "noun" );
-        const kasusWords = wordBank.filter(w => w.options !== undefined);
-        const otherWords = wordBank.filter(w => w.type == "other");
-        const prepositionWords = wordBank.filter(w => w.preposition !== undefined);
-        const AdjDeclensionWords = wordBank.filter(w => w.adj_declension !== undefined);
-
-        const getRandom = (arr) => arr[Math.floor(Math.random() * arr.length)];
-
-        //vilka typer av frågor vill vi ställa
-        const selected = [
-          getRandom(otherWords),
-          getRandom(verbs),
-          getRandom(kasusWords),
-          getRandom(prepositionWords),
-          getRandom(AdjDeclensionWords)
-        ];
-
-        const remaining = wordBank.filter((w) => !selected.includes(w));
-        const extra = [...remaining]
-          .sort(() => 0.5 - Math.random())
-          .slice(0, 2);
-
-        const trainingWords = [...selected, ...extra].sort(
-          () => 0.5 - Math.random()
-        );
-
+        const wordBank = data.questions;
+      console.log("valdaord1")
+        const trainingWords = selectTrainingWords(wordBank)
+        
+        console.log("valdaord")
         setSelectedWords(trainingWords);
         setAllWords(wordBank);
         setIsLoading(false);
@@ -116,17 +94,13 @@ export default function Game() {
     <section style={styles.container}>
       {isLoading ? (
         <p></p>
+        
       ) : selectedWords.length > 0 &&
         currentWordIndex < selectedWords.length ? (
         <div>
           <p>Antal kvar: {selectedWords.length}</p>
 
-          {selectedWords[currentWordIndex].options ? (
-            <KasusQ
-              pickedWord={selectedWords[currentWordIndex]}
-              onAnswer={handleAnswer}
-            />
-          ): selectedWords[currentWordIndex].adj_declension ? (
+          {selectedWords[currentWordIndex].adj_declension ? (
                   <div>
                     <AdjDeclensionQ
                       pickedWord={selectedWords[currentWordIndex]}
@@ -143,7 +117,7 @@ export default function Game() {
               />
 
               {showFollowUpQuestion &&
-                (selectedWords[currentWordIndex].type == "verb" ? (
+                (selectedWords[currentWordIndex].conjugation  !== undefined ? (
                   <div>
                     <ConjugationQ
                       pickedWord={selectedWords[currentWordIndex]}
