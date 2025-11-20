@@ -2,6 +2,7 @@
 import { useState, useEffect, useRef } from "react";
 import "../../globals.css";
 import AnsButton from "../answerButton.js";
+import "../../globals.css"
 
 export default function WordQuestion({ pickedWord, allWords, onAnswer }) {
   const [options, setOptions] = useState([]);
@@ -25,16 +26,19 @@ export default function WordQuestion({ pickedWord, allWords, onAnswer }) {
     setIsCorrect(null); //nollställer om svaret är rätt/fel – så att nästa fråga börjar “rent”.
   }, [pickedWord, allWords]);
 
-  const handleSelect = (option) => {
-    setSelected(option.german); //vill bara skicka in tyska ordet för att se om rätt svar i AnsButton
-    const correct = option.german === pickedWord.german;
-    setIsCorrect(pickedWord.german);
-
-    setTimeout(() => {
-       onAnswer(pickedWord, correct);
-    }, 2000);
   
-  };
+const handleSelect = (option) => {
+  const correct = option.german === pickedWord.german;
+  console.log("Selected option:", option.german, "Correct?", correct);
+
+  setSelected(option.german);
+  setIsCorrect(correct);
+
+  setTimeout(() => {
+    onAnswer(pickedWord, correct);
+  }, 500);
+};
+
 
 const flattenQuestions = (questions) => {
   return [
@@ -64,7 +68,7 @@ const flattenQuestions = (questions) => {
 
       ): null )}
 
-      <div style={styles.buttonContainer}>
+      <div className="buttonContainer">
         {options.map((opt, index) => (
           <div key={`${opt}-${index}`}>
              <AnsButton
@@ -83,13 +87,7 @@ const flattenQuestions = (questions) => {
 const styles = {
   
 
-  buttonContainer: {
-    paddingTop: "1rem",
-    display: "flex",
-    gap: "2rem",
-    justifyContent: "center", // ← centrera horisontellt
-    alignItems: "center",
-  },
+  
   button: {
     display: "block",
     margin: "0.5rem 0",

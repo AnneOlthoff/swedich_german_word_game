@@ -1,41 +1,34 @@
-export function selectTrainingWords(wordBank, count = 6) {
+export function selectTrainingWords(wordBank, selectedCategories = [], count = 6) {
   const {
     nouns = [],
     verbs = [],
     adj_declension = [],
     prepositions = [],
-    conjunction = [],
+    conjunctions = [],
     other = []
   } = wordBank;
 
-  const getRandom = arr => arr.length > 0 ? arr[Math.floor(Math.random() * arr.length)] : null;
+  // Mapp för kategorier + meta-kategorier
+  //vilka kategorier man väljer bland anges i -> pages->index
+  const categoryMap = {
+  
+    Substantiv: [ ...nouns],
+    Adjektivändelser: [ ...adj_declension],
+    Prepositioner: [ ...prepositions],
+    Verb: [ ...verbs],
+    Konjunktioner: [...conjunctions],
+    ordförståelse: [ ...verbs, ...nouns, ...other] // sammanslagen kategori
+  };
 
-  // Välj minst en från varje kategori
-  const selected = [
-    getRandom(adj_declension),
-    getRandom(adj_declension),
-    getRandom(adj_declension),
-    getRandom(adj_declension),
-    getRandom(adj_declension)
-  ].filter(Boolean);
+  // Om användaren har valt kategorier → använd dem
+  const chosenPools = selectedCategories.flatMap(cat => categoryMap[cat] || []);
 
-  console.log("nouns:", nouns);
-  console.log("verbs:", verbs);
-  console.log("adj_declension:", adj_declension);
-  console.log("prepositions:", prepositions);
-  console.log("conjunction:", conjunction);
-  console.log("other:", other);
+  // Om inget val → ta alla ord
+  const pool = chosenPools.length > 0 ? chosenPools : Object.values(categoryMap).flat();
 
-  const allQuestions = [...nouns, ...verbs, ...adj_declension, ...prepositions, ...conjunction, ...other];
+  // Slumpa ord från poolen
+  const shuffled = [...pool].sort(() => 0.5 - Math.random());
 
-  // Beräkna hur många extra vi behöver
-  const extraNeeded = Math.max(0, count - selected.length);
-
-  const remaining = allQuestions.filter(q => !selected.includes(q));
-  const extra = [...remaining].sort(() => 0.5 - Math.random()).slice(0, extraNeeded);
-
-  console.log("selected:", selected);
-  console.log("extra:", extra);
-
-  return [...selected, ...extra].sort(() => 0.5 - Math.random());
+  // Begränsa till count
+  return shuffled.slice(0, count);
 }

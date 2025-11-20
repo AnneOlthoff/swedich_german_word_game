@@ -20,7 +20,6 @@ export default function PrepositionQuestion({ pickedWord, onSecAnswer }) {
     setSelected(option);
     const correct = option === pickedWord.kasus;
     setIsCorrect(correct);
-    console.log(pickedWord.kasus, " ", option)
 
     // Vänta 2 sekunder innan vi skickar svaret vidare
     setTimeout(() => {
@@ -73,8 +72,7 @@ const styles = {
     margin: "auto"
   },
   answerContainer: {
-    paddingLeft: "4rem",
-    paddingRight: "4rem",
+   
     maxWidth: "30rem",
     margin: "auto"
 

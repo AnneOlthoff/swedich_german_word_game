@@ -35,7 +35,7 @@ export default function AdjDeclensionQ({ pickedWord, onSecAnswer }) {
       <h3>Vilken är den rätta adjektivböjningen?</h3>
       <h4>{pickedWord.fill}</h4>
 
-      <div style={styles.buttonContainer}>
+      <div className="buttonContainer">
         {pickedWord.adj_declension == "definite_article" 
         ? articleOpt.map((opt, index) => (
             
@@ -61,7 +61,7 @@ export default function AdjDeclensionQ({ pickedWord, onSecAnswer }) {
             
          
       </div>
-      {console.log("selected; ", selected, " picked word ", pickedWord.missing)}
+      {console.log("hej")}
       {selected && (
         <div style={{ marginTop: "1rem" }}>
           {isCorrect ? (
@@ -83,18 +83,9 @@ export default function AdjDeclensionQ({ pickedWord, onSecAnswer }) {
 
 const styles = {
   
-buttonContainer: {
-    paddingTop: "1rem",
-    display: "flex",
-    flexDirection: "row", // ✅ detta är korrekt
-    gap: "2rem",
-    justifyContent: "center", // centrera horisontellt
-    margin: "auto",
-  },
 
   answerContainer: {
-    paddingLeft: "4rem",
-    paddingRight: "4rem",
+    
     maxWidth: "30rem",
     margin: "auto",
   },

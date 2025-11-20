@@ -3,7 +3,7 @@
 // ask for coorect artikle after translation of a noun
 
 import { useState, useEffect, useRef } from "react";
-
+import "../../../globals.css"
 import AnsButton from "../../answerButton.js";
 
 export default function ArtikelQuestion({ pickedWord, onSecAnswer }) {
@@ -32,7 +32,7 @@ export default function ArtikelQuestion({ pickedWord, onSecAnswer }) {
     <div>
       <h3>Vilken artikel har ordet?</h3>
 
-      <div style={styles.buttonContainer}>
+      <div className="buttonContainer">
         {options.map((opt, index) => (
           <div key={`${opt}-${index}`}>
             <AnsButton
@@ -57,13 +57,3 @@ export default function ArtikelQuestion({ pickedWord, onSecAnswer }) {
   );
 }
 
-const styles = {
-
-  buttonContainer: {
-    paddingTop: "1rem",
-    display: "flex",
-    gap: "2rem",
-    justifyContent: "center", // ← centrera horisontellt
-    alignItems: "center",
-  }
-};

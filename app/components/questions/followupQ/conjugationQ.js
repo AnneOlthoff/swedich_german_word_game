@@ -1,11 +1,7 @@
-// ask for the correct conjugation for the used verb depending on person - ex ich bin, du bist
-
-
 "use client";
-import { useState, useEffect, useRef } from "react";
-
+import { useState, useEffect } from "react";
 import AnsButton from "../../answerButton.js";
-
+import "../../../globals.css"
 export default function ConjugationQuestion({ pickedWord, onSecAnswer }) {
   const [options, setOptions] = useState([]);
   const [selected, setSelected] = useState(null);
@@ -13,51 +9,94 @@ export default function ConjugationQuestion({ pickedWord, onSecAnswer }) {
 
   const [pronoun, setPronoun] = useState(null);
   const [correctForm, setCorrectForm] = useState(null);
+  const [step, setStep] = useState(0); // 0 = presens, 1 = preteritum, 2 = mening
+  const [sentenceType, setSentenceType] = useState(null);
 
   useEffect(() => {
     setSelected(null);
     setIsCorrect(null);
 
-    const conjugationPairs = Object.entries(pickedWord.conjugation);
-    const [randomPronoun, randomForm] =
-      conjugationPairs[Math.floor(Math.random() * conjugationPairs.length)];
+    if (step === 0 || step === 1) {
+      // Presens eller Preteritum
+      const conjugationPairs =
+        step === 0
+          ? Object.entries(pickedWord.conjugation_presens)
+          : Object.entries(pickedWord.conjugation_preteritum);
 
-    setPronoun(randomPronoun);
-    setCorrectForm(randomForm);
+      const [randomPronoun, randomForm] =
+        conjugationPairs[Math.floor(Math.random() * conjugationPairs.length)];
 
-    // Skapa svarsalternativ (rätt + 2 fel)
-    const wrongForms = conjugationPairs
-      .filter(([p, f]) => f !== randomForm)
-      .map(([p, f]) => f)
-      .sort(() => 0.5 - Math.random())
-      .slice(0, 2);
+      setPronoun(randomPronoun);
+      setCorrectForm(randomForm);
 
-    const mixedOptions = [...wrongForms, randomForm].sort(
-      () => 0.5 - Math.random()
-    );
+      const wrongForms = conjugationPairs
+        .filter(([p, f]) => f !== randomForm)
+        .map(([p, f]) => f)
+        .sort(() => 0.5 - Math.random())
+        .slice(0, 5); //visa 5 alternativ
 
- 
-    setOptions(mixedOptions);
-  }, [pickedWord]);
+      const mixedOptions = [...wrongForms, randomForm].sort(
+        () => 0.5 - Math.random()
+      );
+      setOptions(mixedOptions);
+    } else if (step === 2) {
+      // Meningsfråga – välj slumpmässigt tempus
+      const sentenceRand = Math.random();
+      if (sentenceRand < 0.33) setSentenceType("presens");
+      else if (sentenceRand < 0.66) setSentenceType("preteritum");
+      else setSentenceType("perfekt");
 
-  const handleSelect = (option) => {
+      const correctSentence =
+        sentenceType === "presens"
+          ? pickedWord.sentence.conjugation_presens
+          : sentenceType === "preteritum"
+          ? pickedWord.sentence.conjugation_preteritum
+          : pickedWord.sentence.conjugation_perfekt;
+
+      setCorrectForm(correctSentence);
+
+      const wrongSentences = [
+        pickedWord.sentence.conjugation_presens,
+        pickedWord.sentence.conjugation_preteritum,
+        pickedWord.sentence.conjugation_perfekt
+      ].filter(s => s !== correctSentence);
+
+      const mixedOptions = [...wrongSentences, correctSentence].sort(
+        () => 0.5 - Math.random()
+      );
+      setOptions(mixedOptions);
+      setPronoun(null);
+    }
+  }, [pickedWord, step, sentenceType]);
+
+  const handleSelect = option => {
     setSelected(option);
     const correct = option === correctForm;
     setIsCorrect(correct);
 
     setTimeout(() => {
-      onSecAnswer(pickedWord, correct);
-    }, 2000);
+      if (step < 2) {
+        setStep(step + 1); // gå till nästa fråga
+      } else {
+        onSecAnswer(pickedWord, correct); // sista frågan klar
+      }
+    }, 1500);
   };
 
   return (
     <div>
       <h3>
-        Hur böjer man <strong>{pickedWord.german}</strong> med{" "}
-        <strong>{pronoun}</strong> i presens?
+        {step === 2 ? (
+          <>Vilken mening är korrekt i <strong>{sentenceType}</strong>?</>
+        ) : (
+          <>
+            Hur böjer man <strong>{pickedWord.german}</strong> med{" "}
+            <strong>{pronoun}</strong> i <strong>{step === 0 ? "presens" : "preteritum"}</strong>?
+          </>
+        )}
       </h3>
 
-      <div style={styles.buttonContainer}>
+      <div className="buttonContainer">
         {options.map((opt, index) => (
           <div key={`${opt}-${index}`}>
             <AnsButton
@@ -71,13 +110,7 @@ export default function ConjugationQuestion({ pickedWord, onSecAnswer }) {
       </div>
       {selected && (
         <p style={{ marginTop: "1rem" }}>
-          {isCorrect ? (
-            <>Rätt!</>
-          ) : (
-            <>
-              ❌ fel! rätt svar är "{correctForm}"<br />
-            </>
-          )}
+          {isCorrect ? <> Rätt!</> : <>❌ Fel! Rätt svar är "{correctForm}"</>}
         </p>
       )}
     </div>
@@ -85,12 +118,12 @@ export default function ConjugationQuestion({ pickedWord, onSecAnswer }) {
 }
 
 const styles = {
-  
-  buttonContainer: {
-    paddingTop: "2rem",
+ buttonContainer: {
+    paddingTop: "1rem",
     display: "flex",
+    flexDirection: "row", // ✅ detta är korrekt
     gap: "2rem",
-    justifyContent: "center", // ← centrera horisontellt
-    alignItems: "center",
+    justifyContent: "center", // centrera horisontellt
+    margin: "auto",
   },
 };

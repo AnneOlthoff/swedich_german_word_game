@@ -1,144 +1,121 @@
-
 "use client";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import "../globals.css";
 import SingleWordQ from "./questions/singleWordQ.js";
 import ArtikelQ from "./questions/followupQ/artikelQ.js";
 import ConjugationQ from "./questions/followupQ/conjugationQ.js";
 import PrepositionQ from "./questions/followupQ/prepositionQ.js";
 import AdjDeclensionQ from "./questions/adjDeclensionQ.js";
+import ConjunctionQ from "./questions/conjunctionQ.js";
 
-import {selectTrainingWords } from "../utils/wordSelector.js"
+import { useRouter } from "next/navigation";
 
-export default function Game() {
-  const [selectedWords, setSelectedWords] = useState([]);
-  const [allWords, setAllWords] = useState([]);
+export default function Game({ selectedWords: initialWords, allWords }) {
+  // ✅ Lokal kopia av ordlistan för att undvika mutation av props
+  const [words, setWords] = useState(initialWords);
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
   const [wrongAnswers, setWrongAnswers] = useState([]);
   const [correctAnswers, setCorrectAnswers] = useState([]);
   const [refreshKey, setRefreshKey] = useState(0);
-  const [isLoading, setIsLoading] = useState(true);
   const [showFollowUpQuestion, setShowFollowUpQuestion] = useState(false);
 
-  // Hämta ord från JSON
-  useEffect(() => {
-    fetch("/data/file.json")
-      .then((res) => res.json())
-      .then((data) => {
-        const wordBank = data.questions;
-      console.log("valdaord1")
-        const trainingWords = selectTrainingWords(wordBank)
-        
-        console.log("valdaord")
-        setSelectedWords(trainingWords);
-        setAllWords(wordBank);
-        setIsLoading(false);
-      })
-      .catch((error) => {
-        setIsLoading(false);
-      });
-  }, []);
+  const router = useRouter(); //skicka tillbaka till startsida när man spelat klart
 
-  // Säkerställ att index alltid är inom bounds
-  useEffect(() => {
-    if (currentWordIndex >= selectedWords.length && selectedWords.length > 0) {
-      setCurrentWordIndex(0);
-    }
-  }, [selectedWords]);
-
-  const handleFollowUpAnswer = (word, correct) => {
-    setShowFollowUpQuestion(false);
-
-
-    goToNextWord(word, correct);
-  };
-
+  // ✅ Gå till nästa ord
   const goToNextWord = (word, correct) => {
+    console.log("goToNextWord:", word, "Correct?", correct);
+
     if (correct) {
       setCorrectAnswers((prev) => [...prev, word]);
-      setSelectedWords((prevWords) =>
-        prevWords.filter((w) => w.german !== word.german)
-      );
+      setWords((prev) => prev.filter((_, i) => i !== currentWordIndex)); // Ta bort ordet
       setCurrentWordIndex(0);
     } else {
       setWrongAnswers((prev) => [...prev, word]);
       setCurrentWordIndex((prev) => {
-        const isLast = prev >= selectedWords.length - 1;
+        const isLast = prev >= words.length - 1;
         return isLast ? 0 : prev + 1;
       });
     }
-
-    setRefreshKey((prev) => prev + 1); // 🔁 tvinga omrendering
+    setRefreshKey((prev) => prev + 1);
   };
 
+  const startNewGame = () => {
+   router.push("/");
+  };
+
+  // ✅ Hantera svar från huvudfråga
   const handleAnswer = (word, correct) => {
+    console.log("handleAnswer called with:", word, "Correct?", correct);
+    if (!word || correct === null) return; // Stoppa om inget svar
 
     const hasArtikel = word.artikel !== undefined;
-    const hasConjugation = word.conjugation !== undefined;
+    const hasConjugation = word.conjugation_presens !== undefined;
     const hasPreposition = word.preposition !== undefined;
     const hasFollowUp = hasArtikel || hasConjugation || hasPreposition;
 
     if (correct && hasFollowUp) {
-      // Visa följdfråga
-
       setShowFollowUpQuestion(true);
     } else {
-      // Gå vidare direkt
       setTimeout(() => {
         goToNextWord(word, correct);
-      }, 2000);
+      }, 5000); // Vänta 5 sekunder
     }
+  };
+
+  // ✅ Hantera svar från följdfråga
+  const handleFollowUpAnswer = (word, correct) => {
+    console.log("handleFollowUpAnswer:", word, "Correct?", correct);
+    setShowFollowUpQuestion(false);
+    setTimeout(() => {
+      goToNextWord(word, correct);
+    }, 2000);
   };
 
   return (
     <section style={styles.container}>
-      {isLoading ? (
-        <p></p>
-        
-      ) : selectedWords.length > 0 &&
-        currentWordIndex < selectedWords.length ? (
+      {words.length > 0 && currentWordIndex < words.length ? (
         <div>
-          <p>Antal kvar: {selectedWords.length}</p>
+          <p>Antal kvar: {words.length}</p>
 
-          {selectedWords[currentWordIndex].adj_declension ? (
-                  <div>
-                    <AdjDeclensionQ
-                      pickedWord={selectedWords[currentWordIndex]}
-                      onSecAnswer={handleFollowUpAnswer}
-                    />
-                  </div>
+          {words[currentWordIndex].adj_declension ? (
+            <>
+              <AdjDeclensionQ
+                pickedWord={words[currentWordIndex]}
+                onSecAnswer={handleFollowUpAnswer}
+              />
+            </>
+          ) : words[currentWordIndex].conjunction ? (
+            <>
+              <ConjunctionQ
+                pickedWord={words[currentWordIndex]}
+                onSecAnswer={handleFollowUpAnswer}
+              />
+            </>
           ) : (
             <>
               <SingleWordQ
-                key={refreshKey} // 🔁 detta tvingar komponenten att laddas om
-                pickedWord={selectedWords[currentWordIndex]}
+                key={refreshKey}
+                pickedWord={words[currentWordIndex]}
                 allWords={allWords}
                 onAnswer={handleAnswer}
               />
 
               {showFollowUpQuestion &&
-                (selectedWords[currentWordIndex].conjugation  !== undefined ? (
-                  <div>
-                    <ConjugationQ
-                      pickedWord={selectedWords[currentWordIndex]}
-                      onSecAnswer={handleFollowUpAnswer}
-                    />
-                  </div>
-                ) : selectedWords[currentWordIndex].artikel !== undefined ? (
-                  <div>
-                   <ArtikelQ
-                      pickedWord={selectedWords[currentWordIndex]}
-                      onSecAnswer={handleFollowUpAnswer}
-                    />
-                  </div>
-                ) : selectedWords[currentWordIndex].preposition !== undefined ? (
-                  <div>
-                    <PrepositionQ
-                      pickedWord={selectedWords[currentWordIndex]}
-                      onSecAnswer={handleFollowUpAnswer}
-                    />
-                  </div>
-                  
+                (words[currentWordIndex].conjugation_presens ? (
+                  <ConjugationQ
+                    pickedWord={words[currentWordIndex]}
+                    onSecAnswer={handleFollowUpAnswer}
+                  />
+                ) : words[currentWordIndex].artikel ? (
+                  <ArtikelQ
+                    pickedWord={words[currentWordIndex]}
+                    onSecAnswer={handleFollowUpAnswer}
+                  />
+                ) : words[currentWordIndex].preposition ? (
+                  <PrepositionQ
+                    pickedWord={words[currentWordIndex]}
+                    onSecAnswer={handleFollowUpAnswer}
+                  />
                 ) : null)}
             </>
           )}
@@ -148,6 +125,19 @@ export default function Game() {
           <h2>🎉 Du är klar!</h2>
           <p>Rätt besvarade: {correctAnswers.length}</p>
           <p>Felaktiga försök: {wrongAnswers.length}</p>
+          <button
+            onClick={startNewGame}
+            style={{
+              marginTop: "1rem",
+              padding: "0.7rem 1.5rem",
+              backgroundColor: "var(--correctAnswer)",
+              color: "var(--text)",
+              borderRadius: "6px"
+            }}
+          >
+        Välj ny kategori
+      </button>
+           
         </div>
       )}
     </section>
@@ -162,6 +152,6 @@ const styles = {
     marginLeft: "auto",
     marginRight: "auto",
     paddingLeft: "3rem",
-    paddingRight: "3rem"
+    paddingRight: "3rem",
   },
 };
