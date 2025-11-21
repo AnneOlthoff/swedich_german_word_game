@@ -80,12 +80,13 @@ export default function ConjunctionQ({ pickedWord, onSecAnswer }) {
         <div style={{ marginTop: "1rem" }}>
           {isCorrect ? (
             <div style={styles.answerContainer}>
-              Rätt! <br />
-             
+              Rätt!<br />
+              På svenska betyder ordet: "{pickedWord.swedish}"
             </div>
           ) : (
             <div style={styles.answerContainer}>
-              ❌ fel! rätt svar är "{pickedWord.german}"<br />
+              ❌ fel! rätt svar är "{pickedWord.german}" <br/>
+             På svenska betyder ordet: "{pickedWord.swedish}"
               
             </div>
           )}

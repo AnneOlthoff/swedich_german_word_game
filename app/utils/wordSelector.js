@@ -5,6 +5,7 @@ export function selectTrainingWords(wordBank, selectedCategories = [], count = 6
     adj_declension = [],
     prepositions = [],
     conjunctions = [],
+    tables = [],
     other = []
   } = wordBank;
 
@@ -17,7 +18,8 @@ export function selectTrainingWords(wordBank, selectedCategories = [], count = 6
     Prepositioner: [ ...prepositions],
     Verb: [ ...verbs],
     Konjunktioner: [...conjunctions],
-    ordförståelse: [ ...verbs, ...nouns, ...other] // sammanslagen kategori
+    Ordförståelse: [ ...verbs, ...nouns, ...other], // sammanslagen kategori
+    Tabeller: [...tables]
   };
 
   // Om användaren har valt kategorier → använd dem
@@ -28,6 +30,7 @@ export function selectTrainingWords(wordBank, selectedCategories = [], count = 6
 
   // Slumpa ord från poolen
   const shuffled = [...pool].sort(() => 0.5 - Math.random());
+  console.log(shuffled.slice(0, count))
 
   // Begränsa till count
   return shuffled.slice(0, count);

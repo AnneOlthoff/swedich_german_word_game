@@ -92,6 +92,16 @@ ul{
     margin: auto
   }
 
+  .mainButton {
+    margin-top: 1rem;
+
+    padding: 0.7rem 1.5rem;
+    background-color: var(--correctAnswer);
+    color: var(--text);
+    border-radius: 6px;
+
+  }
+
   @media (max-width: 600px) {
   .buttonContainer {
     flex-direction: column;

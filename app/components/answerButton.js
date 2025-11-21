@@ -14,7 +14,7 @@ export default function AnsButton({ option, selected, correctValue, handleSelect
         style={{
           ...styles.button,
           border: isSelected
-            ? isCorrect ? '1px var(-correctAnswer)' : '1px solid #cf535fff'
+            ? isCorrect ? '1px var(-correctAnswer)' : '1px solid #8e2832ff'
             : '1px solid var(--heading)',
           backgroundColor: isSelected
             ? isCorrect ? 'var(--correctAnswer)' : 'var(--wrongAnswer)'

@@ -326,6 +326,13 @@
             "collection": "house"
           },
           {
+            "swedish": "skål",
+            "german": "Schüssel",
+            "artikel": "die",
+            "plural": "Schüsseln",
+            "collection": "house"
+          },
+          {
             "swedish": "hylla",
             "german": "Regal",
             "artikel": "das",
@@ -1090,6 +1097,32 @@
       "conjugation_presens": "Ich gehe nach Hause.",
       "conjugation_preteritum": "Ich ging nach Hause.",
       "conjugation_perfekt": "Ich bin nach Hause gegangen."
+    }
+  },
+  {
+    "swedish": "Ge",
+    "german": "Schenken",
+    "strong": false,
+    "conjugation_presens": {
+      "ich": "schenke",
+      "du": "schenkst",
+      "er/sie/es": "schenkt",
+      "wir": "schenken",
+      "ihr": "schenkt",
+      "sie/Sie": "schenken"
+    },
+    "conjugation_preteritum": {
+      "ich": "schenkte",
+      "du": "schenktest",
+      "er/sie/es": "schenkte",
+      "wir": "schenkten",
+      "ihr": "schenktet",
+      "sie/Sie": "schenkten"
+    },
+    "sentence": {
+      "conjugation_presens": "Er schenkt mir einen Pullover zu Weihnachten.",
+      "conjugation_preteritum": "Er schenkte mir einen Pullover zu Weihnachten",
+      "conjugation_perfekt": "Er hat mir einen Pullover zu Weihnachten geschenkt"
     }
   },
   {
@@ -1878,6 +1911,60 @@
         "swedish": "randig",
         "german": "gestreiftes"
       }
-    ]
+    ], 
+    
+  "tables": [
+    {
+      "name": "Bestämda artiklar",
+      "description": "Tabell över bestämda artiklar i olika kasus och genus",
+      "columns": ["Maskulinum", "Neutrum", "Femininum", "Plural"],
+      "rows": ["Nominativ", "Ackusativ", "Dativ", "Genitiv"],
+      "data": {
+        "Nominativ": ["der", "das", "die", "die"],
+        "Ackusativ": ["den", "das", "die", "die"],
+        "Dativ": ["dem", "dem", "der", "den"],
+        "Genitiv": ["des", "des", "der", "der"]
+      }
+    },
+    {
+      "name": "Obestämda artiklar",
+      "description": "Tabell över obestämda artiklar i olika kasus och genus",
+      "columns": ["Maskulinum", "Neutrum", "Femininum"],
+      "rows": ["Nominativ", "Ackusativ", "Dativ", "Genitiv"],
+      "data": {
+        "Nominativ": ["ein", "ein", "eine"],
+        "Ackusativ": ["einen", "ein", "eine"],
+        "Dativ": ["einem", "einem", "einer"],
+        "Genitiv": ["eines", "eines", "einer"]
+      }
+    },
+    {
+      "name": "Starka adjektivändelser",
+      "description": "Tabell över starka adjektivändelser efter obestämd artikel eller utan artikel",
+      "columns": ["Maskulinum", "Neutrum", "Femininum", "Plural"],
+      "rows": ["Nominativ", "Ackusativ", "Dativ", "Genitiv"],
+      "data": {
+        "Nominativ": ["-er", "-es", "-e", "-e"],
+        "Ackusativ": ["-en", "-es", "-e", "-e"],
+        "Dativ": ["-em", "-em", "-er", "-en"],
+        "Genitiv": ["-en", "-en", "-er", "-er"]
+      }
+    },
+    {
+      "name": "Svaga adjektivändelser",
+      "description": "Tabell över svaga adjektivändelser efter bestämd artikel",
+      "columns": ["Maskulinum", "Neutrum", "Femininum", "Plural"],
+      "rows": ["Nominativ", "Ackusativ", "Dativ", "Genitiv"],
+      "data": {
+        "Nominativ": ["-e", "-e", "-e", "-en"],
+        "Ackusativ": ["-en", "-e", "-e", "-en"],
+        "Dativ": ["-en", "-en", "-en", "-en"],
+        "Genitiv": ["-en", "-en", "-en", "-en"]
+      }
+    }
+  ]
+
+
   }
+  
 }

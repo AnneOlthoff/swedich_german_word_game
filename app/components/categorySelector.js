@@ -31,13 +31,7 @@ export default function CategorySelector({ categories, selectedCategories, onTog
       <br />
       <button
         onClick={onStart}
-        style={{
-          marginTop: "1rem",
-          padding: "0.7rem 1.5rem",
-          backgroundColor: "var(--correctAnswer)",
-          color: "var(--text)",
-          borderRadius: "6px"
-        }}
+        className="mainButton"
       >
         Starta spelet
       </button>

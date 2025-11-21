@@ -7,6 +7,7 @@ import ConjugationQ from "./questions/followupQ/conjugationQ.js";
 import PrepositionQ from "./questions/followupQ/prepositionQ.js";
 import AdjDeclensionQ from "./questions/adjDeclensionQ.js";
 import ConjunctionQ from "./questions/conjunctionQ.js";
+import GrammarTableQ from "./questions/gramarTableQ.js"
 
 import { useRouter } from "next/navigation";
 
@@ -18,6 +19,7 @@ export default function Game({ selectedWords: initialWords, allWords }) {
   const [correctAnswers, setCorrectAnswers] = useState([]);
   const [refreshKey, setRefreshKey] = useState(0);
   const [showFollowUpQuestion, setShowFollowUpQuestion] = useState(false);
+  const [currentTableIndex, setCurrentTableIndex] = useState(0);
 
   const router = useRouter(); //skicka tillbaka till startsida när man spelat klart
 
@@ -84,6 +86,22 @@ export default function Game({ selectedWords: initialWords, allWords }) {
                 onSecAnswer={handleFollowUpAnswer}
               />
             </>
+          ) : words[currentWordIndex].columns ? (
+
+            <div>
+                  <GrammarTableQ
+                    tableData={words[currentTableIndex]}
+                    onAnswer={handleAnswer}
+                  />
+                  <button   
+                    className="mainButton"
+                    onClick={() => setCurrentTableIndex((prev) => (prev + 1) % words.length)}
+                  >
+                    Nästa tabell
+                  </button>
+            </div>
+
+
           ) : words[currentWordIndex].conjunction ? (
             <>
               <ConjunctionQ
@@ -127,13 +145,7 @@ export default function Game({ selectedWords: initialWords, allWords }) {
           <p>Felaktiga försök: {wrongAnswers.length}</p>
           <button
             onClick={startNewGame}
-            style={{
-              marginTop: "1rem",
-              padding: "0.7rem 1.5rem",
-              backgroundColor: "var(--correctAnswer)",
-              color: "var(--text)",
-              borderRadius: "6px"
-            }}
+           className="mainButton"
           >
         Välj ny kategori
       </button>
