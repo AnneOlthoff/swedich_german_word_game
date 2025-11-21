@@ -19,20 +19,21 @@ export default function GrammarTableQ({ tableData, onFinish }) {
     setUserAnswers(updatedAnswers);
   };
 
-
   // ✅ Nollställ när tabellen byts
-  useEffect(() => {
-    setUserAnswers(rows.map(() => columns.map(() => "")));
-    setIsCompleted(false);
-  }, [tableData]);
-
-
+  
+useEffect(() => {
+  // Nollställ när tabellen byts
+  setUserAnswers(rows.map(() => columns.map(() => "")));
+}, [rows, columns]);
 
 
   return (
     <div>
       <h3>{name}</h3>
-      <table className="grammar-table" style={{ margin: "auto", borderCollapse: "collapse" }}>
+      <table
+        className="grammar-table"
+        style={{ margin: "auto", borderCollapse: "collapse" }}
+      >
         <thead>
           <tr>
             <th></th>
@@ -46,16 +47,35 @@ export default function GrammarTableQ({ tableData, onFinish }) {
             <tr key={rowIndex}>
               <td style={{ fontWeight: "bold" }}>{row}</td>
               {columns.map((col, colIndex) => {
-                const correctValue = data[row][colIndex];
-                const userValue = userAnswers[rowIndex][colIndex];
-                const isCorrect = userValue.toLowerCase() === correctValue.toLowerCase();
+                const userValue = (userAnswers[rowIndex]?.[colIndex] || "").trim();
+                const correctValue = (
+                  data[row]?.[colIndex] || ""
+                ).toLowerCase();
+
+                const isCorrect =
+                  userValue.trim().toLowerCase() ===
+                  (correctValue ? correctValue.toLowerCase() : "");
+
                 return (
-                  <td key={colIndex} style={{ padding: "0.5rem", border: `2px ${userValue ? (isCorrect ? 'var(-correctAnswer)' : '#8e2832ff') : 'var(--text)' }` }}>
+                  <td
+                    key={colIndex}
+                    style={{
+                      padding: "0.5rem",
+                      border: `2px ${
+                        userValue
+                          ? isCorrect
+                            ? "var(-correctAnswer)"
+                            : "#8e2832ff"
+                          : "var(--text)"
+                      }`,
+                    }}
+                  >
                     <input
                       type="text"
                       value={userValue}
-                      onChange={(e) => handleInputChange(rowIndex, colIndex, e.target.value)}
-                      
+                      onChange={(e) =>
+                        handleInputChange(rowIndex, colIndex, e.target.value)
+                      }
                       style={{
                         width: "5rem",
                         borderRadius: "4px",
@@ -66,9 +86,8 @@ export default function GrammarTableQ({ tableData, onFinish }) {
                               ? "var(--correctAnswer)" // grön kant om rätt
                               : "#8e2832ff" // röd kant om fel
                             : "var(--text)" // standardfärg innan man skriver
-                        }`
+                        }`,
                       }}
-
                     />
                   </td>
                 );
@@ -77,8 +96,6 @@ export default function GrammarTableQ({ tableData, onFinish }) {
           ))}
         </tbody>
       </table>
-
-      
     </div>
   );
 }

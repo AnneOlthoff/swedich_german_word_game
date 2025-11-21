@@ -7,7 +7,7 @@
             "swedish": "timme",
             "german": "Stunde",
             "artikel": "die",
-            "plural": "Stundens",
+            "plural": "Stunden",
             "collection": "other"
             
           },
@@ -94,8 +94,8 @@
             "collection": "clothes"
           },
           {
-            "swedish": "Schuh",
-            "german": "Bluse",
+            "swedish": "Sko",
+            "german": "Schuh",
             "artikel": "der",
             "plural": "Schuhe",
             "collection": "clothes"
@@ -108,7 +108,7 @@
             "collection": "clothes"
           },
           {
-            "swedish": "halsuk",
+            "swedish": "halsduk",
             "german": "Schal",
             "artikel": "der",
             "plural": "Schals",
@@ -136,7 +136,7 @@
             "collection": "clothes"
           },
           {
-            "swedish": "tjol",
+            "swedish": "kjol",
             "german": "Rock",
             "artikel": "der",
             "plural": "Röcke",
@@ -488,7 +488,8 @@
             "swedish": "sekreterare",
             "german": "Sekretärin",
             "artikel": "die",
-            "plural": "Sekretärinnen"
+            "plural": "Sekretärinnen",
+            "collection": "profession"
           },
           {
             "swedish": "konstnär",
@@ -1579,7 +1580,6 @@
         "adj_declension": "schwach",
         "explanation": "nounet 'Mann' är maskulin. Artikeln 'einen' visar ackusativ, därför svag böjning (-en)."
       },
-      [
         {
           "fill": "Ich miete ein_ kleine Wohnung in Berlin.",
           "missing": "-e",
@@ -1632,7 +1632,7 @@
           "adj_declension": "odefinite_article",
           "explanation": "„Kaffee“ är maskulin och står i ackusativ med obestämd artikel „einen“. Svag böjning ger ändelsen -en."
         }
-      ]
+      
     ],
     "prepositions": [
       {
@@ -1960,6 +1960,18 @@
         "Ackusativ": ["-en", "-e", "-e", "-en"],
         "Dativ": ["-en", "-en", "-en", "-en"],
         "Genitiv": ["-en", "-en", "-en", "-en"]
+      }
+    },
+    {
+      "name": "Personliga pronomen",
+      "description": "Tabell över första person, andra person och tilltals -Sie",
+      "columns": ["Singular 1a person (jag)", "Singular 2a person (du)", "Plural 1a person (vi)", "Plural 2a person (ni)", "Tilltals-Sie (ni)"],
+      "rows": ["Nominativ", "Ackusativ", "Dativ"],
+      "data": {
+        "Nominativ": ["ich", "du", "wir", "ihr" , "Sie"],
+        "Ackusativ": ["mich", "dish", "uns", "euch", "Sie"],
+        "Dativ": ["mir", "dir", "uns", "euch", "Ihnen"]
+        
       }
     }
   ]

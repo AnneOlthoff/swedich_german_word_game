@@ -1,4 +1,4 @@
-export function selectTrainingWords(wordBank, selectedCategories = [], count = 6) {
+export function selectTrainingWords(wordBank, selectedCategories = [], count = 5) {
   const {
     nouns = [],
     verbs = [],
@@ -31,6 +31,8 @@ export function selectTrainingWords(wordBank, selectedCategories = [], count = 6
   // Slumpa ord från poolen
   const shuffled = [...pool].sort(() => 0.5 - Math.random());
   console.log(shuffled.slice(0, count))
+
+  
 
   // Begränsa till count
   return shuffled.slice(0, count);
