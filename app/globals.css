@@ -102,6 +102,21 @@ ul{
 
   }
 
+
+.grammar-table-wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  display: block; /* Byt från flex till block för scroll */
+  max-width: 100%;
+}
+
+.grammar-table {
+  width: max-content; /* Gör att tabellen kan vara bredare än skärmen */
+  margin: 0 auto; /* Centrerar */
+}
+
+
+
   @media (max-width: 600px) {
   .buttonContainer {
     flex-direction: column;

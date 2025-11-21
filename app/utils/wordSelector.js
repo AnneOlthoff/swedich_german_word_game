@@ -1,4 +1,4 @@
-export function selectTrainingWords(wordBank, selectedCategories = [], count = 5) {
+export function selectTrainingWords(wordBank, selectedCategories = [], count = 7) {
   const {
     nouns = [],
     verbs = [],

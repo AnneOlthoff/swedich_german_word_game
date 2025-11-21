@@ -30,9 +30,13 @@ useEffect(() => {
   return (
     <div>
       <h3>{name}</h3>
+
+      <div className="grammar-table-wrapper" >
+ 
+
       <table
         className="grammar-table"
-        style={{ margin: "auto", borderCollapse: "collapse" }}
+      
       >
         <thead>
           <tr>
@@ -61,11 +65,11 @@ useEffect(() => {
                     key={colIndex}
                     style={{
                       padding: "0.5rem",
-                      border: `2px ${
+                      border: `1px ${
                         userValue
                           ? isCorrect
                             ? "var(-correctAnswer)"
-                            : "#8e2832ff"
+                            : " #8e2832ff"
                           : "var(--text)"
                       }`,
                     }}
@@ -96,6 +100,7 @@ useEffect(() => {
           ))}
         </tbody>
       </table>
+    </div>
     </div>
   );
 }
