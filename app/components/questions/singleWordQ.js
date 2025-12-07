@@ -1,5 +1,5 @@
 "use client";
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import "../../globals.css";
 import AnsButton from "../answerButton.js";
 import "../../globals.css"
@@ -29,7 +29,6 @@ export default function WordQuestion({ pickedWord, allWords, onAnswer }) {
   
 const handleSelect = (option) => {
   const correct = option.german === pickedWord.german;
-  console.log("Selected option:", option.german, "Correct?", correct);
 
   setSelected(option.german);
   setIsCorrect(correct);
@@ -80,22 +79,22 @@ const flattenQuestions = (questions) => {
           </div>
         ))}
       </div>
+       {selected && (
+        <div style={{ marginTop: "1rem" }}>
+          {isCorrect ? (
+            <div >
+              
+            </div>
+          ) : (
+            <div >
+              ❌ fel! rätt svar är "{pickedWord.german}" 
+              
+            </div>
+          )}
+        </div>
+      )}
     </div>
   );
 }
 
-const styles = {
-  
 
-  
-  button: {
-    display: "block",
-    margin: "0.5rem 0",
-    padding: "0.5rem 1rem",
-    fontSize: "1rem",
-    cursor: "pointer",
-    borderRadius: "4px",
-    border: "1px solid #ccc",
-    color: "var(--text)",
-  },
-};

@@ -1,7 +1,7 @@
 // as for correct declenesion for adjective
 
 "use client";
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 
 import "../../globals.css";
 import AnsButton from "../answerButton.js";
@@ -55,12 +55,12 @@ export default function ConjunctionQ({ pickedWord, onSecAnswer }) {
     // Vänta 2 sekunder innan vi skickar svaret vidare
     setTimeout(() => {
       onSecAnswer(pickedWord, correct);
-    }, 6000);
+    }, 3000);
   };
 
   return (
     <div>
-      <h3>Vilken är den rätta adjektivböjningen?</h3>
+      <h3>Vilken Konjunktion passar in bäst här?</h3>
       <h4>{pickedWord.fill}</h4>
 
       <div className="buttonContainer">

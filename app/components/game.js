@@ -84,7 +84,15 @@ export default function Game({ selectedWords: initialWords, allWords }) {
   const allDone = words.length === 0 && tables.length === 0;
 
   return (
+    <div >
+      <div style={{"display": "flex", "justifyContent": "end", "padding": "1rem"}}>
+        <button onClick={startNewGame} style={{"fontSize": "14px","alignContent": "end", "padding": "8px",  "borderRadius": "4px",
+    "border": "1px solid var(--heading)"}}>
+              Välj en ny kategori
+        </button>
+      </div>
     <section style={styles.container}>
+
       {!allDone ? (
         <div>
           <p>Antal kvar: {words.length + tables.length}</p>
@@ -148,6 +156,7 @@ export default function Game({ selectedWords: initialWords, allWords }) {
               </>
             )
           )}
+          
         </div>
       ) : (
         <div>
@@ -160,6 +169,7 @@ export default function Game({ selectedWords: initialWords, allWords }) {
         </div>
       )}
     </section>
+    </div>
   );
 }
 

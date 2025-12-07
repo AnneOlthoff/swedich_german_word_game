@@ -1,633 +1,859 @@
 {
   "questions": {
     "nouns": [
-      
-        
-          {
-            "swedish": "timme",
-            "german": "Stunde",
-            "artikel": "die",
-            "plural": "Stunden",
-            "collection": "other"
-            
-          },
+      {
+        "swedish": "timme",
+        "german": "Stunde",
+        "artikel": "die",
+        "plural": "Stunden",
+        "collection": "other"
+      },
+      {
+        "swedish": "träd",
+        "german": "Baum",
+        "artikel": "der",
+        "plural": "Bäume",
+        "collection": "other"
+      },
 
-          {
-            "swedish": "busshållplats",
-            "german": "Haltestelle",
-            "artikel": "die",
-            "plural": "Haltestellen",
-            "collection": "other"
-          },
-          {
-            "swedish": "Jämförelse",
-            "german": "Vergleich",
-            "artikel": "der",
-            "plural": "Vergleiche",
-            "collection": "other"
-          },
+      {
+        "swedish": "busshållplats",
+        "german": "Haltestelle",
+        "artikel": "die",
+        "plural": "Haltestellen",
+        "collection": "other"
+      },
+      {
+        "swedish": "Jämförelse",
+        "german": "Vergleich",
+        "artikel": "der",
+        "plural": "Vergleiche",
+        "collection": "other"
+      },
 
-          {
-            "swedish": "Siffra",
-            "german": "Zahl",
-            "artikel": "die",
-            "plural": "Zahlen",
-            "collection": "other"
-          },
+      {
+        "swedish": "Siffra",
+        "german": "Zahl",
+        "artikel": "die",
+        "plural": "Zahlen",
+        "collection": "other"
+      },
 
-          {
-            "swedish": "Samtal",
-            "german": "Gespräch",
-            "artikel": "das",
-            "plural": "Gespräche",
-            "collection": "other"
-          },
-          {
-            "swedish": "film",
-            "german": "Film",
-            "artikel": "der",
-            "plural": "Filme",
-            "collection": "other"
-          },
-          {
-            "swedish": "blus",
-            "german": "Bluse",
-            "artikel": "die",
-            "plural": "Blusen",
-            "collection": "clothes"
-          },
+      {
+        "swedish": "Samtal",
+        "german": "Gespräch",
+        "artikel": "das",
+        "plural": "Gespräche",
+        "collection": "other"
+      },
+      {
+        "swedish": "film",
+        "german": "Film",
+        "artikel": "der",
+        "plural": "Filme",
+        "collection": "other"
+      },
+      {
+        "swedish": "blus",
+        "german": "Bluse",
+        "artikel": "die",
+        "plural": "Blusen",
+        "collection": "clothes"
+      },
 
-          {
-            "swedish": "skjorta",
-            "german": "Hemd",
-            "artikel": "das",
-            "plural": "Hemden",
-            "collection": "clothes"
-          },
-          {
-            "swedish": "bälte",
-            "german": "Gürtel",
-            "artikel": "der",
-            "plural": "Gürtel",
-            "collection": "clothes"
-          },
-          {
-            "swedish": "Hatt",
-            "german": "Hut",
-            "artikel": "der",
-            "plural": "Hüte",
-            "collection": "clothes"
-          },
+      {
+        "swedish": "skjorta",
+        "german": "Hemd",
+        "artikel": "das",
+        "plural": "Hemden",
+        "collection": "clothes"
+      },
+      {
+        "swedish": "bälte",
+        "german": "Gürtel",
+        "artikel": "der",
+        "plural": "Gürtel",
+        "collection": "clothes"
+      },
+      {
+        "swedish": "Hatt",
+        "german": "Hut",
+        "artikel": "der",
+        "plural": "Hüte",
+        "collection": "clothes"
+      },
 
-          {
-            "swedish": "Jeans",
-            "german": "Jeans",
-            "artikel": "die",
-            "plural": "Jeans",
-            "collection": "clothes"
-          },
-          {
-            "swedish": "Väska",
-            "german": "Tasche",
-            "artikel": "die",
-            "plural": "Taschen",
-            "collection": "clothes"
-          },
-          {
-            "swedish": "Sko",
-            "german": "Schuh",
-            "artikel": "der",
-            "plural": "Schuhe",
-            "collection": "clothes"
-          },
-          {
-            "swedish": "stövel",
-            "german": "Stiefel",
-            "artikel": "der",
-            "plural": "Stiefel",
-            "collection": "clothes"
-          },
-          {
-            "swedish": "halsduk",
-            "german": "Schal",
-            "artikel": "der",
-            "plural": "Schals",
-            "collection": "clothes"
-          },
-          {
-            "swedish": "kappa",
-            "german": "Mantel",
-            "artikel": "der",
-            "plural": "Mäntel",
-            "collection": "clothes"
-          },
-          {
-            "swedish": "jacka",
-            "german": "Jacke",
-            "artikel": "die",
-            "plural": "Jacken",
-            "collection": "clothes"
-          },
-          {
-            "swedish": "klänning",
-            "german": "Kleid",
-            "artikel": "das",
-            "plural": "kleider",
-            "collection": "clothes"
-          },
-          {
-            "swedish": "kjol",
-            "german": "Rock",
-            "artikel": "der",
-            "plural": "Röcke",
-            "collection": "clothes"
-          },
-          {
-            "swedish": "tröja",
-            "german": "Pullover",
-            "artikel": "der",
-            "plural": "Pullover",
-            "collection": "clothes"
-          },
-          {
-            "swedish": "byxor",
-            "german": "Hose",
-            "artikel": "die",
-            "plural": "Hosen",
-            "collection": "clothes"
-          },
-          {
-            "swedish": "kostym",
-            "german": "Anzug",
-            "artikel": "der",
-            "plural": "Anzüge",
-            "collection": "clothes"
-          },
-          {
-            "swedish": "bord",
-            "german": "Tisch",
-            "artikel": "der",
-            "plural": "Tische",
-            "collection": "house"
-          },
-          {
-            "swedish": "stol",
-            "german": "Stuhl",
-            "artikel": "der",
-            "plural": "Stühle",
-            "collection": "house"
-          },
-          {
-            "swedish": "tangentbord",
-            "german": "Tastatur",
-            "artikel": "die",
-            "plural": "Tastaturen",
-            "collection": "house"
-          },
-          {
-            "swedish": "golvlampa",
-            "german": "Stehlampe",
-            "artikel": "die",
-            "plural": "Stehlampen",
-            "collection": "house"
-          },
-          {
-            "swedish": "kudde",
-            "german": "Kissen",
-            "artikel": "das",
-            "plural": "Kissen",
-            "collection": "house"
-          },
-          {
-            "swedish": "skrivbord",
-            "german": "Schreibtisch",
-            "artikel": "der",
-            "plural": "Schreibtische",
-            "collection": "house"
-          },
-          {
-            "swedish": "tvättmaskin",
-            "german": "Waschmaschine",
-            "artikel": "die",
-            "plural": "",
-            "collection": "house"
-          },
-          {
-            "swedish": "soffa",
-            "german": "Sofa",
-            "artikel": "das",
-            "plural": "Sofas",
-            "collection": "house"
-          },
-          {
-            "swedish": "köksskåp",
-            "german": "Küchenschrank",
-            "artikel": "der",
-            "plural": "Küchenschränke",
-            "collection": "house"
-          },
-          {
-            "swedish": "vas",
-            "german": "Vase",
-            "artikel": "die",
-            "plural": "Vasen",
-            "collection": "house"
-          },
+      {
+        "swedish": "Jeans",
+        "german": "Jeans",
+        "artikel": "die",
+        "plural": "Jeans",
+        "collection": "clothes"
+      },
+      {
+        "swedish": "Väska",
+        "german": "Tasche",
+        "artikel": "die",
+        "plural": "Taschen",
+        "collection": "clothes"
+      },
+      {
+        "swedish": "Sko",
+        "german": "Schuh",
+        "artikel": "der",
+        "plural": "Schuhe",
+        "collection": "clothes"
+      },
+      {
+        "swedish": "stövel",
+        "german": "Stiefel",
+        "artikel": "der",
+        "plural": "Stiefel",
+        "collection": "clothes"
+      },
+      {
+        "swedish": "halsduk",
+        "german": "Schal",
+        "artikel": "der",
+        "plural": "Schals",
+        "collection": "clothes"
+      },
+      {
+        "swedish": "kappa",
+        "german": "Mantel",
+        "artikel": "der",
+        "plural": "Mäntel",
+        "collection": "clothes"
+      },
+      {
+        "swedish": "jacka",
+        "german": "Jacke",
+        "artikel": "die",
+        "plural": "Jacken",
+        "collection": "clothes"
+      },
+      {
+        "swedish": "klänning",
+        "german": "Kleid",
+        "artikel": "das",
+        "plural": "kleider",
+        "collection": "clothes"
+      },
+      {
+        "swedish": "kjol",
+        "german": "Rock",
+        "artikel": "der",
+        "plural": "Röcke",
+        "collection": "clothes"
+      },
+      {
+        "swedish": "tröja",
+        "german": "Pullover",
+        "artikel": "der",
+        "plural": "Pullover",
+        "collection": "clothes"
+      },
+      {
+        "swedish": "byxor",
+        "german": "Hose",
+        "artikel": "die",
+        "plural": "Hosen",
+        "collection": "clothes"
+      },
+      {
+        "swedish": "kostym",
+        "german": "Anzug",
+        "artikel": "der",
+        "plural": "Anzüge",
+        "collection": "clothes"
+      },
+      {
+        "swedish": "bord",
+        "german": "Tisch",
+        "artikel": "der",
+        "plural": "Tische",
+        "collection": "house"
+      },
+      {
+        "swedish": "stol",
+        "german": "Stuhl",
+        "artikel": "der",
+        "plural": "Stühle",
+        "collection": "house"
+      },
+      {
+        "swedish": "tangentbord",
+        "german": "Tastatur",
+        "artikel": "die",
+        "plural": "Tastaturen",
+        "collection": "house"
+      },
+      {
+        "swedish": "golvlampa",
+        "german": "Stehlampe",
+        "artikel": "die",
+        "plural": "Stehlampen",
+        "collection": "house"
+      },
+      {
+        "swedish": "kudde",
+        "german": "Kissen",
+        "artikel": "das",
+        "plural": "Kissen",
+        "collection": "house"
+      },
+      {
+        "swedish": "skrivbord",
+        "german": "Schreibtisch",
+        "artikel": "der",
+        "plural": "Schreibtische",
+        "collection": "house"
+      },
+      {
+        "swedish": "tvättmaskin",
+        "german": "Waschmaschine",
+        "artikel": "die",
+        "plural": "",
+        "collection": "house"
+      },
+      {
+        "swedish": "soffa",
+        "german": "Sofa",
+        "artikel": "das",
+        "plural": "Sofas",
+        "collection": "house"
+      },
 
-          {
-            "swedish": "kopp",
-            "german": "Tasse",
-            "artikel": "die",
-            "plural": "Tassen",
-            "collection": "house"
-          },
-          {
-            "swedish": "affisch",
-            "german": "Poster",
-            "artikel": "das",
-            "plural": "Poster",
-            "collection": "house"
-          },
-          {
-            "swedish": "skåp",
-            "german": "Schrank",
-            "artikel": "der",
-            "plural": "Schränke",
-            "collection": "house"
-          },
-          {
-            "swedish": "planta",
-            "german": "Pflanze",
-            "artikel": "die",
-            "plural": "Pflanzen",
-            "collection": "house"
-          },
-          {
-            "swedish": "bokhylla",
-            "german": "Bücherregal",
-            "artikel": "das",
-            "plural": "Bücherregale",
-            "collection": "house"
-          },
-          {
-            "swedish": "tv",
-            "german": "Fernseher",
-            "artikel": "der",
-            "plural": "Fernseher",
-            "collection": "house"
-          },
-          {
-            "swedish": "diskmaskin",
-            "german": "Spülmaschine",
-            "artikel": "die",
-            "plural": "",
-            "collection": "house"
-          },
-          {
-            "swedish": "Säng",
-            "german": "Bett",
-            "artikel": "das",
-            "plural": "Betten",
-            "collection": "house"
-          },
-          {
-            "swedish": "spis",
-            "german": "Herd",
-            "artikel": "der",
-            "plural": "Herde",
-            "collection": "house"
-          },
-          {
-            "swedish": "diskbänk",
-            "german": "Spüle",
-            "artikel": "die",
-            "plural": "Spülen",
-            "collection": "house"
-          },
-          {
-            "swedish": "whiteboard",
-            "german": "Whiteboard",
-            "artikel": "das",
-            "plural": "",
-            "collection": "house"
-          },
-          {
-            "swedish": "kylskåp",
-            "german": "Kühlschrank",
-            "artikel": "der",
-            "plural": "",
-            "collection": "house"
-          },
-          {
-            "swedish": "lampa",
-            "german": "Lampe",
-            "artikel": "die",
-            "plural": "Lampen",
-            "collection": "house"
-          },
-          {
-            "swedish": "skål",
-            "german": "Schüssel",
-            "artikel": "die",
-            "plural": "Schüsseln",
-            "collection": "house"
-          },
-          {
-            "swedish": "hylla",
-            "german": "Regal",
-            "artikel": "das",
-            "plural": "Regale",
-            "collection": "house"
-          },
-          {
-            "swedish": "spegel",
-            "german": "Spiegel",
-            "artikel": "der",
-            "plural": "Spiegel",
-            "collection": "house"
-          },
-          {
-            "swedish": "matbord",
-            "german": "Esstisch",
-            "artikel": "der",
-            "plural": "Esstische",
-            "collection": "house"
-          },
-          {
-            "swedish": "barnsäng",
-            "german": "Kinderbett",
-            "artikel": "das",
-            "plural": "Kinderbetten",
-            "collection": "house"
-          },
-          {
-            "swedish": "fåtölj",
-            "german": "Sessel",
-            "artikel": "der",
-            "plural": "Sessel"
-          },
-          {
-            "swedish": "köksbord",
-            "german": "Küchentisch",
-            "artikel": "der",
-            "plural": "",
-            "collection": "house"
-          },
-          {
-            "swedish": "Kontorsstol",
-            "german": "Bürostuhl",
-            "artikel": "der",
-            "plural": "Bürostühle"
-          },
-          {
-            "swedish": "Matta",
-            "german": "Teppich",
-            "artikel": "der",
-            "plural": "Teppiche",
-            "collection": "house"
-          },
-          {
-            "swedish": "Stol",
-            "german": "Stuhl",
-            "artikel": "der",
-            "plural": "Stühle"
-          },
-          {
-            "swedish": "Garderob",
-            "german": "Kleidschrank",
-            "artikel": "der",
-            "plural": "",
-            "collection": "house"
-          },
+      {
+        "swedish": "maten",
+        "german": "Essen",
+        "artikel": "das",
+        "plural": "",
+        "collection": "house"
+      },
+      {
+        "swedish": "köksskåp",
+        "german": "Küchenschrank",
+        "artikel": "der",
+        "plural": "Küchenschränke",
+        "collection": "house"
+      },
+      {
+        "swedish": "vas",
+        "german": "Vase",
+        "artikel": "die",
+        "plural": "Vasen",
+        "collection": "house"
+      },
 
-          {
-            "swedish": "Hus",
-            "german": "Haus",
-            "artikel": "das",
-            "plural": "Häuser",
-            "collection": "house"
-          },
-          {
-            "swedish": "Lärare (manlig)",
-            "german": "Lehrer",
-            "artikel": "der",
-            "plural": "Lehrer",
-            "collection": "profession"
-          },
-          {
-            "swedish": "florist",
-            "german": "Floristin",
-            "artikel": "die",
-            "plural": "Floristinnen",
-            "collection": "profession"
-          },
-          {
-            "swedish": "tandläkare",
-            "german": "Zahnarzt",
-            "artikel": "der",
-            "plural": "Zahnärzte",
-            "collection": "profession"
-          },
-          {
-            "swedish": "frisör",
-            "german": "Friseur",
-            "artikel": "der",
-            "plural": "Friseure",
-            "collection": "profession"
-          },
-          {
-            "swedish": "pilot",
-            "german": "Pilotin",
-            "artikel": "die",
-            "plural": "Pilotinnen",
-            "collection": "profession"
-          },
-          {
-            "swedish": "kock",
-            "german": "Köchin",
-            "artikel": "die",
-            "plural": "Köchinnen",
-            "collection": "profession"
-          },
-          {
-            "swedish": "chef",
-            "german": "Chef",
-            "artikel": "der",
-            "plural": "Chefs",
-            "collection": "profession"
-          },
-          {
-            "swedish": "sjuksyster",
-            "german": "Krankenschwester",
-            "artikel": "die",
-            "plural": "Krankenschwestern",
-            "collection": "profession"
-          },
-          {
-            "swedish": "programmerare",
-            "german": "Programmierer",
-            "artikel": "der",
-            "plural": "Programmierer",
-            "collection": "profession"
-          },
-          {
-            "swedish": "taxichaufför",
-            "german": "Taxifahrerin",
-            "artikel": "die",
-            "plural": "Taxifahrerinnen",
-            "collection": "profession"
-          },
-          {
-            "swedish": "musiker",
-            "german": "Musiker",
-            "artikel": "der",
-            "plural": "Musiker",
-            "collection": "profession"
-          },
-          {
-            "swedish": "sekreterare",
-            "german": "Sekretärin",
-            "artikel": "die",
-            "plural": "Sekretärinnen",
-            "collection": "profession"
-          },
-          {
-            "swedish": "konstnär",
-            "german": "Künstler",
-            "artikel": "der",
-            "plural": "Künstler",
-            "collection": "profession"
-          },
-          {
-            "swedish": "ingenjör",
-            "german": "Ingenieurin",
-            "artikel": "die",
-            "plural": "Ingenieurinnen",
-            "collection": "profession"
-          },
-          {
-            "swedish": "servitör",
-            "german": "Kellner",
-            "artikel": "der",
-            "plural": "Kellner",
-            "collection": "profession"
-          },
-          {
-            "swedish": "lärare (kvinlig)",
-            "german": "Lehrerin",
-            "artikel": "die",
-            "plural": "Lehrerinnen",
-            "collection": "profession"
-          },
-          {
-            "swedish": "polis",
-            "german": "Polizist",
-            "artikel": "der",
-            "plural": "Polizisten",
-            "collection": "profession"
-          },
-          {
-            "swedish": "mekatroniktekniker",
-            "german": "Kfz-Mechatronikerin",
-            "artikel": "die",
-            "plural": "Kfz-Mechatronikerinnen",
-            "collection": "profession"
-          },
-          {
-            "swedish": "brandman",
-            "german": "Feuerwehrmann",
-            "artikel": "der",
-            "plural": "Feuerwehrmänner",
-            "collection": "profession"
-          },
-          {
-            "swedish": "läkare",
-            "german": "Ärztin",
-            "artikel": "die",
-            "plural": "Ärztinnen",
-            "collection": "profession"
-          },
-          {
-            "swedish": "fotbollsspelare",
-            "german": "Fußballspielerin",
-            "artikel": "die",
-            "plural": "Fußballspielerinnen",
-            "collection": "profession"
-          },
-          {
-            "swedish": "säljare",
-            "german": "Verkäufer",
-            "artikel": "der",
-            "plural": "Verkäufer",
-            "collection": "profession"
-          },
-          {
-            "swedish": "snickare",
-            "german": "Tischlerin",
-            "artikel": "die",
-            "plural": "Tischlerinnen",
-            "collection": "profession"
-          },
-          {
-            "swedish": "kundtjänst",
-            "german": "Call-Center-Agent",
-            "artikel": "der",
-            "plural": "Call-Center-Agenten",
-            "collection": "profession"
-          },
-          {
-            "swedish": "elektriker",
-            "german": "Elektrikerin",
-            "artikel": "die",
-            "plural": "Elektrikerinnen",
-            "collection": "profession"
-          },
-          {
-            "swedish": "tränare",
-            "german": "Trainer",
-            "artikel": "der",
-            "plural": "Trainer",
-            "collection": "profession"
-          },
-          {
-            "swedish": "busschaufför",
-            "german": "Busfahrerin",
-            "artikel": "die",
-            "plural": "Busfahrerinnen",
-            "collection": "profession"
-          },
-          {
-            "swedish": "förbundskansler",
-            "german": "Kanzler",
-            "artikel": "der",
-            "plural": "Kanzler",
-            "collection": "profession"
-          },
-          {
-            "swedish": "journalist",
-            "german": "Journalistin",
-            "artikel": "die",
-            "plural": "Journalistinnen",
-            "collection": "profession"
-          },
-          {
-            "swedish": "bibliotekarie",
-            "german": "Bibliothekar",
-            "artikel": "der",
-            "plural": "Bibliothekare",
-            "collection": "profession"
-          },
-          {
-            "swedish": "bonde",
-            "german": "Bäuerin",
-            "artikel": "die",
-            "plural": "Bäuerinnen",
-            "collection": "profession"
-          }
-        
-      
+      {
+        "swedish": "lägenhet",
+        "german": "Wohnung",
+        "artikel": "die",
+        "plural": "Wohnungen",
+        "collection": "house"
+      },
+
+      {
+        "swedish": "kopp",
+        "german": "Tasse",
+        "artikel": "die",
+        "plural": "Tassen",
+        "collection": "house"
+      },
+      {
+        "swedish": "affisch",
+        "german": "Poster",
+        "artikel": "das",
+        "plural": "Poster",
+        "collection": "house"
+      },
+      {
+        "swedish": "skåp",
+        "german": "Schrank",
+        "artikel": "der",
+        "plural": "Schränke",
+        "collection": "house"
+      },
+      {
+        "swedish": "planta",
+        "german": "Pflanze",
+        "artikel": "die",
+        "plural": "Pflanzen",
+        "collection": "house"
+      },
+      {
+        "swedish": "bokhylla",
+        "german": "Bücherregal",
+        "artikel": "das",
+        "plural": "Bücherregale",
+        "collection": "house"
+      },
+      {
+        "swedish": "tv",
+        "german": "Fernseher",
+        "artikel": "der",
+        "plural": "Fernseher",
+        "collection": "house"
+      },
+      {
+        "swedish": "diskmaskin",
+        "german": "Spülmaschine",
+        "artikel": "die",
+        "plural": "",
+        "collection": "house"
+      },
+      {
+        "swedish": "Säng",
+        "german": "Bett",
+        "artikel": "das",
+        "plural": "Betten",
+        "collection": "house"
+      },
+      {
+        "swedish": "spis",
+        "german": "Herd",
+        "artikel": "der",
+        "plural": "Herde",
+        "collection": "house"
+      },
+      {
+        "swedish": "diskbänk",
+        "german": "Spüle",
+        "artikel": "die",
+        "plural": "Spülen",
+        "collection": "house"
+      },
+      {
+        "swedish": "whiteboard",
+        "german": "Whiteboard",
+        "artikel": "das",
+        "plural": "",
+        "collection": "house"
+      },
+      {
+        "swedish": "kylskåp",
+        "german": "Kühlschrank",
+        "artikel": "der",
+        "plural": "",
+        "collection": "house"
+      },
+      {
+        "swedish": "lampa",
+        "german": "Lampe",
+        "artikel": "die",
+        "plural": "Lampen",
+        "collection": "house"
+      },
+      {
+        "swedish": "skål",
+        "german": "Schüssel",
+        "artikel": "die",
+        "plural": "Schüsseln",
+        "collection": "house"
+      },
+      {
+        "swedish": "hylla",
+        "german": "Regal",
+        "artikel": "das",
+        "plural": "Regale",
+        "collection": "house"
+      },
+      {
+        "swedish": "spegel",
+        "german": "Spiegel",
+        "artikel": "der",
+        "plural": "Spiegel",
+        "collection": "house"
+      },
+      {
+        "swedish": "matbord",
+        "german": "Esstisch",
+        "artikel": "der",
+        "plural": "Esstische",
+        "collection": "house"
+      },
+      {
+        "swedish": "barnsäng",
+        "german": "Kinderbett",
+        "artikel": "das",
+        "plural": "Kinderbetten",
+        "collection": "house"
+      },
+      {
+        "swedish": "fåtölj",
+        "german": "Sessel",
+        "artikel": "der",
+        "plural": "Sessel"
+      },
+      {
+        "swedish": "köksbord",
+        "german": "Küchentisch",
+        "artikel": "der",
+        "plural": "",
+        "collection": "house"
+      },
+      {
+        "swedish": "Kontorsstol",
+        "german": "Bürostuhl",
+        "artikel": "der",
+        "plural": "Bürostühle"
+      },
+      {
+        "swedish": "Matta",
+        "german": "Teppich",
+        "artikel": "der",
+        "plural": "Teppiche",
+        "collection": "house"
+      },
+      {
+        "swedish": "Stol",
+        "german": "Stuhl",
+        "artikel": "der",
+        "plural": "Stühle"
+      },
+      {
+        "swedish": "Garderob",
+        "german": "Kleidschrank",
+        "artikel": "der",
+        "plural": "",
+        "collection": "house"
+      },
+
+      {
+        "swedish": "Hus",
+        "german": "Haus",
+        "artikel": "das",
+        "plural": "Häuser",
+        "collection": "house"
+      },
+      {
+        "swedish": "Lärare (manlig)",
+        "german": "Lehrer",
+        "artikel": "der",
+        "plural": "Lehrer",
+        "collection": "profession"
+      },
+      {
+        "swedish": "florist",
+        "german": "Floristin",
+        "artikel": "die",
+        "plural": "Floristinnen",
+        "collection": "profession"
+      },
+      {
+        "swedish": "tandläkare",
+        "german": "Zahnarzt",
+        "artikel": "der",
+        "plural": "Zahnärzte",
+        "collection": "profession"
+      },
+      {
+        "swedish": "frisör",
+        "german": "Friseur",
+        "artikel": "der",
+        "plural": "Friseure",
+        "collection": "profession"
+      },
+      {
+        "swedish": "pilot",
+        "german": "Pilotin",
+        "artikel": "die",
+        "plural": "Pilotinnen",
+        "collection": "profession"
+      },
+      {
+        "swedish": "kock",
+        "german": "Köchin",
+        "artikel": "die",
+        "plural": "Köchinnen",
+        "collection": "profession"
+      },
+      {
+        "swedish": "chef",
+        "german": "Chef",
+        "artikel": "der",
+        "plural": "Chefs",
+        "collection": "profession"
+      },
+      {
+        "swedish": "sjuksyster",
+        "german": "Krankenschwester",
+        "artikel": "die",
+        "plural": "Krankenschwestern",
+        "collection": "profession"
+      },
+      {
+        "swedish": "programmerare",
+        "german": "Programmierer",
+        "artikel": "der",
+        "plural": "Programmierer",
+        "collection": "profession"
+      },
+      {
+        "swedish": "taxichaufför",
+        "german": "Taxifahrerin",
+        "artikel": "die",
+        "plural": "Taxifahrerinnen",
+        "collection": "profession"
+      },
+      {
+        "swedish": "musiker",
+        "german": "Musiker",
+        "artikel": "der",
+        "plural": "Musiker",
+        "collection": "profession"
+      },
+      {
+        "swedish": "sekreterare",
+        "german": "Sekretärin",
+        "artikel": "die",
+        "plural": "Sekretärinnen",
+        "collection": "profession"
+      },
+      {
+        "swedish": "konstnär",
+        "german": "Künstler",
+        "artikel": "der",
+        "plural": "Künstler",
+        "collection": "profession"
+      },
+      {
+        "swedish": "ingenjör",
+        "german": "Ingenieurin",
+        "artikel": "die",
+        "plural": "Ingenieurinnen",
+        "collection": "profession"
+      },
+      {
+        "swedish": "servitör",
+        "german": "Kellner",
+        "artikel": "der",
+        "plural": "Kellner",
+        "collection": "profession"
+      },
+      {
+        "swedish": "lärare (kvinlig)",
+        "german": "Lehrerin",
+        "artikel": "die",
+        "plural": "Lehrerinnen",
+        "collection": "profession"
+      },
+      {
+        "swedish": "polis",
+        "german": "Polizist",
+        "artikel": "der",
+        "plural": "Polizisten",
+        "collection": "profession"
+      },
+      {
+        "swedish": "mekatroniktekniker",
+        "german": "Kfz-Mechatronikerin",
+        "artikel": "die",
+        "plural": "Kfz-Mechatronikerinnen",
+        "collection": "profession"
+      },
+      {
+        "swedish": "brandman",
+        "german": "Feuerwehrmann",
+        "artikel": "der",
+        "plural": "Feuerwehrmänner",
+        "collection": "profession"
+      },
+      {
+        "swedish": "läkare",
+        "german": "Ärztin",
+        "artikel": "die",
+        "plural": "Ärztinnen",
+        "collection": "profession"
+      },
+      {
+        "swedish": "fotbollsspelare",
+        "german": "Fußballspielerin",
+        "artikel": "die",
+        "plural": "Fußballspielerinnen",
+        "collection": "profession"
+      },
+      {
+        "swedish": "säljare",
+        "german": "Verkäufer",
+        "artikel": "der",
+        "plural": "Verkäufer",
+        "collection": "profession"
+      },
+      {
+        "swedish": "snickare",
+        "german": "Tischlerin",
+        "artikel": "die",
+        "plural": "Tischlerinnen",
+        "collection": "profession"
+      },
+      {
+        "swedish": "kundtjänst",
+        "german": "Call-Center-Agent",
+        "artikel": "der",
+        "plural": "Call-Center-Agenten",
+        "collection": "profession"
+      },
+      {
+        "swedish": "elektriker",
+        "german": "Elektrikerin",
+        "artikel": "die",
+        "plural": "Elektrikerinnen",
+        "collection": "profession"
+      },
+      {
+        "swedish": "tränare",
+        "german": "Trainer",
+        "artikel": "der",
+        "plural": "Trainer",
+        "collection": "profession"
+      },
+      {
+        "swedish": "busschaufför",
+        "german": "Busfahrerin",
+        "artikel": "die",
+        "plural": "Busfahrerinnen",
+        "collection": "profession"
+      },
+      {
+        "swedish": "förbundskansler",
+        "german": "Kanzler",
+        "artikel": "der",
+        "plural": "Kanzler",
+        "collection": "profession"
+      },
+      {
+        "swedish": "journalist",
+        "german": "Journalistin",
+        "artikel": "die",
+        "plural": "Journalistinnen",
+        "collection": "profession"
+      },
+      {
+        "swedish": "bibliotekarie",
+        "german": "Bibliothekar",
+        "artikel": "der",
+        "plural": "Bibliothekare",
+        "collection": "profession"
+      },
+      {
+        "swedish": "bonde",
+        "german": "Bäuerin",
+        "artikel": "die",
+        "plural": "Bäuerinnen",
+        "collection": "profession"
+      },
+      {
+        "swedish": "gymnastikklubben",
+        "german": "Turnverein",
+        "artikel": "der",
+        "plural": "Turnvereine",
+        "collection": "hobbies"
+      },
+      {
+        "swedish": "idrottsförening",
+        "german": "Verein",
+        "artikel": "der",
+        "plural": "Turnvereine",
+        "collection": "hobbies"
+      },
+      {
+        "swedish": "TV-spel",
+        "german": "Videospiel",
+        "artikel": "das",
+        "plural": "Videospiele",
+        "collection": "hobbies"
+      },
+      {
+        "swedish": "cykelklubben",
+        "german": "Radsportclub",
+        "artikel": "der",
+        "plural": "Radsportvereine",
+        "collection": "hobbies"
+      },
+      {
+        "swedish": "Trädgårdsodlingen",
+        "german": "Gartenbau",
+        "artikel": "der",
+        "plural": "",
+        "collection": "hobbies"
+      },
+      {
+        "swedish": "Pianot",
+        "german": "Klavier",
+        "artikel": "das",
+        "plural": "",
+        "collection": "hobbies"
+      },
+      {
+        "swedish": "Sauna",
+        "german": "Bastun",
+        "artikel": "die",
+        "plural": "",
+        "collection": "hobbies"
+      },
+      {
+        "swedish": "Gymmet",
+        "german": "Fittnes-Studio",
+        "artikel": "das",
+        "plural": "",
+        "collection": "hobbies"
+      },
+      {
+        "swedish": "Avkopplingen",
+        "german": "Entspannung",
+        "artikel": "die",
+        "plural": "",
+        "collection": "hobbies"
+      },
+      {
+        "swedish": "Resturang",
+        "german": "Restaurant",
+        "artikel": "das",
+        "plural": "Restaurants",
+        "collection": "hobbies"
+      },
+      {
+        "swedish": "Fritid",
+        "german": "Freizeit",
+        "artikel": "die",
+        "plural": "",
+        "collection": "hobbies"
+      }
     ],
     "verbs": [
+      {
+        "swedish": "börja",
+        "german": "Anfangen",
+        "strong": "true",
+        "conjugation_presens": {
+          "ich": "fange an",
+          "du": "fängst an",
+          "er/sie/es": "fängt an",
+          "wir": "fangen an",
+          "ihr": "fangt an",
+          "sie/Sie": "fangen an"
+        },
+        "conjugation_preteritum": {
+          "ich": "fing an",
+          "du": "fingst an",
+          "er/sie/es": "fing an",
+          "wir": "fingen an",
+          "ihr": "fingt an",
+          "sie/Sie": "fingen an"
+        },
+        "sentence": {
+          "conjugation_presens": "Er fängt an zu lesen",
+          "conjugation_preteritum": "Er fing an zu lesen",
+          "conjugation_perfekt": "Er hat angefangen zu lesen"
+        }
+      },
+
+      {
+        "swedish": "komma",
+        "german": "kommen",
+        "strong": "true",
+        "conjugation_presens": {
+          "ich": "komme",
+          "du": "kommst",
+          "er/sie/es": "kommt",
+          "wir": "kommen",
+          "ihr": "kommt",
+          "sie/Sie": "kommen"
+        },
+        "conjugation_preteritum": {
+          "ich": "kam",
+          "du": "kamst",
+          "er/sie/es": "kam",
+          "wir": "kamen",
+          "ihr": "kamt",
+          "sie/Sie": "kamen"
+        },
+        "sentence": {
+          "conjugation_presens": "Er kommt nach Hause",
+          "conjugation_preteritum": "Er kam nach Hause",
+          "conjugation_perfekt": "Er ist nach Hause gekommen"
+        }
+      },
+      {
+        "swedish": "sitta",
+        "german": "sitzen",
+        "strong": "true",
+        "conjugation_presens": {
+          "ich": "sitze",
+          "du": "sitzt",
+          "er/sie/es": "sitzt",
+          "wir": "sitzen",
+          "ihr": "sitzt",
+          "sie/Sie": "sitzen"
+        },
+        "conjugation_preteritum": {
+          "ich": "saß",
+          "du": "saßest",
+          "er/sie/es": "saß",
+          "wir": "saßen",
+          "ihr": "saßt",
+          "sie/Sie": "saßen"
+        },
+        "sentence": {
+          "conjugation_presens": "Er sitzt auf dem Stuhl",
+          "conjugation_preteritum": "Er saß auf dem Stuhl",
+          "conjugation_perfekt": "Er hat auf dem Stuhl gesessen"
+        }
+      },
+      {
+        "swedish": "träffa",
+        "german": "treffen",
+        "strong": "true",
+        "conjugation_presens": {
+          "ich": "treffe",
+          "du": "triffst",
+          "er/sie/es": "trifft",
+          "wir": "treffen",
+          "ihr": "trefft",
+          "sie/Sie": "treffen"
+        },
+        "conjugation_preteritum": {
+          "ich": "traf",
+          "du": "trafst",
+          "er/sie/es": "traf",
+          "wir": "trafen",
+          "ihr": "traft",
+          "sie/Sie": "trafen"
+        },
+        "sentence": {
+          "conjugation_presens": "Er trifft seinen Freund",
+          "conjugation_preteritum": "Er traf seinen Freund",
+          "conjugation_perfekt": "Er hat seinen Freund getroffen"
+        }
+      },
+      {
+        "swedish": "glömma",
+        "german": "vergessen",
+        "strong": "true",
+        "conjugation_presens": {
+          "ich": "vergesse",
+          "du": "vergisst",
+          "er/sie/es": "vergisst",
+          "wir": "vergessen",
+          "ihr": "vergesst",
+          "sie/Sie": "vergessen"
+        },
+        "conjugation_preteritum": {
+          "ich": "vergaß",
+          "du": "vergaßest",
+          "er/sie/es": "vergaß",
+          "wir": "vergaßen",
+          "ihr": "vergaßt",
+          "sie/Sie": "vergaßen"
+        },
+        "sentence": {
+          "conjugation_presens": "Er vergisst den Termin",
+          "conjugation_preteritum": "Er vergaß den Termin",
+          "conjugation_perfekt": "Er hat den Termin vergessen"
+        }
+      },
       {
         "swedish": "Göra",
         "german": "Machen",
@@ -641,12 +867,12 @@
           "sie/Sie": "machen"
         },
         "conjugation_preteritum": {
-            "ich": "machte", 
-            "du": "machtest", 
-            "er/sie/es": "machte",
-            "wir": "machten",
-            "ihr": "machtet",
-            "sie/Sie": "machten"
+          "ich": "machte",
+          "du": "machtest",
+          "er/sie/es": "machte",
+          "wir": "machten",
+          "ihr": "machtet",
+          "sie/Sie": "machten"
         },
         "sentence": {
           "conjugation_presens": "Er macht Salat",
@@ -655,8 +881,35 @@
         }
       },
       {
+        "swedish": "Bestämma",
+        "german": "Entscheiden",
+        "strong": "true",
+        "conjugation_presens": {
+          "ich": "entscheide",
+          "du": "entscheidest",
+          "er/sie/es": "entscheidet",
+          "wir": "entscheiden",
+          "ihr": "entscheidet",
+          "sie/Sie": "entscheiden"
+        },
+        "conjugation_preteritum": {
+          "ich": "entschied",
+          "du": "entschiedest",
+          "er/sie/es": "Entschied",
+          "wir": "entschieden",
+          "ihr": "entschiedet",
+          "sie/Sie": "entschieden"
+        },
+        "sentence": {
+          "conjugation_presens": "Er entscheidet heute",
+          "conjugation_preteritum": "Er entschied gestern",
+          "conjugation_perfekt": "Er hat gestern entschieden"
+        }
+      },
+
+      {
         "swedish": "rådgiva",
-        "german": "beraten",
+        "german": "Beraten",
         "strong": "true",
         "conjugation_presens": {
           "ich": "berate",
@@ -666,25 +919,25 @@
           "ihr": "beratet",
           "sie/Sie": "beraten"
         },
-        "conjugation_preteritum":{
-            "ich": "beriet",
-            "du": "berietst",
-            "er/sie/es": "beriet",
-            "wir": "berieten",
-            "ihr": "berietet",
-            "sie/Sie": "berieten"
+        "conjugation_preteritum": {
+          "ich": "beriet",
+          "du": "berietst",
+          "er/sie/es": "beriet",
+          "wir": "berieten",
+          "ihr": "berietet",
+          "sie/Sie": "berieten"
         },
-        "sentence":{
+        "sentence": {
           "conjugation_presens": "Er berät ihr",
           "conjugation_preteritum": "Er beriet ihr",
-          "conjugation_perfekt": "Er hat ihr geraten" 
-        } 
+          "conjugation_perfekt": "Er hat ihr geraten"
+        }
       },
 
       {
         "swedish": "Åka/ Resa",
         "german": "Fahren",
-        "strong": "true", 
+        "strong": "true",
         "conjugation_presens": {
           "ich": "fahre",
           "du": "fährst",
@@ -693,23 +946,24 @@
           "ihr": "fahrt",
           "sie/Sie": "fahren"
         },
-        "conjugation_preteritum":{
+        "conjugation_preteritum": {
           "ich": "fuhr",
           "du": "fuhrst",
           "er/sie/es": "fuhr",
           "wir": "fuhren",
-          "ihr": "fuhrt", 
+          "ihr": "fuhrt",
           "sie/Sie": "furhen"
         },
-        "sentence":{
-            "conjugation_presens": "Er fährt mit dem Auto zu seinen Eltern",
-            "conjugation_preteritum": "Er fuhr mit dem Auto zu seinen Eltern.",
-            "conjugation_perfekt": "Er ist mit dem Auto zu seinen Eltern gefahren"
+        "sentence": {
+          "conjugation_presens": "Er fährt mit dem Auto zu seinen Eltern",
+          "conjugation_preteritum": "Er fuhr mit dem Auto zu seinen Eltern.",
+          "conjugation_perfekt": "Er ist mit dem Auto zu seinen Eltern gefahren"
         }
-      },  {
+      },
+      {
         "swedish": "Förbli",
         "german": "Bleiben",
-        "strong": true, 
+        "strong": true,
         "conjugation_presens": {
           "ich": "bleibe",
           "du": "bleibst",
@@ -731,776 +985,1008 @@
           "conjugation_preteritum": "Er blieb ruhig.",
           "conjugation_perfekt": "Er ist ruhig geblieben."
         }
-
       },
 
-     
-  {
-    "swedish": "Äta",
-    "german": "Essen",
-    "strong": true,
-    "conjugation_presens": {
-      "ich": "esse",
-      "du": "isst",
-      "er/sie/es": "isst",
-      "wir": "essen",
-      "ihr": "esst",
-      "sie/Sie": "essen"
-    },
-    "conjugation_preteritum": {
-      "ich": "aß",
-      "du": "aßest",
-      "er/sie/es": "aß",
-      "wir": "aßen",
-      "ihr": "aßt",
-      "sie/Sie": "aßen"
-    },
-    "sentence": {
-      "conjugation_presens": "Er isst einen Apfel.",
-      "conjugation_preteritum": "Er aß einen Apfel.",
-      "conjugation_perfekt": "Er hat einen Apfel gegessen."
-    }
-  },
-  {
-    "swedish": "Heta",
-    "german": "Heißen",
-    "strong": true,
-    "conjugation_presens": {
-      "ich": "heiße",
-      "du": "heißt",
-      "er/sie/es": "heißt",
-      "wir": "heißen",
-      "ihr": "heißt",
-      "sie/Sie": "heißen"
-    },
-    "conjugation_preteritum": {
-      "ich": "hieß",
-      "du": "hießest",
-      "er/sie/es": "hieß",
-      "wir": "hießen",
-      "ihr": "hießt",
-      "sie/Sie": "hießen"
-    },
-    "sentence": {
-      "conjugation_presens": "Ich heiße Anna.",
-      "conjugation_preteritum": "Ich hieß Anna.",
-      "conjugation_perfekt": "Ich habe Anna geheißen."
-    }
-  },
-  {
-    "swedish": "Har",
-    "german": "Haben",
-    "strong": false,
-    "conjugation_presens": {
-      "ich": "habe",
-      "du": "hast",
-      "er/sie/es": "hat",
-      "wir": "haben",
-      "ihr": "habt",
-      "sie/Sie": "haben"
-    },
-    "conjugation_preteritum": {
-      "ich": "hatte",
-      "du": "hattest",
-      "er/sie/es": "hatte",
-      "wir": "hatten",
-      "ihr": "hattet",
-      "sie/Sie": "hatten"
-    },
-    "sentence": {
-      "conjugation_presens": "Ich habe ein Buch.",
-      "conjugation_preteritum": "Ich hatte ein Buch.",
-      "conjugation_perfekt": "Ich habe ein Buch gehabt."
-    }
-  },
-  {
-    "swedish": "Rida",
-    "german": "Reiten",
-    "strong": true,
-    "conjugation_presens": {
-      "ich": "reite",
-      "du": "reitest",
-      "er/sie/es": "reitet",
-      "wir": "reiten",
-      "ihr": "reitet",
-      "sie/Sie": "reiten"
-    },
-    "conjugation_preteritum": {
-      "ich": "ritt",
-      "du": "rittest",
-      "er/sie/es": "ritt",
-      "wir": "ritten",
-      "ihr": "rittet",
-      "sie/Sie": "ritten"
-    },
-    "sentence": {
-      "conjugation_presens": "Er reitet ein Pferd.",
-      "conjugation_preteritum": "Er ritt ein Pferd.",
-      "conjugation_perfekt": "Er ist ein Pferd geritten."
-    }
-  },
-  {
-    "swedish": "Bli",
-    "german": "Werden",
-    "strong": true,
-    "conjugation_presens": {
-      "ich": "werde",
-      "du": "wirst",
-      "er/sie/es": "wird",
-      "wir": "werden",
-      "ihr": "werdet",
-      "sie/Sie": "werden"
-    },
-    "conjugation_preteritum": {
-      "ich": "wurde",
-      "du": "wurdest",
-      "er/sie/es": "wurde",
-      "wir": "wurden",
-      "ihr": "wurdet",
-      "sie/Sie": "wurden"
-    },
-    "sentence": {
-      "conjugation_presens": "Er wird Arzt.",
-      "conjugation_preteritum": "Er wurde Arzt.",
-      "conjugation_perfekt": "Er ist Arzt geworden."
-    }
-  },
-  {
-    "swedish": "är/vara",
-    "german": "Sein",
-    "strong": true,
-    "conjugation_presens": {
-      "ich": "bin",
-      "du": "bist",
-      "er/sie/es": "ist",
-      "wir": "sind",
-      "ihr": "seid",
-      "sie/Sie": "sind"
-    },
-    "conjugation_preteritum": {
-      "ich": "war",
-      "du": "warst",
-      "er/sie/es": "war",
-      "wir": "waren",
-      "ihr": "wart",
-      "sie/Sie": "waren"
-    },
-    "sentence": {
-      "conjugation_presens": "Ich bin müde.",
-      "conjugation_preteritum": "Ich war müde.",
-      "conjugation_perfekt": "Ich bin müde gewesen."
-    }
-  },
-  
-  {
-    "swedish": "Springa",
-    "german": "Laufen",
-    "strong": true,
-    "conjugation_presens": {
-      "ich": "laufe",
-      "du": "läufst",
-      "er/sie/es": "läuft",
-      "wir": "laufen",
-      "ihr": "lauft",
-      "sie/Sie": "laufen"
-    },
-    "conjugation_preteritum": {
-      "ich": "lief",
-      "du": "liefst",
-      "er/sie/es": "lief",
-      "wir": "liefen",
-      "ihr": "lieft",
-      "sie/Sie": "liefen"
-    },
-    "sentence": {
-      "conjugation_presens": "Er läuft schnell.",
-      "conjugation_preteritum": "Er lief schnell.",
-      "conjugation_perfekt": "Er ist schnell gelaufen."
-    }
-  },
-  {
-    "swedish": "Dricka",
-    "german": "Trinken",
-    "strong": true,
-    "conjugation_presens": {
-      "ich": "trinke",
-      "du": "trinkst",
-      "er/sie/es": "trinkt",
-      "wir": "trinken",
-      "ihr": "trinkt",
-      "sie/Sie": "trinken"
-    },
-    "conjugation_preteritum": {
-      "ich": "trank",
-      "du": "trankst",
-      "er/sie/es": "trank",
-      "wir": "tranken",
-      "ihr": "trankt",
-      "sie/Sie": "tranken"
-    },
-    "sentence": {
-      "conjugation_presens": "Ich trinke Wasser.",
-      "conjugation_preteritum": "Ich trank Wasser.",
-      "conjugation_perfekt": "Ich habe Wasser getrunken."
-    }
-  },
-  {
-    "swedish": "Läsa",
-    "german": "Lesen",
-    "strong": true,
-    "conjugation_presens": {
-      "ich": "lese",
-      "du": "liest",
-      "er/sie/es": "liest",
-      "wir": "lesen",
-      "ihr": "lest",
-      "sie/Sie": "lesen"
-    },
-    "conjugation_preteritum": {
-      "ich": "las",
-      "du": "lasest",
-      "er/sie/es": "las",
-      "wir": "lasen",
-      "ihr": "last",
-      "sie/Sie": "lasen"
-    },
-    "sentence": {
-      "conjugation_presens": "Er liest ein Buch.",
-      "conjugation_preteritum": "Er las ein Buch.",
-      "conjugation_perfekt": "Er hat ein Buch gelesen."
-    }
-  },
-  {
-    "swedish": "Hitta",
-    "german": "Finden",
-    "strong": true,
-    "conjugation_presens": {
-      "ich": "finde",
-      "du": "findest",
-      "er/sie/es": "findet",
-      "wir": "finden",
-      "ihr": "findet",
-      "sie/Sie": "finden"
-    },
-    "conjugation_preteritum": {
-      "ich": "fand",
-      "du": "fandest",
-      "er/sie/es": "fand",
-      "wir": "fanden",
-      "ihr": "fandet",
-      "sie/Sie": "fanden"
-    },
-    "sentence": {
-      "conjugation_presens": "Ich finde den Schlüssel.",
-      "conjugation_preteritum": "Ich fand den Schlüssel.",
-      "conjugation_perfekt": "Ich habe den Schlüssel gefunden."
-    }
-  },
-  {
-    "swedish": "Ta",
-    "german": "Nehmen",
-    "strong": true,
-    "conjugation_presens": {
-      "ich": "nehme",
-      "du": "nimmst",
-      "er/sie/es": "nimmt",
-      "wir": "nehmen",
-      "ihr": "nehmt",
-      "sie/Sie": "nehmen"
-    },
-    "conjugation_preteritum": {
-      "ich": "nahm",
-      "du": "nahmst",
-      "er/sie/es": "nahm",
-      "wir": "nahmen",
-      "ihr": "nahmt",
-      "sie/Sie": "nahmen"
-    },
-    "sentence": {
-      "conjugation_presens": "Er nimmt das Buch.",
-      "conjugation_preteritum": "Er nahm das Buch.",
-      "conjugation_perfekt": "Er hat das Buch genommen."
-    }
-  },
-  {
-    "swedish": "Hoppa",
-    "german": "Springen",
-    "strong": true,
-    "conjugation_presens": {
-      "ich": "springe",
-      "du": "springst",
-      "er/sie/es": "springt",
-      "wir": "springen",
-      "ihr": "springt",
-      "sie/Sie": "springen"
-    },
-    "conjugation_preteritum": {
-      "ich": "sprang",
-      "du": "sprangst",
-      "er/sie/es": "sprang",
-      "wir": "sprangen",
-      "ihr": "sprangt",
-      "sie/Sie": "sprangen"
-    },
-    "sentence": {
-      "conjugation_presens": "Das Kind springt hoch.",
-      "conjugation_preteritum": "Das Kind sprang hoch.",
-      "conjugation_perfekt": "Das Kind ist hoch gesprungen."
-    }
-  },
-  {
-    "swedish": "Köpa",
-    "german": "Kaufen",
-    "strong": false,
-    "conjugation_presens": {
-      "ich": "kaufe",
-      "du": "kaufst",
-      "er/sie/es": "kauft",
-      "wir": "kaufen",
-      "ihr": "kauft",
-      "sie/Sie": "kaufen"
-    },
-    "conjugation_preteritum": {
-      "ich": "kaufte",
-      "du": "kauftest",
-      "er/sie/es": "kaufte",
-      "wir": "kauften",
-      "ihr": "kauftet",
-      "sie/Sie": "kauften"
-    },
-    "sentence": {
-      "conjugation_presens": "Ich kaufe Brot.",
-      "conjugation_preteritum": "Ich kaufte Brot.",
-      "conjugation_perfekt": "Ich habe Brot gekauft."
-    }
-  },
-  {
-    "swedish": "Gå",
-    "german": "Gehen",
-    "strong": true,
-    "conjugation_presens": {
-      "ich": "gehe",
-      "du": "gehst",
-      "er/sie/es": "geht",
-      "wir": "gehen",
-      "ihr": "geht",
-      "sie/Sie": "gehen"
-    },
-    "conjugation_preteritum": {
-      "ich": "ging",
-      "du": "gingst",
-      "er/sie/es": "ging",
-      "wir": "gingen",
-      "ihr": "gingt",
-      "sie/Sie": "gingen"
-    },
-    "sentence": {
-      "conjugation_presens": "Ich gehe nach Hause.",
-      "conjugation_preteritum": "Ich ging nach Hause.",
-      "conjugation_perfekt": "Ich bin nach Hause gegangen."
-    }
-  },
-  {
-    "swedish": "Ge",
-    "german": "Schenken",
-    "strong": false,
-    "conjugation_presens": {
-      "ich": "schenke",
-      "du": "schenkst",
-      "er/sie/es": "schenkt",
-      "wir": "schenken",
-      "ihr": "schenkt",
-      "sie/Sie": "schenken"
-    },
-    "conjugation_preteritum": {
-      "ich": "schenkte",
-      "du": "schenktest",
-      "er/sie/es": "schenkte",
-      "wir": "schenkten",
-      "ihr": "schenktet",
-      "sie/Sie": "schenkten"
-    },
-    "sentence": {
-      "conjugation_presens": "Er schenkt mir einen Pullover zu Weihnachten.",
-      "conjugation_preteritum": "Er schenkte mir einen Pullover zu Weihnachten",
-      "conjugation_perfekt": "Er hat mir einen Pullover zu Weihnachten geschenkt"
-    }
-  },
-  {
-    "swedish": "Kan",
-    "german": "Können",
-    "modal": true,
-    "conjugation_presens": {
-      "ich": "kann",
-      "du": "kannst",
-      "er/sie/es": "kann",
-      "wir": "können",
-      "ihr": "könnt",
-      "sie/Sie": "können"
-    },
-    "conjugation_preteritum": {
-      "ich": "konnte",
-      "du": "konntest",
-      "er/sie/es": "konnte",
-      "wir": "konnten",
-      "ihr": "konntet",
-      "sie/Sie": "konnten"
-    },
-    "sentence": {
-      "conjugation_presens": "Ich kann schwimmen.",
-      "conjugation_preteritum": "Ich konnte schwimmen.",
-      "conjugation_perfekt": "Ich habe schwimmen können."
-    }
-  },
-  {
-    "swedish": "Få lov",
-    "german": "Dürfen",
-    "modal": true,
-    "conjugation_presens": {
-      "ich": "darf",
-      "du": "darfst",
-      "er/sie/es": "darf",
-      "wir": "dürfen",
-      "ihr": "dürft",
-      "sie/Sie": "dürfen"
-    },
-    "conjugation_preteritum": {
-      "ich": "durfte",
-      "du": "durftest",
-      "er/sie/es": "durfte",
-      "wir": "durften",
-      "ihr": "durftet",
-      "sie/Sie": "durften"
-    },
-    "sentence": {
-      "conjugation_presens": "Ich darf gehen.",
-      "conjugation_preteritum": "Ich durfte gehen.",
-      "conjugation_perfekt": "Ich habe gehen dürfen."
-    }
-  },
-  {
-    "swedish": "Ska/böra",
-    "german": "Sollen",
-    "modal": true,
-    "conjugation_presens": {
-      "ich": "soll",
-      "du": "sollst",
-      "er/sie/es": "soll",
-      "wir": "sollen",
-      "ihr": "sollt",
-      "sie/Sie": "sollen"
-    },
-    "conjugation_preteritum": {
-      "ich": "sollte",
-      "du": "solltest",
-      "er/sie/es": "sollte",
-      "wir": "sollten",
-      "ihr": "solltet",
-      "sie/Sie": "sollten"
-    },
-    "sentence": {
-      "conjugation_presens": "Ich soll lernen.",
-      "conjugation_preteritum": "Ich sollte lernen.",
-      "conjugation_perfekt": "Ich habe lernen sollen."
-    }
-  },
-  {
-    "swedish": "Vilja",
-    "german": "Wollen",
-    "modal": true,
-    "conjugation_presens": {
-      "ich": "will",
-      "du": "willst",
-      "er/sie/es": "will",
-      "wir": "wollen",
-      "ihr": "wollt",
-      "sie/Sie": "wollen"
-    },
-    "conjugation_preteritum": {
-      "ich": "wollte",
-      "du": "wolltest",
-      "er/sie/es": "wollte",
-      "wir": "wollten",
-      "ihr": "wolltet",
-      "sie/Sie": "wollten"
-    },
-    "sentence": {
-      "conjugation_presens": "Ich will essen.",
-      "conjugation_preteritum": "Ich wollte essen.",
-      "conjugation_perfekt": "Ich habe essen wollen."
-    }
-  },
-  {
-    "swedish": "Måste",
-    "german": "Müssen",
-    "modal": true,
-    "conjugation_presens": {
-      "ich": "muss",
-      "du": "musst",
-      "er/sie/es": "muss",
-      "wir": "müssen",
-      "ihr": "müsst",
-      "sie/Sie": "müssen"
-    },
-    "conjugation_preteritum": {
-      "ich": "musste",
-      "du": "musstest",
-      "er/sie/es": "musste",
-      "wir": "mussten",
-      "ihr": "musstet",
-      "sie/Sie": "mussten"
-    },
-    "sentence": {
-      "conjugation_presens": "Ich muss arbeiten.",
-      "conjugation_preteritum": "Ich musste arbeiten.",
-      "conjugation_perfekt": "Ich habe arbeiten müssen."
-    }
-  },
-  {
-    "swedish": "Tycka om",
-    "german": "Mögen",
-    "modal": true,
-    "conjugation_presens": {
-      "ich": "mag",
-      "du": "magst",
-      "er/sie/es": "mag",
-      "wir": "mögen",
-      "ihr": "mögt",
-      "sie/Sie": "mögen"
-    },
-    "conjugation_preteritum": {
-      "ich": "mochte",
-      "du": "mochtest",
-      "er/sie/es": "mochte",
-      "wir": "mochten",
-      "ihr": "mochtet",
-      "sie/Sie": "mochten"
-    },
-    "sentence": {
-      "conjugation_presens": "Ich mag Schokolade.",
-      "conjugation_preteritum": "Ich mochte Schokolade.",
-      "conjugation_perfekt": "Ich habe Schokolade mögen."
-    }
-  },
-  {
-    "swedish": "Skriva",
-    "german": "Schreiben",
-    "strong": true,
-    "conjugation_presens": {
-      "ich": "schreibe",
-      "du": "schreibst",
-      "er/sie/es": "schreibt",
-      "wir": "schreiben",
-      "ihr": "schreibt",
-      "sie/Sie": "schreiben"
-    },
-    "conjugation_preteritum": {
-      "ich": "schrieb",
-      "du": "schriebst",
-      "er/sie/es": "schrieb",
-      "wir": "schrieben",
-      "ihr": "schriebt",
-      "sie/Sie": "schrieben"
-    },
-    "particip_perfekt": "geschrieben",
-    "sentence": {
-      "conjugation_presens": "Ich schreibe einen Brief.",
-      "conjugation_preteritum": "Ich schrieb einen Brief.",
-      "conjugation_perfekt": "Ich habe einen Brief geschrieben."
-    }
-  },
-  {
-    "swedish": "Se",
-    "german": "Sehen",
-    "strong": true,
-    "conjugation_presens": {
-      "ich": "sehe",
-      "du": "siehst",
-      "er/sie/es": "sieht",
-      "wir": "sehen",
-      "ihr": "seht",
-      "sie/Sie": "sehen"
-    },
-    "conjugation_preteritum": {
-      "ich": "sah",
-      "du": "sahst",
-      "er/sie/es": "sah",
-      "wir": "sahen",
-      "ihr": "saht",
-      "sie/Sie": "sahen"
-    },
-    "particip_perfekt": "gesehen",
-    "sentence": {
-      "conjugation_presens": "Ich sehe den Hund.",
-      "conjugation_preteritum": "Ich sah den Hund.",
-      "conjugation_perfekt": "Ich habe den Hund gesehen."
-    }
-  },
-  {
-    "swedish": "Sova",
-    "german": "Schlafen",
-    "strong": true,
-    "conjugation_presens": {
-      "ich": "schlafe",
-      "du": "schläfst",
-      "er/sie/es": "schläft",
-      "wir": "schlafen",
-      "ihr": "schlaft",
-      "sie/Sie": "schlafen"
-    },
-    "conjugation_preteritum": {
-      "ich": "schlief",
-      "du": "schliefst",
-      "er/sie/es": "schlief",
-      "wir": "schliefen",
-      "ihr": "schlieft",
-      "sie/Sie": "schliefen"
-    },
-    "particip_perfekt": "geschlafen",
-    "sentence": {
-      "conjugation_presens": "Ich schlafe gut.",
-      "conjugation_preteritum": "Ich schlief gut.",
-      "conjugation_perfekt": "Ich habe gut geschlafen."
-    }
-  },
-  {
-    "swedish": "Börja",
-    "german": "Beginnen",
-    "strong": true,
-    "conjugation_presens": {
-      "ich": "beginne",
-      "du": "beginnst",
-      "er/sie/es": "beginnt",
-      "wir": "beginnen",
-      "ihr": "beginnt",
-      "sie/Sie": "beginnen"
-    },
-    "conjugation_preteritum": {
-      "ich": "begann",
-      "du": "begannst",
-      "er/sie/es": "begann",
-      "wir": "begannen",
-      "ihr": "begannt",
-      "sie/Sie": "begannen"
-    },
-    "particip_perfekt": "begonnen",
-    "sentence": {
-      "conjugation_presens": "Das Spiel beginnt.",
-      "conjugation_preteritum": "Das Spiel begann.",
-      "conjugation_perfekt": "Das Spiel hat begonnen."
-    }
-  },
-  {
-    "swedish": "Förstå",
-    "german": "Verstehen",
-    "strong": true,
-    "conjugation_presens": {
-      "ich": "verstehe",
-      "du": "verstehst",
-      "er/sie/es": "versteht",
-      "wir": "verstehen",
-      "ihr": "versteht",
-      "sie/Sie": "verstehen"
-    },
-    "conjugation_preteritum": {
-      "ich": "verstand",
-      "du": "verstandest",
-      "er/sie/es": "verstand",
-      "wir": "verstanden",
-      "ihr": "verstandet",
-      "sie/Sie": "verstanden"
-    },
-    "particip_perfekt": "verstanden",
-    "sentence": {
-      "conjugation_presens": "Ich verstehe dich.",
-      "conjugation_preteritum": "Ich verstand dich.",
-      "conjugation_perfekt": "Ich habe dich verstanden."
-    }
-  },
-  {
-    "swedish": "Tala",
-    "german": "Sprechen",
-    "strong": true,
-    "conjugation_presens": {
-      "ich": "spreche",
-      "du": "sprichst",
-      "er/sie/es": "spricht",
-      "wir": "sprechen",
-      "ihr": "sprecht",
-      "sie/Sie": "sprechen"
-    },
-    "conjugation_preteritum": {
-      "ich": "sprach",
-      "du": "sprachst",
-      "er/sie/es": "sprach",
-      "wir": "sprachen",
-      "ihr": "spracht",
-      "sie/Sie": "sprachen"
-    },
-    "particip_perfekt": "gesprochen",
-    "sentence": {
-      "conjugation_presens": "Ich spreche Deutsch.",
-      "conjugation_preteritum": "Ich sprach Deutsch.",
-      "conjugation_perfekt": "Ich habe Deutsch gesprochen."
-    }
-  },
-  {
-    "swedish": "Hjälpa",
-    "german": "Helfen",
-    "strong": true,
-    "conjugation_presens": {
-      "ich": "helfe",
-      "du": "hilfst",
-      "er/sie/es": "hilft",
-      "wir": "helfen",
-      "ihr": "helft",
-      "sie/Sie": "helfen"
-    },
-    "conjugation_preteritum": {
-      "ich": "half",
-      "du": "halfst",
-      "er/sie/es": "half",
-      "wir": "halfen",
-      "ihr": "halft",
-      "sie/Sie": "halfen"
-    },
-    "particip_perfekt": "geholfen",
-    "sentence": {
-      "conjugation_presens": "Ich helfe dir.",
-      "conjugation_preteritum": "Ich half dir.",
-      "conjugation_perfekt": "Ich habe dir geholfen."
-    }
-  },
-  {
-    "swedish": "Ligga",
-    "german": "Liegen",
-    "strong": true,
-    "conjugation_presens": {
-      "ich": "liege",
-      "du": "liegst",
-      "er/sie/es": "liegt",
-      "wir": "liegen",
-      "ihr": "liegt",
-      "sie/Sie": "liegen"
-    },
-    "conjugation_preteritum": {
-      "ich": "lag",
-      "du": "lagst",
-      "er/sie/es": "lag",
-      "wir": "lagen",
-      "ihr": "lagt",
-      "sie/Sie": "lagen"
-    },
-    "particip_perfekt": "gelegen",
-    "sentence": {
-      "conjugation_presens": "Das Buch liegt auf dem Tisch.",
-      "conjugation_preteritum": "Das Buch lag auf dem Tisch.",
-      "conjugation_perfekt": "Das Buch hat auf dem Tisch gelegen."
-    }
-  }
+      {
+        "swedish": "Äta",
+        "german": "Essen",
+        "strong": true,
+        "conjugation_presens": {
+          "ich": "esse",
+          "du": "isst",
+          "er/sie/es": "isst",
+          "wir": "essen",
+          "ihr": "esst",
+          "sie/Sie": "essen"
+        },
+        "conjugation_preteritum": {
+          "ich": "aß",
+          "du": "aßest",
+          "er/sie/es": "aß",
+          "wir": "aßen",
+          "ihr": "aßt",
+          "sie/Sie": "aßen"
+        },
+        "sentence": {
+          "conjugation_presens": "Er isst einen Apfel.",
+          "conjugation_preteritum": "Er aß einen Apfel.",
+          "conjugation_perfekt": "Er hat einen Apfel gegessen."
+        }
+      },
+      {
+        "swedish": "Heta",
+        "german": "Heißen",
+        "strong": true,
+        "conjugation_presens": {
+          "ich": "heiße",
+          "du": "heißt",
+          "er/sie/es": "heißt",
+          "wir": "heißen",
+          "ihr": "heißt",
+          "sie/Sie": "heißen"
+        },
+        "conjugation_preteritum": {
+          "ich": "hieß",
+          "du": "hießest",
+          "er/sie/es": "hieß",
+          "wir": "hießen",
+          "ihr": "hießt",
+          "sie/Sie": "hießen"
+        },
+        "sentence": {
+          "conjugation_presens": "Ich heiße Anna.",
+          "conjugation_preteritum": "Ich hieß Anna.",
+          "conjugation_perfekt": "Ich habe Anna geheißen."
+        }
+      },
+      {
+        "swedish": "Har",
+        "german": "Haben",
+        "strong": false,
+        "conjugation_presens": {
+          "ich": "habe",
+          "du": "hast",
+          "er/sie/es": "hat",
+          "wir": "haben",
+          "ihr": "habt",
+          "sie/Sie": "haben"
+        },
+        "conjugation_preteritum": {
+          "ich": "hatte",
+          "du": "hattest",
+          "er/sie/es": "hatte",
+          "wir": "hatten",
+          "ihr": "hattet",
+          "sie/Sie": "hatten"
+        },
+        "sentence": {
+          "conjugation_presens": "Ich habe ein Buch.",
+          "conjugation_preteritum": "Ich hatte ein Buch.",
+          "conjugation_perfekt": "Ich habe ein Buch gehabt."
+        }
+      },
+      {
+        "swedish": "Rida",
+        "german": "Reiten",
+        "strong": true,
+        "conjugation_presens": {
+          "ich": "reite",
+          "du": "reitest",
+          "er/sie/es": "reitet",
+          "wir": "reiten",
+          "ihr": "reitet",
+          "sie/Sie": "reiten"
+        },
+        "conjugation_preteritum": {
+          "ich": "ritt",
+          "du": "rittest",
+          "er/sie/es": "ritt",
+          "wir": "ritten",
+          "ihr": "rittet",
+          "sie/Sie": "ritten"
+        },
+        "sentence": {
+          "conjugation_presens": "Er reitet ein Pferd.",
+          "conjugation_preteritum": "Er ritt ein Pferd.",
+          "conjugation_perfekt": "Er ist ein Pferd geritten."
+        }
+      },
+      {
+        "swedish": "Bli",
+        "german": "Werden",
+        "strong": true,
+        "conjugation_presens": {
+          "ich": "werde",
+          "du": "wirst",
+          "er/sie/es": "wird",
+          "wir": "werden",
+          "ihr": "werdet",
+          "sie/Sie": "werden"
+        },
+        "conjugation_preteritum": {
+          "ich": "wurde",
+          "du": "wurdest",
+          "er/sie/es": "wurde",
+          "wir": "wurden",
+          "ihr": "wurdet",
+          "sie/Sie": "wurden"
+        },
+        "sentence": {
+          "conjugation_presens": "Er wird Arzt.",
+          "conjugation_preteritum": "Er wurde Arzt.",
+          "conjugation_perfekt": "Er ist Arzt geworden."
+        }
+      },
+      {
+        "swedish": "är/vara",
+        "german": "Sein",
+        "strong": true,
+        "conjugation_presens": {
+          "ich": "bin",
+          "du": "bist",
+          "er/sie/es": "ist",
+          "wir": "sind",
+          "ihr": "seid",
+          "sie/Sie": "sind"
+        },
+        "conjugation_preteritum": {
+          "ich": "war",
+          "du": "warst",
+          "er/sie/es": "war",
+          "wir": "waren",
+          "ihr": "wart",
+          "sie/Sie": "waren"
+        },
+        "sentence": {
+          "conjugation_presens": "Ich bin müde.",
+          "conjugation_preteritum": "Ich war müde.",
+          "conjugation_perfekt": "Ich bin müde gewesen."
+        }
+      },
 
+      {
+        "swedish": "Springa",
+        "german": "Laufen",
+        "strong": true,
+        "conjugation_presens": {
+          "ich": "laufe",
+          "du": "läufst",
+          "er/sie/es": "läuft",
+          "wir": "laufen",
+          "ihr": "lauft",
+          "sie/Sie": "laufen"
+        },
+        "conjugation_preteritum": {
+          "ich": "lief",
+          "du": "liefst",
+          "er/sie/es": "lief",
+          "wir": "liefen",
+          "ihr": "lieft",
+          "sie/Sie": "liefen"
+        },
+        "sentence": {
+          "conjugation_presens": "Er läuft schnell.",
+          "conjugation_preteritum": "Er lief schnell.",
+          "conjugation_perfekt": "Er ist schnell gelaufen."
+        }
+      },
+      {
+        "swedish": "Dricka",
+        "german": "Trinken",
+        "strong": true,
+        "conjugation_presens": {
+          "ich": "trinke",
+          "du": "trinkst",
+          "er/sie/es": "trinkt",
+          "wir": "trinken",
+          "ihr": "trinkt",
+          "sie/Sie": "trinken"
+        },
+        "conjugation_preteritum": {
+          "ich": "trank",
+          "du": "trankst",
+          "er/sie/es": "trank",
+          "wir": "tranken",
+          "ihr": "trankt",
+          "sie/Sie": "tranken"
+        },
+        "sentence": {
+          "conjugation_presens": "Ich trinke Wasser.",
+          "conjugation_preteritum": "Ich trank Wasser.",
+          "conjugation_perfekt": "Ich habe Wasser getrunken."
+        }
+      },
+      {
+        "swedish": "Läsa",
+        "german": "Lesen",
+        "strong": true,
+        "conjugation_presens": {
+          "ich": "lese",
+          "du": "liest",
+          "er/sie/es": "liest",
+          "wir": "lesen",
+          "ihr": "lest",
+          "sie/Sie": "lesen"
+        },
+        "conjugation_preteritum": {
+          "ich": "las",
+          "du": "lasest",
+          "er/sie/es": "las",
+          "wir": "lasen",
+          "ihr": "last",
+          "sie/Sie": "lasen"
+        },
+        "sentence": {
+          "conjugation_presens": "Er liest ein Buch.",
+          "conjugation_preteritum": "Er las ein Buch.",
+          "conjugation_perfekt": "Er hat ein Buch gelesen."
+        }
+      },
+      {
+        "swedish": "Hitta",
+        "german": "Finden",
+        "strong": true,
+        "conjugation_presens": {
+          "ich": "finde",
+          "du": "findest",
+          "er/sie/es": "findet",
+          "wir": "finden",
+          "ihr": "findet",
+          "sie/Sie": "finden"
+        },
+        "conjugation_preteritum": {
+          "ich": "fand",
+          "du": "fandest",
+          "er/sie/es": "fand",
+          "wir": "fanden",
+          "ihr": "fandet",
+          "sie/Sie": "fanden"
+        },
+        "sentence": {
+          "conjugation_presens": "Ich finde den Schlüssel.",
+          "conjugation_preteritum": "Ich fand den Schlüssel.",
+          "conjugation_perfekt": "Ich habe den Schlüssel gefunden."
+        }
+      },
+      {
+        "swedish": "Ta",
+        "german": "Nehmen",
+        "strong": true,
+        "conjugation_presens": {
+          "ich": "nehme",
+          "du": "nimmst",
+          "er/sie/es": "nimmt",
+          "wir": "nehmen",
+          "ihr": "nehmt",
+          "sie/Sie": "nehmen"
+        },
+        "conjugation_preteritum": {
+          "ich": "nahm",
+          "du": "nahmst",
+          "er/sie/es": "nahm",
+          "wir": "nahmen",
+          "ihr": "nahmt",
+          "sie/Sie": "nahmen"
+        },
+        "sentence": {
+          "conjugation_presens": "Er nimmt das Buch.",
+          "conjugation_preteritum": "Er nahm das Buch.",
+          "conjugation_perfekt": "Er hat das Buch genommen."
+        }
+      },
+      {
+        "swedish": "Hoppa",
+        "german": "Springen",
+        "strong": true,
+        "conjugation_presens": {
+          "ich": "springe",
+          "du": "springst",
+          "er/sie/es": "springt",
+          "wir": "springen",
+          "ihr": "springt",
+          "sie/Sie": "springen"
+        },
+        "conjugation_preteritum": {
+          "ich": "sprang",
+          "du": "sprangst",
+          "er/sie/es": "sprang",
+          "wir": "sprangen",
+          "ihr": "sprangt",
+          "sie/Sie": "sprangen"
+        },
+        "sentence": {
+          "conjugation_presens": "Das Kind springt hoch.",
+          "conjugation_preteritum": "Das Kind sprang hoch.",
+          "conjugation_perfekt": "Das Kind ist hoch gesprungen."
+        }
+      },
+      {
+        "swedish": "Köpa",
+        "german": "Kaufen",
+        "strong": false,
+        "conjugation_presens": {
+          "ich": "kaufe",
+          "du": "kaufst",
+          "er/sie/es": "kauft",
+          "wir": "kaufen",
+          "ihr": "kauft",
+          "sie/Sie": "kaufen"
+        },
+        "conjugation_preteritum": {
+          "ich": "kaufte",
+          "du": "kauftest",
+          "er/sie/es": "kaufte",
+          "wir": "kauften",
+          "ihr": "kauftet",
+          "sie/Sie": "kauften"
+        },
+        "sentence": {
+          "conjugation_presens": "Ich kaufe Brot.",
+          "conjugation_preteritum": "Ich kaufte Brot.",
+          "conjugation_perfekt": "Ich habe Brot gekauft."
+        }
+      },
+      {
+        "swedish": "Gå",
+        "german": "Gehen",
+        "strong": true,
+        "conjugation_presens": {
+          "ich": "gehe",
+          "du": "gehst",
+          "er/sie/es": "geht",
+          "wir": "gehen",
+          "ihr": "geht",
+          "sie/Sie": "gehen"
+        },
+        "conjugation_preteritum": {
+          "ich": "ging",
+          "du": "gingst",
+          "er/sie/es": "ging",
+          "wir": "gingen",
+          "ihr": "gingt",
+          "sie/Sie": "gingen"
+        },
+        "sentence": {
+          "conjugation_presens": "Ich gehe nach Hause.",
+          "conjugation_preteritum": "Ich ging nach Hause.",
+          "conjugation_perfekt": "Ich bin nach Hause gegangen."
+        }
+      },
 
+      {
+        "swedish": "ge",
+        "german": "geben",
+        "strong": "true",
+        "conjugation_presens": {
+          "ich": "gebe",
+          "du": "gibst",
+          "er/sie/es": "gibt",
+          "wir": "geben",
+          "ihr": "gebt",
+          "sie/Sie": "geben"
+        },
+        "conjugation_preteritum": {
+          "ich": "gab",
+          "du": "gabst",
+          "er/sie/es": "gab",
+          "wir": "gaben",
+          "ihr": "gabt",
+          "sie/Sie": "gaben"
+        },
+        "sentence": {
+          "conjugation_presens": "Er gibt mir das Buch",
+          "conjugation_preteritum": "Er gab mir das Buch",
+          "conjugation_perfekt": "Er hat mir das Buch gegeben"
+        }
+      },
 
+      {
+        "swedish": "Sjänka",
+        "german": "Schenken",
+        "strong": false,
+        "conjugation_presens": {
+          "ich": "schenke",
+          "du": "schenkst",
+          "er/sie/es": "schenkt",
+          "wir": "schenken",
+          "ihr": "schenkt",
+          "sie/Sie": "schenken"
+        },
+        "conjugation_preteritum": {
+          "ich": "schenkte",
+          "du": "schenktest",
+          "er/sie/es": "schenkte",
+          "wir": "schenkten",
+          "ihr": "schenktet",
+          "sie/Sie": "schenkten"
+        },
+        "sentence": {
+          "conjugation_presens": "Er schenkt mir einen Pullover zu Weihnachten.",
+          "conjugation_preteritum": "Er schenkte mir einen Pullover zu Weihnachten",
+          "conjugation_perfekt": "Er hat mir einen Pullover zu Weihnachten geschenkt"
+        }
+      },
+      {
+        "swedish": "Kan",
+        "german": "Können",
+        "modal": true,
+        "conjugation_presens": {
+          "ich": "kann",
+          "du": "kannst",
+          "er/sie/es": "kann",
+          "wir": "können",
+          "ihr": "könnt",
+          "sie/Sie": "können"
+        },
+        "conjugation_preteritum": {
+          "ich": "konnte",
+          "du": "konntest",
+          "er/sie/es": "konnte",
+          "wir": "konnten",
+          "ihr": "konntet",
+          "sie/Sie": "konnten"
+        },
+        "sentence": {
+          "conjugation_presens": "Ich kann schwimmen.",
+          "conjugation_preteritum": "Ich konnte schwimmen.",
+          "conjugation_perfekt": "Ich habe schwimmen können."
+        }
+      },
+      {
+        "swedish": "Få lov",
+        "german": "Dürfen",
+        "modal": true,
+        "conjugation_presens": {
+          "ich": "darf",
+          "du": "darfst",
+          "er/sie/es": "darf",
+          "wir": "dürfen",
+          "ihr": "dürft",
+          "sie/Sie": "dürfen"
+        },
+        "conjugation_preteritum": {
+          "ich": "durfte",
+          "du": "durftest",
+          "er/sie/es": "durfte",
+          "wir": "durften",
+          "ihr": "durftet",
+          "sie/Sie": "durften"
+        },
+        "sentence": {
+          "conjugation_presens": "Ich darf gehen.",
+          "conjugation_preteritum": "Ich durfte gehen.",
+          "conjugation_perfekt": "Ich habe gehen dürfen."
+        }
+      },
+      {
+        "swedish": "Ska/böra",
+        "german": "Sollen",
+        "modal": true,
+        "conjugation_presens": {
+          "ich": "soll",
+          "du": "sollst",
+          "er/sie/es": "soll",
+          "wir": "sollen",
+          "ihr": "sollt",
+          "sie/Sie": "sollen"
+        },
+        "conjugation_preteritum": {
+          "ich": "sollte",
+          "du": "solltest",
+          "er/sie/es": "sollte",
+          "wir": "sollten",
+          "ihr": "solltet",
+          "sie/Sie": "sollten"
+        },
+        "sentence": {
+          "conjugation_presens": "Ich soll lernen.",
+          "conjugation_preteritum": "Ich sollte lernen.",
+          "conjugation_perfekt": "Ich habe lernen sollen."
+        }
+      },
+      {
+        "swedish": "Vilja",
+        "german": "Wollen",
+        "modal": true,
+        "conjugation_presens": {
+          "ich": "will",
+          "du": "willst",
+          "er/sie/es": "will",
+          "wir": "wollen",
+          "ihr": "wollt",
+          "sie/Sie": "wollen"
+        },
+        "conjugation_preteritum": {
+          "ich": "wollte",
+          "du": "wolltest",
+          "er/sie/es": "wollte",
+          "wir": "wollten",
+          "ihr": "wolltet",
+          "sie/Sie": "wollten"
+        },
+        "sentence": {
+          "conjugation_presens": "Ich will essen.",
+          "conjugation_preteritum": "Ich wollte essen.",
+          "conjugation_perfekt": "Ich habe essen wollen."
+        }
+      },
+      {
+        "swedish": "Måste",
+        "german": "Müssen",
+        "modal": true,
+        "conjugation_presens": {
+          "ich": "muss",
+          "du": "musst",
+          "er/sie/es": "muss",
+          "wir": "müssen",
+          "ihr": "müsst",
+          "sie/Sie": "müssen"
+        },
+        "conjugation_preteritum": {
+          "ich": "musste",
+          "du": "musstest",
+          "er/sie/es": "musste",
+          "wir": "mussten",
+          "ihr": "musstet",
+          "sie/Sie": "mussten"
+        },
+        "sentence": {
+          "conjugation_presens": "Ich muss arbeiten.",
+          "conjugation_preteritum": "Ich musste arbeiten.",
+          "conjugation_perfekt": "Ich habe arbeiten müssen."
+        }
+      },
+      {
+        "swedish": "Tycka om",
+        "german": "Mögen",
+        "modal": true,
+        "conjugation_presens": {
+          "ich": "mag",
+          "du": "magst",
+          "er/sie/es": "mag",
+          "wir": "mögen",
+          "ihr": "mögt",
+          "sie/Sie": "mögen"
+        },
+        "conjugation_preteritum": {
+          "ich": "mochte",
+          "du": "mochtest",
+          "er/sie/es": "mochte",
+          "wir": "mochten",
+          "ihr": "mochtet",
+          "sie/Sie": "mochten"
+        },
+        "sentence": {
+          "conjugation_presens": "Ich mag Schokolade.",
+          "conjugation_preteritum": "Ich mochte Schokolade.",
+          "conjugation_perfekt": "Ich habe Schokolade mögen."
+        }
+      },
+      {
+        "swedish": "Skriva",
+        "german": "Schreiben",
+        "strong": true,
+        "conjugation_presens": {
+          "ich": "schreibe",
+          "du": "schreibst",
+          "er/sie/es": "schreibt",
+          "wir": "schreiben",
+          "ihr": "schreibt",
+          "sie/Sie": "schreiben"
+        },
+        "conjugation_preteritum": {
+          "ich": "schrieb",
+          "du": "schriebst",
+          "er/sie/es": "schrieb",
+          "wir": "schrieben",
+          "ihr": "schriebt",
+          "sie/Sie": "schrieben"
+        },
+        "particip_perfekt": "geschrieben",
+        "sentence": {
+          "conjugation_presens": "Ich schreibe einen Brief.",
+          "conjugation_preteritum": "Ich schrieb einen Brief.",
+          "conjugation_perfekt": "Ich habe einen Brief geschrieben."
+        }
+      },
+      {
+        "swedish": "Se",
+        "german": "Sehen",
+        "strong": true,
+        "conjugation_presens": {
+          "ich": "sehe",
+          "du": "siehst",
+          "er/sie/es": "sieht",
+          "wir": "sehen",
+          "ihr": "seht",
+          "sie/Sie": "sehen"
+        },
+        "conjugation_preteritum": {
+          "ich": "sah",
+          "du": "sahst",
+          "er/sie/es": "sah",
+          "wir": "sahen",
+          "ihr": "saht",
+          "sie/Sie": "sahen"
+        },
+        "particip_perfekt": "gesehen",
+        "sentence": {
+          "conjugation_presens": "Ich sehe den Hund.",
+          "conjugation_preteritum": "Ich sah den Hund.",
+          "conjugation_perfekt": "Ich habe den Hund gesehen."
+        }
+      },
+      {
+        "swedish": "Sova",
+        "german": "Schlafen",
+        "strong": true,
+        "conjugation_presens": {
+          "ich": "schlafe",
+          "du": "schläfst",
+          "er/sie/es": "schläft",
+          "wir": "schlafen",
+          "ihr": "schlaft",
+          "sie/Sie": "schlafen"
+        },
+        "conjugation_preteritum": {
+          "ich": "schlief",
+          "du": "schliefst",
+          "er/sie/es": "schlief",
+          "wir": "schliefen",
+          "ihr": "schlieft",
+          "sie/Sie": "schliefen"
+        },
+        "particip_perfekt": "geschlafen",
+        "sentence": {
+          "conjugation_presens": "Ich schlafe gut.",
+          "conjugation_preteritum": "Ich schlief gut.",
+          "conjugation_perfekt": "Ich habe gut geschlafen."
+        }
+      },
+      {
+        "swedish": "Börja",
+        "german": "Beginnen",
+        "strong": true,
+        "conjugation_presens": {
+          "ich": "beginne",
+          "du": "beginnst",
+          "er/sie/es": "beginnt",
+          "wir": "beginnen",
+          "ihr": "beginnt",
+          "sie/Sie": "beginnen"
+        },
+        "conjugation_preteritum": {
+          "ich": "begann",
+          "du": "begannst",
+          "er/sie/es": "begann",
+          "wir": "begannen",
+          "ihr": "begannt",
+          "sie/Sie": "begannen"
+        },
+        "particip_perfekt": "begonnen",
+        "sentence": {
+          "conjugation_presens": "Das Spiel beginnt.",
+          "conjugation_preteritum": "Das Spiel begann.",
+          "conjugation_perfekt": "Das Spiel hat begonnen."
+        }
+      },
+      {
+        "swedish": "Förstå",
+        "german": "Verstehen",
+        "strong": true,
+        "conjugation_presens": {
+          "ich": "verstehe",
+          "du": "verstehst",
+          "er/sie/es": "versteht",
+          "wir": "verstehen",
+          "ihr": "versteht",
+          "sie/Sie": "verstehen"
+        },
+        "conjugation_preteritum": {
+          "ich": "verstand",
+          "du": "verstandest",
+          "er/sie/es": "verstand",
+          "wir": "verstanden",
+          "ihr": "verstandet",
+          "sie/Sie": "verstanden"
+        },
+        "particip_perfekt": "verstanden",
+        "sentence": {
+          "conjugation_presens": "Ich verstehe dich.",
+          "conjugation_preteritum": "Ich verstand dich.",
+          "conjugation_perfekt": "Ich habe dich verstanden."
+        }
+      },
+      {
+        "swedish": "Tala",
+        "german": "Sprechen",
+        "strong": true,
+        "conjugation_presens": {
+          "ich": "spreche",
+          "du": "sprichst",
+          "er/sie/es": "spricht",
+          "wir": "sprechen",
+          "ihr": "sprecht",
+          "sie/Sie": "sprechen"
+        },
+        "conjugation_preteritum": {
+          "ich": "sprach",
+          "du": "sprachst",
+          "er/sie/es": "sprach",
+          "wir": "sprachen",
+          "ihr": "spracht",
+          "sie/Sie": "sprachen"
+        },
+        "particip_perfekt": "gesprochen",
+        "sentence": {
+          "conjugation_presens": "Ich spreche Deutsch.",
+          "conjugation_preteritum": "Ich sprach Deutsch.",
+          "conjugation_perfekt": "Ich habe Deutsch gesprochen."
+        }
+      },
+      {
+        "swedish": "Hjälpa",
+        "german": "Helfen",
+        "strong": true,
+        "conjugation_presens": {
+          "ich": "helfe",
+          "du": "hilfst",
+          "er/sie/es": "hilft",
+          "wir": "helfen",
+          "ihr": "helft",
+          "sie/Sie": "helfen"
+        },
+        "conjugation_preteritum": {
+          "ich": "half",
+          "du": "halfst",
+          "er/sie/es": "half",
+          "wir": "halfen",
+          "ihr": "halft",
+          "sie/Sie": "halfen"
+        },
+        "particip_perfekt": "geholfen",
+        "sentence": {
+          "conjugation_presens": "Ich helfe dir.",
+          "conjugation_preteritum": "Ich half dir.",
+          "conjugation_perfekt": "Ich habe dir geholfen."
+        }
+      },
+      {
+        "swedish": "Ligga",
+        "german": "Liegen",
+        "strong": true,
+        "conjugation_presens": {
+          "ich": "liege",
+          "du": "liegst",
+          "er/sie/es": "liegt",
+          "wir": "liegen",
+          "ihr": "liegt",
+          "sie/Sie": "liegen"
+        },
+        "conjugation_preteritum": {
+          "ich": "lag",
+          "du": "lagst",
+          "er/sie/es": "lag",
+          "wir": "lagen",
+          "ihr": "lagt",
+          "sie/Sie": "lagen"
+        },
+        "particip_perfekt": "gelegen",
+        "sentence": {
+          "conjugation_presens": "Das Buch liegt auf dem Tisch.",
+          "conjugation_preteritum": "Das Buch lag auf dem Tisch.",
+          "conjugation_perfekt": "Das Buch hat auf dem Tisch gelegen."
+        }
+      },
+      {
+        "swedish": "Vandra",
+        "german": "Wandern",
+        "type": "verb",
+        "conjugation_presens": {
+          "ich": "wandere",
+          "du": "wanderst",
+          "er/sie/es": "wandert",
+          "wir": "wandern",
+          "ihr": "wandert",
+          "sie/Sie": "wandern"
+        },
+        "conjugation_preteritum": {
+          "ich": "wanderte",
+          "du": "wandertest",
+          "er/sie/es": "wanderte",
+          "wir": "wanderten",
+          "ihr": "wandertet",
+          "sie/Sie": "wanderten"
+        },
+        "sentence": {
+          "presens": "Ich wandere gern in den Bergen.",
+          "preteritum": "Ich wanderte gestern im Wald.",
+          "perfekt": "Ich bin gestern im Wald gewandert."
+        }
+      },
+
+      {
+        "swedish": "Dansa",
+        "german": "Tanzen",
+        "type": "verb",
+        "conjugation_presens": {
+          "ich": "tanze",
+          "du": "tanzt",
+          "er/sie/es": "tanzt",
+          "wir": "tanzen",
+          "ihr": "tanzt",
+          "sie/Sie": "tanzen"
+        },
+        "conjugation_preteritum": {
+          "ich": "tanzte",
+          "du": "tanztest",
+          "er/sie/es": "tanzte",
+          "wir": "tanzten",
+          "ihr": "tanztet",
+          "sie/Sie": "tanzten"
+        },
+        "sentence": {
+          "presens": "Wir tanzen gern.",
+          "preteritum": "Wir tanzten gestern.",
+          "perfekt": "Wir haben gestern getanzt."
+        }
+      },
+      {
+        "swedish": "Skidåkning",
+        "german": "Ski fahren",
+        "type": "verb",
+        "conjugation_presens": {
+          "ich": "fahre Ski",
+          "du": "fährst Ski",
+          "er/sie/es": "fährt Ski",
+          "wir": "fahren Ski",
+          "ihr": "fahrt Ski",
+          "sie/Sie": "fahren Ski"
+        },
+        "conjugation_preteritum": {
+          "ich": "fuhr Ski",
+          "du": "fuhrst Ski",
+          "er/sie/es": "fuhr Ski",
+          "wir": "fuhren Ski",
+          "ihr": "fuhrt Ski",
+          "sie/Sie": "fuhren Ski"
+        },
+        "sentence": {
+          "presens": "Ich fahre Ski im Winter.",
+          "preteritum": "Ich fuhr Ski im Winter.",
+          "perfekt": "Ich bin Ski gefahren."
+        }
+      },
+      {
+        "swedish": "Måla",
+        "german": "Malen",
+        "type": "verb",
+        "conjugation_presens": {
+          "ich": "male",
+          "du": "malst",
+          "er/sie/es": "malt",
+          "wir": "malen",
+          "ihr": "malt",
+          "sie/Sie": "malen"
+        },
+        "conjugation_preteritum": {
+          "ich": "malte",
+          "du": "maltest",
+          "er/sie/es": "malte",
+          "wir": "malten",
+          "ihr": "maltet",
+          "sie/Sie": "malten"
+        },
+        "sentence": {
+          "presens": "Sie malt ein Bild.",
+          "preteritum": "Sie malte gestern ein Bild.",
+          "perfekt": "Sie hat ein Bild gemalt."
+        }
+      },
+      {
+        "swedish": "Dyka",
+        "german": "Tauchen",
+        "type": "verb",
+        "conjugation_presens": {
+          "ich": "tauche",
+          "du": "tauchst",
+          "er/sie/es": "taucht",
+          "wir": "tauchen",
+          "ihr": "taucht",
+          "sie/Sie": "tauchen"
+        },
+        "conjugation_preteritum": {
+          "ich": "tauchte",
+          "du": "tauchtest",
+          "er/sie/es": "tauchte",
+          "wir": "tauchten",
+          "ihr": "tauchtet",
+          "sie/Sie": "tauchten"
+        },
+        "sentence": {
+          "presens": "Er taucht im Meer.",
+          "preteritum": "Er tauchte gestern im Meer.",
+          "perfekt": "Er hat im Meer getaucht."
+        }
+      },
+      {
+        "swedish": "Springa",
+        "german": "Laufen",
+        "type": "verb",
+        "conjugation_presens": {
+          "ich": "laufe",
+          "du": "läufst",
+          "er/sie/es": "läuft",
+          "wir": "laufen",
+          "ihr": "lauft",
+          "sie/Sie": "laufen"
+        },
+        "conjugation_preteritum": {
+          "ich": "lief",
+          "du": "liefst",
+          "er/sie/es": "lief",
+          "wir": "liefen",
+          "ihr": "lieft",
+          "sie/Sie": "liefen"
+        },
+        "sentence": {
+          "presens": "Ich laufe jeden Morgen.",
+          "preteritum": "Ich lief gestern im Park.",
+          "perfekt": "Ich bin gestern im Park gelaufen."
+        }
+      },
+      {
+        "swedish": "Träna",
+        "german": "Trainieren",
+        "type": "verb",
+        "conjugation_presens": {
+          "ich": "trainiere",
+          "du": "trainierst",
+          "er/sie/es": "trainiert",
+          "wir": "trainieren",
+          "ihr": "trainiert",
+          "sie/Sie": "trainieren"
+        },
+        "conjugation_preteritum": {
+          "ich": "trainierte",
+          "du": "trainiertest",
+          "er/sie/es": "trainierte",
+          "wir": "trainierten",
+          "ihr": "trainiertet",
+          "sie/Sie": "trainierten"
+        },
+        "sentence": {
+          "presens": "Wir trainieren im Fitnessstudio.",
+          "preteritum": "Wir trainierten gestern.",
+          "perfekt": "Wir haben gestern trainiert."
+        }
+      },
+      {
+        "swedish": "Surfa",
+        "german": "Surfen",
+        "type": "verb",
+        "conjugation_presens": {
+          "ich": "surfe",
+          "du": "surfst",
+          "er/sie/es": "surft",
+          "wir": "surfen",
+          "ihr": "surft",
+          "sie/Sie": "surfen"
+        },
+        "conjugation_preteritum": {
+          "ich": "surfte",
+          "du": "surftest",
+          "er/sie/es": "surfte",
+          "wir": "surften",
+          "ihr": "surftet",
+          "sie/Sie": "surften"
+        },
+        "sentence": {
+          "presens": "Ich surfe gern im Internet.",
+          "preteritum": "Ich surfte gestern im Internet.",
+          "perfekt": "Ich habe gestern im Internet gesurft."
+        }
+      }
     ],
     "adj_declension": [
       {
@@ -1574,65 +2060,64 @@
         "explanation": "nounet 'Häuser' är neutrum plural. Bestämd artikel 'die' visar ackusativ, därför svag böjning (-en)."
       },
       {
-        "fill": "Ich sehe einen alt_ Mann auf der Straße.",
+        "fill": "Ich sehe einen bunt_ Mann auf der Straße.",
         "missing": "-en",
-        "german": "Alt",
+        "german": "Bunte",
         "adj_declension": "schwach",
         "explanation": "nounet 'Mann' är maskulin. Artikeln 'einen' visar ackusativ, därför svag böjning (-en)."
       },
-        {
-          "fill": "Ich miete ein_ kleine Wohnung in Berlin.",
-          "missing": "-e",
-          "german": "Klein",
-          "adj_declension": "odefinite_article",
-          "explanation": "„Wohnung“ är feminin och står i ackusativ med obestämd artikel „eine“. Svag böjning ger ändelsen -e."
-        },
-        {
-          "fill": "Wir arbeiten in ein_ großen Büro.",
-          "missing": "-en",
-          "german": "Groß",
-          "adj_declension": "odefinite_article",
-          "explanation": "„Büro“ är neutrum och står i dativ med obestämd artikel „einem“. Svag böjning ger ändelsen -en."
-        },
-        {
-          "fill": "Sie wohnt in der Nähe ___ alten Bahnhofs.",
-          "missing": "des",
-          "german": "Alt",
-          "adj_declension": "definite_article",
-          "explanation": "„Bahnhof“ är maskulin och står i genitiv med bestämd artikel „des“."
-        },
+      {
+        "fill": "Ich miete ein_ kleine Wohnung in Berlin.",
+        "missing": "-e",
+        "german": "Klein",
+        "adj_declension": "odefinite_article",
+        "explanation": "„Wohnung“ är feminin och står i ackusativ med obestämd artikel „eine“. Svag böjning ger ändelsen -e."
+      },
+      {
+        "fill": "Wir arbeiten in ein_ großen Büro.",
+        "missing": "-en",
+        "german": "Groß",
+        "adj_declension": "odefinite_article",
+        "explanation": "„Büro“ är neutrum och står i dativ med obestämd artikel „einem“. Svag böjning ger ändelsen -en."
+      },
+      {
+        "fill": "Sie wohnt in der Nähe ___ alten Bahnhofs.",
+        "missing": "des",
+        "german": "Alt",
+        "adj_declension": "definite_article",
+        "explanation": "„Bahnhof“ är maskulin och står i genitiv med bestämd artikel „des“."
+      },
 
-        {
-          "fill": "Wir arbeiten in ___ großen Büro.",
-          "missing": "dem",
-          "german": "Groß",
-          "adj_declension": "definite_article",
-          "explanation": "„Büro“ är neutrum och står i dativ med bestämd artikel „dem“."
-        },
+      {
+        "fill": "Wir arbeiten in ___ großen Büro.",
+        "missing": "dem",
+        "german": "Groß",
+        "adj_declension": "definite_article",
+        "explanation": "„Büro“ är neutrum och står i dativ med bestämd artikel „dem“."
+      },
 
-        {
-          "fill": "Ich sehe ___ schöne Wohnung.",
-          "missing": "die",
-          "german": "Schön",
-          "adj_declension": "definite_article",
-          "explanation": "„Wohnung“ är feminin och står i ackusativ med bestämd artikel „die“."
-        },
+      {
+        "fill": "Ich sehe ___ schöne Wohnung.",
+        "missing": "die",
+        "german": "Schön",
+        "adj_declension": "definite_article",
+        "explanation": "„Wohnung“ är feminin och står i ackusativ med bestämd artikel „die“."
+      },
 
-        {
-          "fill": "___ kleine Kind spielt im Garten.",
-          "missing": "Das",
-          "german": "Klein",
-          "adj_declension": "definite_article",
-          "explanation": "„Kind“ är neutrum och står i nominativ med bestämd artikel „Das“."
-        },
-        {
-          "fill": "Ich trinke ein_ kalten Kaffee bei der Arbeit.",
-          "missing": "-en",
-          "german": "Kalt",
-          "adj_declension": "odefinite_article",
-          "explanation": "„Kaffee“ är maskulin och står i ackusativ med obestämd artikel „einen“. Svag böjning ger ändelsen -en."
-        }
-      
+      {
+        "fill": "___ kleine Kind spielt im Garten.",
+        "missing": "Das",
+        "german": "Klein",
+        "adj_declension": "definite_article",
+        "explanation": "„Kind“ är neutrum och står i nominativ med bestämd artikel „Das“."
+      },
+      {
+        "fill": "Ich trinke ein_ kalten Kaffee bei der Arbeit.",
+        "missing": "-en",
+        "german": "Kalt",
+        "adj_declension": "odefinite_article",
+        "explanation": "„Kaffee“ är maskulin och står i ackusativ med obestämd artikel „einen“. Svag böjning ger ändelsen -en."
+      }
     ],
     "prepositions": [
       {
@@ -1818,8 +2303,8 @@
         "explanation": "Prepositionen 'über' används med dativ här eftersom det beskriver var något befinner sig. Lampan är redan upphängd ovanför bordet, och 'dem Tisch' är dativformen av 'der Tisch'."
       }
     ],
-    
-   "conjunctions": [
+
+    "conjunctions": [
       {
         "swedish": "och",
         "german": "Und",
@@ -1884,16 +2369,28 @@
     "other": [
       {
         "swedish": "Gift",
-        "german": "Verheiratet"
+        "german": "Verheiratet",
+        "type": "adjective"
+      },
+      {
+        "swedish": "Galen",
+        "type": "adjective",
+        "german": "Verrückt"
       },
       {
         "swedish": "varning",
+        "type": "adjective",
         "german": "Achtung"
       },
 
       {
         "swedish": "Tyvärr",
+
         "german": "Leider"
+      },
+      {
+        "swedish": "Färre",
+        "german": "Weniger"
       },
       {
         "swedish": "professionellt",
@@ -1901,82 +2398,185 @@
       },
       {
         "swedish": "färglada",
+        "type": "adjective",
         "german": "Bunte"
       },
       {
         "swedish": "prickig",
+        "type": "adjective",
         "german": "gepunktetes"
       },
       {
         "swedish": "randig",
+        "type": "adjective",
         "german": "gestreiftes"
       }
-    ], 
-    
-  "tables": [
-    {
-      "name": "Bestämda artiklar",
-      "description": "Tabell över bestämda artiklar i olika kasus och genus",
-      "columns": ["Maskulinum", "Neutrum", "Femininum", "Plural"],
-      "rows": ["Nominativ", "Ackusativ", "Dativ", "Genitiv"],
-      "data": {
-        "Nominativ": ["der", "das", "die", "die"],
-        "Ackusativ": ["den", "das", "die", "die"],
-        "Dativ": ["dem", "dem", "der", "den"],
-        "Genitiv": ["des", "des", "der", "der"]
-      }
-    },
-    {
-      "name": "Obestämda artiklar",
-      "description": "Tabell över obestämda artiklar i olika kasus och genus",
-      "columns": ["Maskulinum", "Neutrum", "Femininum"],
-      "rows": ["Nominativ", "Ackusativ", "Dativ", "Genitiv"],
-      "data": {
-        "Nominativ": ["ein", "ein", "eine"],
-        "Ackusativ": ["einen", "ein", "eine"],
-        "Dativ": ["einem", "einem", "einer"],
-        "Genitiv": ["eines", "eines", "einer"]
-      }
-    },
-    {
-      "name": "Starka adjektivändelser",
-      "description": "Tabell över starka adjektivändelser efter obestämd artikel eller utan artikel",
-      "columns": ["Maskulinum", "Neutrum", "Femininum", "Plural"],
-      "rows": ["Nominativ", "Ackusativ", "Dativ", "Genitiv"],
-      "data": {
-        "Nominativ": ["-er", "-es", "-e", "-e"],
-        "Ackusativ": ["-en", "-es", "-e", "-e"],
-        "Dativ": ["-em", "-em", "-er", "-en"],
-        "Genitiv": ["-en", "-en", "-er", "-er"]
-      }
-    },
-    {
-      "name": "Svaga adjektivändelser",
-      "description": "Tabell över svaga adjektivändelser efter bestämd artikel",
-      "columns": ["Maskulinum", "Neutrum", "Femininum", "Plural"],
-      "rows": ["Nominativ", "Ackusativ", "Dativ", "Genitiv"],
-      "data": {
-        "Nominativ": ["-e", "-e", "-e", "-en"],
-        "Ackusativ": ["-en", "-e", "-e", "-en"],
-        "Dativ": ["-en", "-en", "-en", "-en"],
-        "Genitiv": ["-en", "-en", "-en", "-en"]
-      }
-    },
-    {
-      "name": "Personliga pronomen",
-      "description": "Tabell över första person, andra person och tilltals -Sie",
-      "columns": ["Singular 1a person (jag)", "Singular 2a person (du)", "Plural 1a person (vi)", "Plural 2a person (ni)", "Tilltals-Sie (ni)"],
-      "rows": ["Nominativ", "Ackusativ", "Dativ"],
-      "data": {
-        "Nominativ": ["ich", "du", "wir", "ihr" , "Sie"],
-        "Ackusativ": ["mich", "dish", "uns", "euch", "Sie"],
-        "Dativ": ["mir", "dir", "uns", "euch", "Ihnen"]
-        
-      }
-    }
-  ]
+    ],
 
+    "tables": [
+      {
+        "name": "Bestämda artiklar",
+        "description": "Tabell över bestämda artiklar i olika kasus och genus",
+        "columns": ["Maskulinum", "Neutrum", "Femininum", "Plural"],
+        "rows": ["Nominativ", "Ackusativ", "Dativ", "Genitiv"],
+        "data": {
+          "Nominativ": ["der", "das", "die", "die"],
+          "Ackusativ": ["den", "das", "die", "die"],
+          "Dativ": ["dem", "dem", "der", "den"],
+          "Genitiv": ["des", "des", "der", "der"]
+        }
+      },
+      {
+        "name": "Obestämda artiklar",
+        "description": "Tabell över obestämda artiklar i olika kasus och genus",
+        "columns": ["Maskulinum", "Neutrum", "Femininum"],
+        "rows": ["Nominativ", "Ackusativ", "Dativ", "Genitiv"],
+        "data": {
+          "Nominativ": ["ein", "ein", "eine"],
+          "Ackusativ": ["einen", "ein", "eine"],
+          "Dativ": ["einem", "einem", "einer"],
+          "Genitiv": ["eines", "eines", "einer"]
+        }
+      },
+      {
+        "name": "Starka adjektivändelser",
+        "description": "Tabell över starka adjektivändelser efter obestämd artikel eller utan artikel",
+        "columns": ["Maskulinum", "Neutrum", "Femininum", "Plural"],
+        "rows": ["Nominativ", "Ackusativ", "Dativ", "Genitiv"],
+        "data": {
+          "Nominativ": ["-er", "-es", "-e", "-e"],
+          "Ackusativ": ["-en", "-es", "-e", "-e"],
+          "Dativ": ["-em", "-em", "-er", "-en"],
+          "Genitiv": ["-en", "-en", "-er", "-er"]
+        }
+      },
+      {
+        "name": "Svaga adjektivändelser",
+        "description": "Tabell över svaga adjektivändelser efter bestämd artikel",
+        "columns": ["Maskulinum", "Neutrum", "Femininum", "Plural"],
+        "rows": ["Nominativ", "Ackusativ", "Dativ", "Genitiv"],
+        "data": {
+          "Nominativ": ["-e", "-e", "-e", "-en"],
+          "Ackusativ": ["-en", "-e", "-e", "-en"],
+          "Dativ": ["-en", "-en", "-en", "-en"],
+          "Genitiv": ["-en", "-en", "-en", "-en"]
+        }
+      },
+      {
+        "name": "Personliga pronomen",
+        "description": "Tabell över första person, andra person och tilltals -Sie",
+        "columns": [
+          "Singular 1a person (jag)",
+          "Singular 2a person (du)",
+          "Plural 1a person (vi)",
+          "Plural 2a person (ni)",
+          "Tilltals-Sie (ni)"
+        ],
+        "rows": ["Nominativ", "Ackusativ", "Dativ"],
+        "data": {
+          "Nominativ": ["ich", "du", "wir", "ihr", "Sie"],
+          "Ackusativ": ["mich", "dich", "uns", "euch", "Sie"],
+          "Dativ": ["mir", "dir", "uns", "euch", "Ihnen"]
+        }
+      },
 
+      {
+        "name": "Haben, Sein och Werden",
+        "description": "Böj haben (ha), sein (vara) och werden (bli) i presens och preteritum (imperfekt)",
+        "columns": [
+          "Haben Presens",
+          "Haben Preteritum",
+          "Sein Presens",
+          "Sein Preteritum",
+          "Werden Presens",
+          "Werden Preteritum"
+        ],
+        "rows": ["ich", "du", "er/sie/es", "wir", "ihr", "sie/Sie"],
+        "data": {
+          "ich": ["habe", "hatte", "bin", "war", "werde", "wurde"],
+          "du": ["hast", "hattest", "bist", "warst", "wirst", "wurdest"],
+          "er/sie/es": ["hat", "hatte", "ist", "war", "wird", "wurde"],
+          "wir": ["haben", "hatten", "sind", "waren", "werden", "wurden"],
+          "ihr": ["habt", "hattet", "seid", "wart", "werdet", "wurdet"],
+          "sie/Sie": ["haben", "hatten", "sind", "waren", "werden", "wurden"]
+        }
+      },
+
+      {
+        "name": "Modala hjälpverb",
+        "description": "Böj de modala hjälpverben",
+        "columns": ["Dürfen (få)", "Können (kunna)", "Mögen (tycke om)", "Müssen (måste)", "Sollen (ska)", "Wollen (vill)"],
+        "rows": ["ich", "du", "er/sie/es", "wir", "ihr", "sie/Sie"],
+        "data": {
+          "ich": ["darf", "kann", "mag", "muss", "soll", "will"],
+          "du": ["darfst", "kannst", "magst", "musst", "sollst", "willst"],
+          "er/sie/es": ["darf", "kann", "mag", "muss", "soll", "will"],
+          "wir": ["dürfen", "können", "mögen", "müssen", "sollen", "wollen"],
+          "ihr": ["dürft", "könnt", "mögt", "müsst", "sollt", "wollt"],
+          "sie/Sie": ["dürfen", "können", "mögen", "müssen", "sollen", "wollen"]
+        }
+      },
+
+      {
+        "name": "Prepositioner",
+        "description": "Vilken preposition och vilket kasus (ackusativ eller dativ)",
+        "columns": ["Preposition", "Kasus"],
+        "rows": [
+          "genom",
+          "för, till",
+          "mot",
+          "utan",
+          "runt, omkring, om",
+          "ur, från; av",
+          "vid; hos",
+          "med",
+          "efter; till (geo); enligt",
+          "sedan, alltsedan",
+          "om; från; av",
+          "till"
+        ],
+        "data": {
+          "genom": ["durch", "ackusativ"],
+          "för, till": ["für", "ackusativ"],
+          "mot": ["gegen", "ackusativ"],
+          "utan": ["ohne", "ackusativ"],
+          "runt, omkring, om": ["um", "ackusativ"],
+          "ur, från; av": ["aus", "dativ"],
+          "vid; hos": ["bei", "dativ"],
+          "med": ["mit", "dativ"],
+          "efter; till (geo); enligt": ["nach", "dativ"],
+          "sedan, alltsedan": ["seit", "dativ"],
+          "om; från; av": ["von", "dativ"],
+          "till": ["zu", "dativ"]
+        }
+      },
+      {
+        "name": "Prepositioner",
+        "description": "Vilken prepositioner styr både ackusativ (förflyttning) och dativ (befintlighet)",
+        "columns": ["Preposition"],
+        "rows": [
+          "vid",
+          "på",
+          "bakom",
+          "i",
+          "bredvid",
+          "över",
+          "under",
+          "framför",
+          "mellan"
+        ],
+        "data": {
+          "vid": ["an"],
+          "på": ["auf"],
+          "bakom": ["hinter"],
+          "i": ["in"],
+          "bredvid": ["neben"],
+          "över": ["über"],
+          "under": ["unter"],
+          "framför": ["vor"],
+          "mellan": ["zwischen"]
+        }
+      }
+    ]
   }
-  
 }

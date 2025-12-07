@@ -113,6 +113,7 @@ ul{
 .grammar-table {
   width: max-content; /* Gör att tabellen kan vara bredare än skärmen */
   margin: 0 auto; /* Centrerar */
+  text-align: end;
 }
 
 

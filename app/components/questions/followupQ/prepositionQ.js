@@ -1,7 +1,7 @@
 // what presposition is used in the prev asked sentence
 
 "use client";
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 
 import AnsButton from "../../answerButton.js";
 

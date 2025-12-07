@@ -30,7 +30,7 @@ export function selectTrainingWords(wordBank, selectedCategories = [], count = 7
 
   // Slumpa ord från poolen
   const shuffled = [...pool].sort(() => 0.5 - Math.random());
-  console.log(shuffled.slice(0, count))
+  
 
   
 

@@ -2,7 +2,7 @@
 
 // ask for coorect artikle after translation of a noun
 
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import "../../../globals.css"
 import AnsButton from "../../answerButton.js";
 

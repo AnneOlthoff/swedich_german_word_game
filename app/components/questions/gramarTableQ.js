@@ -2,15 +2,14 @@
 import { useState, useEffect } from "react";
 import "../../globals.css";
 
-export default function GrammarTableQ({ tableData, onFinish }) {
-  const { name, columns, rows, data } = tableData;
+export default function GrammarTableQ({ tableData }) {
+  const { name,description, columns, rows, data } = tableData;
 
   // Skapa en 2D-array för användarens svar
   const [userAnswers, setUserAnswers] = useState(
     rows.map(() => columns.map(() => "")) // tomma strängar
   );
 
-  const [isCompleted, setIsCompleted] = useState(false);
 
   // Hantera input
   const handleInputChange = (rowIndex, colIndex, value) => {
@@ -30,26 +29,27 @@ useEffect(() => {
   return (
     <div>
       <h3>{name}</h3>
+      <p>{description}</p>
+      <br></br>
 
       <div className="grammar-table-wrapper" >
  
 
       <table
         className="grammar-table"
-      
       >
         <thead>
-          <tr>
+          <tr >
             <th></th>
             {columns.map((col, index) => (
-              <th key={index}>{col}</th>
+              <th key={index} style={{ fontWeight: "bold", maxWidth: "0.5rem", textAlign: "center"}}>{col}</th>
             ))}
           </tr>
         </thead>
         <tbody>
           {rows.map((row, rowIndex) => (
             <tr key={rowIndex}>
-              <td style={{ fontWeight: "bold" }}>{row}</td>
+              <td style={{ fontWeight: "bold"}}>{row}</td>
               {columns.map((col, colIndex) => {
                 const userValue = (userAnswers[rowIndex]?.[colIndex] || "").trim();
                 const correctValue = (

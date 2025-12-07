@@ -17,7 +17,7 @@
   }:
     flake-utils.lib.eachDefaultSystem (system: let
       pkgs = nixpkgs.legacyPackages.${system};
-      pname = "anne_portfolio"; # <same as package.json name>
+      pname = "swedish_german_word_game"; # <same as package.json name>
       version = "0.1.0";
       buildInputs = with pkgs; [
         nodejs_20

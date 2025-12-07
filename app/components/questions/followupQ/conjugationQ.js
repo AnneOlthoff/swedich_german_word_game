@@ -30,8 +30,8 @@ export default function ConjugationQuestion({ pickedWord, onSecAnswer }) {
       setCorrectForm(randomForm);
 
       const wrongForms = conjugationPairs
-        .filter(([p, f]) => f !== randomForm)
-        .map(([p, f]) => f)
+        .filter(([_, f]) => f !== randomForm)
+        .map(([_, f]) => f)
         .sort(() => 0.5 - Math.random())
         .slice(0, 5); //visa 5 alternativ
 
@@ -117,13 +117,4 @@ export default function ConjugationQuestion({ pickedWord, onSecAnswer }) {
   );
 }
 
-const styles = {
- buttonContainer: {
-    paddingTop: "1rem",
-    display: "flex",
-    flexDirection: "row", // ✅ detta är korrekt
-    gap: "2rem",
-    justifyContent: "center", // centrera horisontellt
-    margin: "auto",
-  },
-};
+

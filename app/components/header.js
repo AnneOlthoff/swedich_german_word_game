@@ -1,25 +1,13 @@
 'use client'; 
 
-import { usePathname, useRouter } from 'next/navigation';
 
-import Link from "next/link";
 
 
 export default function Header() {
   
-  const router = useRouter();
-  const pathname = usePathname();
 
-  const handleScroll = (e) => {
-    e.preventDefault();
-    if (pathname === '/') {
-      // Scrolla till sektionen om vi är på startsidan
-      document.querySelector('#my-work').scrollIntoView({ behavior: 'smooth'});
-    } else {
-      // Navigera till startsidan först
-      router.push('/#my-work');
-    }
-  };
+
+ 
   
     return (
       <header style={styles.header}>
