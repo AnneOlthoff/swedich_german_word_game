@@ -7,6 +7,7 @@ export default function CategorySelector({ categories, selectedCategories, onTog
   return (
     <div style={{ textAlign: "center", padding: "2rem" }}>
       <h3>Välj vilka typer av frågor du vill ha:</h3>
+      
       {categories.map(cat => (
        <div>
          <button

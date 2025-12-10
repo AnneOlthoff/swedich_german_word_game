@@ -14,7 +14,7 @@ export default function GrammarTableQ({ tableData }) {
   // Hantera input
   const handleInputChange = (rowIndex, colIndex, value) => {
     const updatedAnswers = [...userAnswers];
-    updatedAnswers[rowIndex][colIndex] = value.trim();
+    updatedAnswers[rowIndex][colIndex] = value;
     setUserAnswers(updatedAnswers);
   };
 
@@ -51,14 +51,17 @@ useEffect(() => {
             <tr key={rowIndex}>
               <td style={{ fontWeight: "bold"}}>{row}</td>
               {columns.map((col, colIndex) => {
-                const userValue = (userAnswers[rowIndex]?.[colIndex] || "").trim();
+                
+
+                const normalize = (str) => {
+                  return str.trim().replace(/^-/, "").toLowerCase();
+                };
+                const userValue = (userAnswers[rowIndex]?.[colIndex] || "");
                 const correctValue = (
                   data[row]?.[colIndex] || ""
-                ).toLowerCase();
+                ).toLowerCase(); 
 
-                const isCorrect =
-                  userValue.trim().toLowerCase() ===
-                  (correctValue ? correctValue.toLowerCase() : "");
+               const isCorrect = normalize(userValue) === normalize(correctValue);  
 
                 return (
                   <td

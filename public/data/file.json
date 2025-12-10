@@ -1,6 +1,393 @@
 {
   "questions": {
+    "adverb": [
+      {
+        "swedish": "var",
+        "german": "Wo",
+        "type": "questioning"
+      },
+      {
+        "swedish": "om",
+        "german": "ob",
+        "type": "questioning"
+      },
+      {
+        "swedish": "varifrån",
+        "german": "Woher",
+        "type": "questioning"
+      },
+      {
+        "swedish": "vart",
+        "german": "Wohin",
+        "type": "questioning"
+      },
+      {
+        "swedish": "när",
+        "german": "Wann",
+        "type": "questioning"
+      },
+      {
+        "swedish": "hur",
+        "german": "Wie",
+        "type": "questioning"
+      },
+      {
+        "swedish": "varför",
+        "german": "Warum",
+        "type": "questioning"
+      },
+
+      {
+        "swedish": "här",
+        "german": "hier",
+        "type": "roomadverb"
+      },
+      {
+        "swedish": "där",
+        "german": "Da, dort",
+        "type": "roomadverb"
+      },
+      {
+        "swedish": "därute",
+        "german": "Draußen",
+        "type": "roomadverb"
+      },
+      {
+        "swedish": "därinne",
+        "german": "Drinnen",
+        "type": "roomadverb"
+      },
+      {
+        "swedish": "uppe",
+        "german": "Oben",
+        "type": "roomadverb"
+      },
+      {
+        "swedish": "nere",
+        "german": "Unten",
+        "type": "roomadverb"
+      },
+      {
+        "swedish": "framme",
+        "german": "Vorne",
+        "type": "roomadverb"
+      },
+      {
+        "swedish": "bak",
+        "german": "Hinten",
+        "type": "roomadverb"
+      },
+      {
+        "swedish": "till höger",
+        "german": "Rechts",
+        "type": "roomadverb"
+      },
+      {
+        "swedish": "till vänster",
+        "german": "Links",
+        "type": "roomadverb"
+      },
+      {
+        "swedish": "överallt",
+        "german": "Überall",
+        "type": "roomadverb"
+      },
+      {
+        "swedish": "någonstans",
+        "german": "Irgendwo",
+        "type": "roomadverb"
+      },
+      {
+        "swedish": "ingenstans",
+        "german": "Nirgendwo",
+        "type": "roomadverb"
+      },
+      {
+        "swedish": "dit",
+        "german": "Dahin",
+        "type": "roomadverb"
+      },
+      {
+        "swedish": "hit",
+        "german": "Hierher",
+        "type": "roomadverb"
+      },
+      {
+        "swedish": "ofta",
+        "german": "oft",
+        "type": "timeadverb"
+      },
+      {
+        "swedish": "aldrig",
+        "german": "nie",
+        "type": "timeadverb"
+      },
+      {
+        "swedish": "sällan",
+        "german": "selten",
+        "type": "timeadverb"
+      },
+      {
+        "swedish": "ibland",
+        "german": "manchmal",
+        "type": "timeadverb"
+      },
+      {
+        "swedish": "alltid",
+        "german": "immer",
+        "type": "timeadverb"
+      },
+      {
+        "swedish": "förr",
+        "german": "früher",
+        "type": "timeadverb"
+      },
+      {
+        "swedish": "just",
+        "german": "eben",
+        "type": "timeadverb"
+      },
+      {
+        "swedish": "nu",
+        "german": "jetzt",
+        "type": "timeadverb"
+      },
+      {
+        "swedish": "snart",
+        "german": "bald",
+        "type": "timeadverb"
+      },
+      {
+        "swedish": "genast",
+        "german": "sofort",
+        "type": "timeadverb"
+      },
+      {
+        "swedish": "då (dåtid)",
+        "german": "da",
+        "type": "timeadverb"
+      },
+      {
+        "swedish": "då (nutid, framtid)",
+        "german": "dann",
+        "type": "timeadverb"
+      },
+      {
+        "swedish": "igår",
+        "german": "gestern",
+        "type": "timeadverb"
+      },
+      {
+        "swedish": "idag",
+        "german": "heute",
+        "type": "timeadverb"
+      },
+      {
+        "swedish": "imorgon",
+        "german": "morgen",
+        "type": "timeadverb"
+      }
+    ],
     "nouns": [
+      {
+        "swedish": "sjuksköterska",
+        "german": "Krankenschwester",
+        "artikel": "die",
+        "plural": "Krankenschwestern",
+        "collection": "profession"
+      },
+      {
+        "swedish": "tablett",
+        "german": "Tablette",
+        "artikel": "die",
+        "plural": "Tabletten",
+        "collection": "other"
+      },
+      {
+        "swedish": "huvudvärk",
+        "german": "Kopfschmerzen",
+        "artikel": "die",
+        "plural": "-",
+        "collection": "other"
+      },
+
+      {
+        "swedish": "kontor",
+        "german": "Büro",
+        "artikel": "das",
+        "plural": "Büros",
+        "collection": "orientierung"
+      },
+      {
+        "swedish": "trappa",
+        "german": "Treppe",
+        "artikel": "die",
+        "plural": "Treppen",
+        "collection": "orientierung"
+      },
+      {
+        "swedish": "hiss",
+        "german": "Aufzug",
+        "artikel": "der",
+        "plural": "Aufzüge",
+        "collection": "orientierung"
+      },
+      {
+        "swedish": "våning",
+        "german": "Stockwerk",
+        "artikel": "das",
+        "plural": "Stockwerke",
+        "collection": "orientierung"
+      },
+      {
+        "swedish": "dörr",
+        "german": "Tür",
+        "artikel": "die",
+        "plural": "Türen",
+        "collection": "orientierung"
+      },
+      {
+        "swedish": "fönster",
+        "german": "Fenster",
+        "artikel": "das",
+        "plural": "Fenster",
+        "collection": "orientierung"
+      },
+      {
+        "swedish": "kropp",
+        "german": "Körper",
+        "artikel": "der",
+        "plural": "Körper",
+        "collection": "körper"
+      },
+      {
+        "swedish": "huvud",
+        "german": "Kopf",
+        "artikel": "der",
+        "plural": "Köpfe",
+        "collection": "körper"
+      },
+      {
+        "swedish": "arm",
+        "german": "Arm",
+        "artikel": "der",
+        "plural": "Arme",
+        "collection": "körper"
+      },
+      {
+        "swedish": "ben",
+        "german": "Bein",
+        "artikel": "das",
+        "plural": "Beine",
+        "collection": "körper"
+      },
+      {
+        "swedish": "hand",
+        "german": "Hand",
+        "artikel": "die",
+        "plural": "Hände",
+        "collection": "körper"
+      },
+      {
+        "swedish": "fot",
+        "german": "Fuß",
+        "artikel": "der",
+        "plural": "Füße",
+        "collection": "körper"
+      },
+      {
+        "swedish": "mage",
+        "german": "Bauch",
+        "artikel": "der",
+        "plural": "Bäuche",
+        "collection": "körper"
+      },
+      {
+        "swedish": "rygg",
+        "german": "Rücken",
+        "artikel": "der",
+        "plural": "Rücken",
+        "collection": "körper"
+      },
+      {
+        "swedish": "hjärta",
+        "german": "Herz",
+        "artikel": "das",
+        "plural": "Herzen",
+        "collection": "körper"
+      },
+
+      {
+        "swedish": "båt",
+        "german": "Schiff",
+        "artikel": "das",
+        "plural": "Schiffe",
+        "collection": "orienierung"
+      },
+      {
+        "swedish": "ögat",
+        "german": "Auge",
+        "artikel": "das",
+        "plural": "Augen",
+        "collection": "körper"
+      },
+      {
+        "swedish": "näsa",
+        "german": "Nase",
+        "artikel": "die",
+        "plural": "Nasen",
+        "collection": "körper"
+      },
+      {
+        "swedish": "visum",
+        "german": "Visum",
+        "artikel": "das",
+        "plural": "Visa",
+        "collection": "orienierung"
+      },
+      {
+        "swedish": "cykel",
+        "german": "Fahrrad",
+        "artikel": "das",
+        "plural": "Fahrräder",
+        "collection": "orienierung"
+      },
+      {
+        "swedish": "bil",
+        "german": "Auto",
+        "artikel": "das",
+        "plural": "Autos",
+        "collection": "orienierung"
+      },
+      {
+        "swedish": "läkare (manlig)",
+        "german": "Arzt",
+        "artikel": "der",
+        "plural": "Ärzte",
+        "collection": "profession"
+      },
+      {
+        "swedish": "tandläkare (manlig)",
+        "german": "Zahnarzt",
+        "artikel": "der",
+        "plural": "Zahnärzte",
+        "collection": "profession"
+      },
+      {
+        "swedish": "fitnessstudio",
+        "german": "Fitnessstudio",
+        "artikel": "das",
+        "plural": "Fitnessstudios",
+        "collection": "hobbies"
+      },
+      {
+        "swedish": "spår",
+        "german": "Gleis",
+        "artikel": "das",
+        "plural": "Gleise",
+        "collection": "orienierung"
+      },
+
       {
         "swedish": "timme",
         "german": "Stunde",
@@ -52,6 +439,112 @@
         "artikel": "der",
         "plural": "Filme",
         "collection": "other"
+      },
+
+      {
+        "swedish": "radion",
+        "german": "Radio",
+        "artikel": "das",
+        "plural": "Radios",
+        "collection": "Medien"
+      },
+      {
+        "swedish": "bärbar dator",
+        "german": "Notebook",
+        "artikel": "das",
+        "plural": "Notebooks",
+        "collection": "Medien"
+      },
+      {
+        "swedish": "boken",
+        "german": "Buch",
+        "artikel": "das",
+        "plural": "Bücher",
+        "collection": "Medien"
+      },
+      {
+        "swedish": "tv",
+        "german": "Fernseher",
+        "artikel": "der",
+        "plural": "Fernseher",
+        "collection": "Medien"
+      },
+      {
+        "swedish": "mobilen",
+        "german": "Handy",
+        "artikel": "das",
+        "plural": "Handys",
+        "collection": "Medien"
+      },
+      {
+        "swedish": "smartphone",
+        "german": "Smartphone",
+        "artikel": "die",
+        "plural": "Smartphones",
+        "collection": "Medien"
+      },
+      {
+        "swedish": "vinylskivan",
+        "german": "Schallplatte",
+        "artikel": "die",
+        "plural": "Schallplatten",
+        "collection": "Medien"
+      },
+      {
+        "swedish": "väckarklockan",
+        "german": "Wecker",
+        "artikel": "der",
+        "plural": "Wecker",
+        "collection": "Medien"
+      },
+      {
+        "swedish": "kalender",
+        "german": "Kalender",
+        "artikel": "der",
+        "plural": "Kalender",
+        "collection": "Medien"
+      },
+      {
+        "swedish": "hörlurarna",
+        "german": "Kopfhörer",
+        "artikel": "die",
+        "plural": "Kopfhörer",
+        "collection": "Medien"
+      },
+      {
+        "swedish": "nätet/webben",
+        "german": "Netz/Web",
+        "artikel": "das",
+        "plural": "-",
+        "collection": "Medien"
+      },
+      {
+        "swedish": "garantin",
+        "german": "Garantie",
+        "artikel": "die",
+        "plural": "Garantien",
+        "collection": "Medien"
+      },
+      {
+        "swedish": "beställningen",
+        "german": "Bestellung",
+        "artikel": "die",
+        "plural": "Bestellungen",
+        "collection": "Medien"
+      },
+      {
+        "swedish": "kameran",
+        "german": "Kamera",
+        "artikel": "die",
+        "plural": "Kameras",
+        "collection": "Medien"
+      },
+      {
+        "swedish": "brev",
+        "german": "Postkarte",
+        "artikel": "die",
+        "plural": "Postkarten",
+        "collection": "urlaub"
       },
       {
         "swedish": "blus",
@@ -466,7 +959,14 @@
         "swedish": "kock",
         "german": "Köchin",
         "artikel": "die",
-        "plural": "Köchinnen",
+        "plural": "Köche",
+        "collection": "profession"
+      },
+      {
+        "swedish": "kock",
+        "german": "Koch",
+        "artikel": "der",
+        "plural": "Köche",
         "collection": "profession"
       },
       {
@@ -723,6 +1223,241 @@
       }
     ],
     "verbs": [
+      {
+        "swedish": "ringa",
+        "german": "anrufen",
+        "strong": "true",
+        "conjugation_presens": {
+          "ich": "rufe an",
+          "du": "rufst an",
+          "er/sie/es": "ruft an",
+          "wir": "rufen an",
+          "ihr": "ruft an",
+          "sie/Sie": "rufen an"
+        },
+        "conjugation_preteritum": {
+          "ich": "rief an",
+          "du": "riefst an",
+          "er/sie/es": "rief an",
+          "wir": "riefen an",
+          "ihr": "rieft an",
+          "sie/Sie": "riefen an"
+        },
+        "sentence": {
+          "conjugation_presens": "Ich rufe dich an",
+          "conjugation_preteritum": "Ich rief dich an",
+          "conjugation_perfekt": "Ich habe dich angerufen"
+        }
+      },
+      {
+        "swedish": "surfa",
+        "german": "surfen",
+        "strong": "false",
+        "conjugation_presens": {
+          "ich": "surfe",
+          "du": "surfst",
+          "er/sie/es": "surft",
+          "wir": "surfen",
+          "ihr": "surft",
+          "sie/Sie": "surfen"
+        },
+        "conjugation_preteritum": {
+          "ich": "surfte",
+          "du": "surftest",
+          "er/sie/es": "surfte",
+          "wir": "surften",
+          "ihr": "surftet",
+          "sie/Sie": "surften"
+        },
+        "sentence": {
+          "conjugation_presens": "Ich surfe im Internet",
+          "conjugation_preteritum": "Ich surfte im Internet",
+          "conjugation_perfekt": "Ich habe im Internet gesurft"
+        }
+      },
+      {
+        "swedish": "mejla",
+        "german": "mailen",
+        "strong": "false",
+        "conjugation_presens": {
+          "ich": "maile",
+          "du": "mailst",
+          "er/sie/es": "mailt",
+          "wir": "mailen",
+          "ihr": "mailt",
+          "sie/Sie": "mailen"
+        },
+        "conjugation_preteritum": {
+          "ich": "mailte",
+          "du": "mailtest",
+          "er/sie/es": "mailte",
+          "wir": "mailten",
+          "ihr": "mailtet",
+          "sie/Sie": "mailten"
+        },
+        "sentence": {
+          "conjugation_presens": "Ich maile dir die Datei",
+          "conjugation_preteritum": "Ich mailte dir die Datei",
+          "conjugation_perfekt": "Ich habe dir die Datei gemailt"
+        }
+      },
+      {
+        "swedish": "gilla",
+        "german": "liken",
+        "strong": "false",
+        "conjugation_presens": {
+          "ich": "like",
+          "du": "likst",
+          "er/sie/es": "likt",
+          "wir": "liken",
+          "ihr": "likt",
+          "sie/Sie": "liken"
+        },
+        "conjugation_preteritum": {
+          "ich": "likte",
+          "du": "liktest",
+          "er/sie/es": "likte",
+          "wir": "likten",
+          "ihr": "liktet",
+          "sie/Sie": "likten"
+        },
+        "sentence": {
+          "conjugation_presens": "Ich like das Foto",
+          "conjugation_preteritum": "Ich likte das Foto",
+          "conjugation_perfekt": "Ich habe das Foto gelikt"
+        }
+      },
+      {
+        "swedish": "spara",
+        "german": "speichern",
+        "strong": "false",
+        "conjugation_presens": {
+          "ich": "speichere",
+          "du": "speicherst",
+          "er/sie/es": "speichert",
+          "wir": "speichern",
+          "ihr": "speichert",
+          "sie/Sie": "speichern"
+        },
+        "conjugation_preteritum": {
+          "ich": "speicherte",
+          "du": "speichertest",
+          "er/sie/es": "speicherte",
+          "wir": "speicherten",
+          "ihr": "speichertet",
+          "sie/Sie": "speicherten"
+        },
+        "sentence": {
+          "conjugation_presens": "Ich speichere die Datei",
+          "conjugation_preteritum": "Ich speicherte die Datei",
+          "conjugation_perfekt": "Ich habe die Datei gespeichert"
+        }
+      },
+      {
+        "swedish": "skriva ut",
+        "german": "drucken",
+        "strong": "false",
+        "conjugation_presens": {
+          "ich": "drucke",
+          "du": "druckst",
+          "er/sie/es": "druckt",
+          "wir": "drucken",
+          "ihr": "druckt",
+          "sie/Sie": "drucken"
+        },
+        "conjugation_preteritum": {
+          "ich": "druckte",
+          "du": "drucktest",
+          "er/sie/es": "druckte",
+          "wir": "druckten",
+          "ihr": "drucktet",
+          "sie/Sie": "druckten"
+        },
+        "sentence": {
+          "conjugation_presens": "Ich drucke das Dokument",
+          "conjugation_preteritum": "Ich druckte das Dokument",
+          "conjugation_perfekt": "Ich habe das Dokument gedruckt"
+        }
+      },
+      {
+        "swedish": "reklamera",
+        "german": "reklamieren",
+        "strong": "false",
+        "conjugation_presens": {
+          "ich": "reklamiere",
+          "du": "reklamierst",
+          "er/sie/es": "reklamiert",
+          "wir": "reklamieren",
+          "ihr": "reklamiert",
+          "sie/Sie": "reklamieren"
+        },
+        "conjugation_preteritum": {
+          "ich": "reklamierte",
+          "du": "reklamiertest",
+          "er/sie/es": "reklamierte",
+          "wir": "reklamierten",
+          "ihr": "reklamiertet",
+          "sie/Sie": "reklamierten"
+        },
+        "sentence": {
+          "conjugation_presens": "Ich reklamiere die Ware",
+          "conjugation_preteritum": "Ich reklamierte die Ware",
+          "conjugation_perfekt": "Ich habe die Ware reklamiert"
+        }
+      },
+      {
+        "swedish": "installera",
+        "german": "installieren",
+        "strong": "false",
+        "conjugation_presens": {
+          "ich": "installiere",
+          "du": "installierst",
+          "er/sie/es": "installiert",
+          "wir": "installieren",
+          "ihr": "installiert",
+          "sie/Sie": "installieren"
+        },
+        "conjugation_preteritum": {
+          "ich": "installierte",
+          "du": "installiertest",
+          "er/sie/es": "installierte",
+          "wir": "installierten",
+          "ihr": "installiertet",
+          "sie/Sie": "installierten"
+        },
+        "sentence": {
+          "conjugation_presens": "Ich installiere das Programm",
+          "conjugation_preteritum": "Ich installierte das Programm",
+          "conjugation_perfekt": "Ich habe das Programm installiert"
+        }
+      },
+      {
+        "swedish": "ladda ner",
+        "german": "herunterladen",
+        "strong": "true",
+        "conjugation_presens": {
+          "ich": "lade herunter",
+          "du": "lädst herunter",
+          "er/sie/es": "lädt herunter",
+          "wir": "laden herunter",
+          "ihr": "ladet herunter",
+          "sie/Sie": "laden herunter"
+        },
+        "conjugation_preteritum": {
+          "ich": "lud herunter",
+          "du": "ludst herunter",
+          "er/sie/es": "lud herunter",
+          "wir": "luden herunter",
+          "ihr": "ludet herunter",
+          "sie/Sie": "luden herunter"
+        },
+        "sentence": {
+          "conjugation_presens": "Ich lade die Datei herunter",
+          "conjugation_preteritum": "Ich lud die Datei herunter",
+          "conjugation_perfekt": "Ich habe die Datei heruntergeladen"
+        }
+      },
+
       {
         "swedish": "börja",
         "german": "Anfangen",
@@ -1993,98 +2728,99 @@
         "fill": "Ich sehe einen alt_ Mann im Garten.",
         "missing": "-en",
         "german": "Alt",
-        "adj_declension": "schwach",
+        "adj_declension": "svag böjning",
         "explanation": "nounet 'Mann' är maskulin. Artikeln 'einen' visar ackusativändelsen, därför svag böjning (-en)."
       },
       {
         "fill": "Das ist ein schön_ Wetter heute.",
         "missing": "-es",
         "german": "Schön",
-        "adj_declension": "stark",
+        "adj_declension": "stark böjning",
         "explanation": "nounet 'Wetter' är neutrum. Artikeln 'ein' har ingen ändelse i nominativ, därför stark böjning (-es)."
       },
       {
         "fill": "Wir kaufen zwei rot_ Rosen für den Geburtstag.",
         "missing": "-e",
         "german": "Rot",
-        "adj_declension": "stark",
+        "adj_declension": "stark böjning",
         "explanation": "nounet 'Rosen' är feminin plural. Ingen artikel som visar kasus, därför stark böjning (-e)."
       },
       {
         "fill": "Sie wohnt in einer groß_ Stadt.",
         "missing": "-en",
         "german": "Groß",
-        "adj_declension": "schwach",
+        "adj_declension": "svag böjning",
         "explanation": "nounet 'Stadt' är feminin. Artikeln 'einer' visar dativändelsen, därför svag böjning (-en)."
       },
       {
         "fill": "Ich trinke Kaffee aus der klein_ Tasse.",
         "missing": "-en",
         "german": "Kleine",
-        "adj_declension": "schwach",
+        "adj_declension": "svag böjning",
         "explanation": "nounet 'Tasse' är feminin. Bestämd artikel 'der' visar dativ, därför svag böjning (-en)."
       },
       {
         "fill": "Er liest ein interessant_ Buch.",
         "missing": "-es",
         "german": "Interessant",
-        "adj_declension": "stark",
+        "adj_declension": "stark böjning",
         "explanation": "nounet 'Buch' är neutrum. Artikeln 'ein' har ingen ackusativändelse, därför stark böjning (-es)."
       },
       {
         "fill": "Wir sprechen über dieses schwierig_ Problem.",
         "missing": "-e",
         "german": "Schwierig",
-        "adj_declension": "schwach",
+        "adj_declension": "svag böjning",
         "explanation": "nounet 'Problem' är neutrum. Demonstrativt pronomen 'dieses' visar kasus, därför svag böjning (-e)."
       },
       {
         "fill": "Er hat keine gut_ Idee.",
         "missing": "-e",
         "german": "Gut",
-        "adj_declension": "schwach",
+        "adj_declension": "svag böjning",
         "explanation": "nounet 'Idee' är feminin. Artikeln 'keine' visar nominativändelsen, därför svag böjning (-e)."
       },
       {
         "fill": "Das sind schön_ Häuser.",
         "missing": "-e",
         "german": "Schön",
-        "adj_declension": "stark",
+        "adj_declension": "starkt böjning",
         "explanation": "nounet 'Häuser' är neutrum plural. Ingen artikel, därför stark böjning (-e). Das är enbart ett demonstrativt pronomen som betyder 'Det'. "
       },
       {
         "fill": "Die schön_ Häuser sind groß",
         "missing": "-en",
         "german": "Häuser",
-        "adj_declension": "schwach",
+        "adj_declension": "svag böjning",
         "explanation": "nounet 'Häuser' är neutrum plural. Bestämd artikel 'die' visar ackusativ, därför svag böjning (-en)."
       },
       {
         "fill": "Ich sehe einen bunt_ Mann auf der Straße.",
         "missing": "-en",
         "german": "Bunte",
-        "adj_declension": "schwach",
+        "adj_declension": "svag böjning (-en)",
         "explanation": "nounet 'Mann' är maskulin. Artikeln 'einen' visar ackusativ, därför svag böjning (-en)."
       },
       {
         "fill": "Ich miete ein_ kleine Wohnung in Berlin.",
         "missing": "-e",
         "german": "Klein",
-        "adj_declension": "odefinite_article",
-        "explanation": "„Wohnung“ är feminin och står i ackusativ med obestämd artikel „eine“. Svag böjning ger ändelsen -e."
+        "adj_declension": "obestämd artikel",
+        "explanation": "„Wohnung“ är feminin och står i ackusativ med obestämd artikel „eine“. "
       },
       {
         "fill": "Wir arbeiten in ein_ großen Büro.",
-        "missing": "-en",
+        "missing": "-em",
         "german": "Groß",
-        "adj_declension": "odefinite_article",
-        "explanation": "„Büro“ är neutrum och står i dativ med obestämd artikel „einem“. Svag böjning ger ändelsen -en."
+        "adj_declension": "obestämd artikel",
+        "explanation": "„Büro“ är neutrum och står i dativ med obestämd artikel „einem“."
       },
       {
         "fill": "Sie wohnt in der Nähe ___ alten Bahnhofs.",
         "missing": "des",
         "german": "Alt",
-        "adj_declension": "definite_article",
+        "article": true,
+        "adj_declension": "bestämd artikel",
         "explanation": "„Bahnhof“ är maskulin och står i genitiv med bestämd artikel „des“."
       },
 
@@ -2092,7 +2828,8 @@
         "fill": "Wir arbeiten in ___ großen Büro.",
         "missing": "dem",
         "german": "Groß",
-        "adj_declension": "definite_article",
+        "article": true,
+        "adj_declension": "bestämd artikel",
         "explanation": "„Büro“ är neutrum och står i dativ med bestämd artikel „dem“."
       },
 
@@ -2100,22 +2837,25 @@
         "fill": "Ich sehe ___ schöne Wohnung.",
         "missing": "die",
         "german": "Schön",
-        "adj_declension": "definite_article",
+        "article": true,
+        "adj_declension": "bestämd artikel",
         "explanation": "„Wohnung“ är feminin och står i ackusativ med bestämd artikel „die“."
       },
 
       {
         "fill": "___ kleine Kind spielt im Garten.",
-        "missing": "Das",
+        "missing": "das",
         "german": "Klein",
-        "adj_declension": "definite_article",
+        "article": true,
+        "adj_declension": "bestämd artikel",
         "explanation": "„Kind“ är neutrum och står i nominativ med bestämd artikel „Das“."
       },
       {
         "fill": "Ich trinke ein_ kalten Kaffee bei der Arbeit.",
         "missing": "-en",
         "german": "Kalt",
-        "adj_declension": "odefinite_article",
+
+        "adj_declension": "Svag böjning",
         "explanation": "„Kaffee“ är maskulin och står i ackusativ med obestämd artikel „einen“. Svag böjning ger ändelsen -en."
       }
     ],
@@ -2327,7 +3067,7 @@
         "swedish": "för",
         "german": "Denn",
         "conjunction": "coordinating",
-        "fill": "Ich bleibe zu Hause, ___ es regnet."
+        "fill": "Ich gehe ins Bett, ___ ich bin müde."
       },
       {
         "swedish": "att",
@@ -2342,16 +3082,36 @@
         "fill": "Ich gehe nicht raus, ___ es kalt ist."
       },
       {
-        "swedish": "om",
+        "swedish": "om/när/då något händer",
         "german": "Wenn",
         "conjunction": "uncoordinating",
         "fill": "Ich komme, ___ ich Zeit habe."
       },
       {
-        "swedish": "som",
+        "swedish": "när/då (dåtid, en gång)",
         "german": "Als",
         "conjunction": "uncoordinating",
         "fill": "___ ich klein war, spielte ich viel."
+      },
+
+      {
+        "swedish": "när/då (dåtid, en gång)",
+        "german": "Als",
+        "conjunction": "uncoordinating",
+        "fill": "___ der Chef neulich verreist war, musste ich ihn vertreten"
+      },
+
+      {
+        "swedish": "när/då (dåtid, flera gånger)",
+        "german": "Wenn",
+        "conjunction": "uncoordinating",
+        "fill": "___ der Chef verreist war, musste ich ihm immer vertreten"
+      },
+      {
+        "swedish": "än",
+        "german": "Als",
+        "conjunction": "uncoordinating",
+        "fill": "Er ist größer ___ ich."
       },
       {
         "swedish": "så att",
@@ -2371,6 +3131,11 @@
         "swedish": "Gift",
         "german": "Verheiratet",
         "type": "adjective"
+      },
+      {
+        "swedish": "Mycket händer",
+        "german": "viel los",
+        "type": "uttryck"
       },
       {
         "swedish": "Galen",
@@ -2463,6 +3228,18 @@
         }
       },
       {
+        "name": "Relativspronomen",
+        "description": "Tabell över relativspronomen som binder samman huvud- och bisatser. Används i betydelsen som, vilka, vilkens, vars",
+        "columns": ["Maskulinum", "Neutrum", "Femininum", "Plural"],
+        "rows": ["Nominativ", "Ackusativ", "Dativ", "Genitiv"],
+        "data": {
+          "Nominativ": ["der", "das", "die", "die"],
+          "Ackusativ": ["den", "das", "die", "die"],
+          "Dativ": ["dem", "dem", "der", "denen"],
+          "Genitiv": ["dessen", "dessen", "deren", "deren"]
+        }
+      },
+      {
         "name": "Personliga pronomen",
         "description": "Tabell över första person, andra person och tilltals -Sie",
         "columns": [
@@ -2505,7 +3282,14 @@
       {
         "name": "Modala hjälpverb",
         "description": "Böj de modala hjälpverben",
-        "columns": ["Dürfen (få)", "Können (kunna)", "Mögen (tycke om)", "Müssen (måste)", "Sollen (ska)", "Wollen (vill)"],
+        "columns": [
+          "Dürfen (få)",
+          "Können (kunna)",
+          "Mögen (tycke om)",
+          "Müssen (måste)",
+          "Sollen (ska)",
+          "Wollen (vill)"
+        ],
         "rows": ["ich", "du", "er/sie/es", "wir", "ihr", "sie/Sie"],
         "data": {
           "ich": ["darf", "kann", "mag", "muss", "soll", "will"],
@@ -2575,6 +3359,55 @@
           "under": ["unter"],
           "framför": ["vor"],
           "mellan": ["zwischen"]
+        }
+      },
+      {
+        "name": "Oregelbunda komparationer av adverb",
+        "description": "Regelbundna verb kompareras: schnell, schneller, am schnellsten",
+        "columns": ["Positiv", "Komparativ", "superlativ "],
+        "rows": [
+          "snart",
+          "gärna",
+          "ofta",
+          "mycket (grad/intensitet)",
+          "mycket"
+        ],
+        "data": {
+          "snart": ["bald", "eher", "am ehesten"],
+          "gärna": ["gern", "lieber", "am liebsten"],
+          "ofta": ["oft", "öfter", "am öftesten"],
+          "mycket (grad/intensitet)": ["sehr", "mehr", "am meisten"],
+          "mycket": ["viel", "mehr", "am meisten"]
+        }
+      },
+
+      {
+        "name": "Perfekt med haben och sein",
+        "description": "Vanliga verb i perfekt med rätt hjälpverb och Partizip II",
+        "columns": ["Infinitiv", "Partizip II", "Hjälpverb"],
+        "rows": [
+          "göra",
+          "köpa",
+          "äta",
+          "dricka",
+          "läsa",
+          "åka",
+          "gå",
+          "komma",
+          "sova",
+          "fotografera"
+        ],
+        "data": {
+          "göra": ["machen", "gemacht", "haben"],
+          "köpa": ["kaufen", "gekauft", "haben"],
+          "äta": ["essen", "gegessen", "haben"],
+          "dricka": ["trinken", "getrunken", "haben"],
+          "läsa": ["lesen", "gelesen", "haben"],
+          "åka": ["fahren", "gefahren", "sein"],
+          "gå": ["gehen", "gegangen", "sein"],
+          "komma": ["kommen", "gekommen", "sein"],
+          "sova": ["schlafen", "geschlafen", "haben"],
+          "fotografera": ["dotofrafieren", "fotografiert", "haben"]
         }
       }
     ]

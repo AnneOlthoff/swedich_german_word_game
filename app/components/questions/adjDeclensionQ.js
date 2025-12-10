@@ -36,7 +36,7 @@ export default function AdjDeclensionQ({ pickedWord, onSecAnswer }) {
       <h4>{pickedWord.fill}</h4>
 
       <div className="buttonContainer">
-        {pickedWord.adj_declension == "definite_article" 
+        {pickedWord.article
         ? articleOpt.map((opt, index) => (
             
                 <AnsButton
@@ -65,12 +65,14 @@ export default function AdjDeclensionQ({ pickedWord, onSecAnswer }) {
         <div style={{ marginTop: "1rem" }}>
           {isCorrect ? (
             <div style={styles.answerContainer}>
-              Rätt! <br />
+              Rätt! <br /><br />
+              typ:   <strong>{pickedWord.adj_declension} </strong> <br />
               förklaring: "{pickedWord.explanation}"
             </div>
           ) : (
             <div style={styles.answerContainer}>
-              ❌ fel! rätt svar är "{pickedWord.missing}"<br />
+              ❌ fel! rätt svar är <strong>{pickedWord.missing}</strong><br /><br />
+              typ:  <strong>{pickedWord.adj_declension} </strong> <br /> 
               förklaring: "{pickedWord.explanation}"
             </div>
           )}

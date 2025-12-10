@@ -1,5 +1,6 @@
 export function selectTrainingWords(wordBank, selectedCategories = [], count = 7) {
   const {
+    adverb = [],
     nouns = [],
     verbs = [],
     adj_declension = [],
@@ -14,11 +15,12 @@ export function selectTrainingWords(wordBank, selectedCategories = [], count = 7
   const categoryMap = {
   
     Substantiv: [ ...nouns],
+    Adverb: [ ...adverb],
     Adjektivändelser: [ ...adj_declension],
     Prepositioner: [ ...prepositions],
     Verb: [ ...verbs],
     Konjunktioner: [...conjunctions],
-    Ordförståelse: [ ...verbs, ...nouns, ...other], // sammanslagen kategori
+    Ordförståelse: [ ...verbs, ...adverb, ...nouns, ...other], // sammanslagen kategori
     Tabeller: [...tables]
   };
 

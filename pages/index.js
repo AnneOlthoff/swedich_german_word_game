@@ -7,7 +7,7 @@ export default function Home() {
   const [selectedCategories, setSelectedCategories] = useState([]);
   const router = useRouter();
 
-  const categories = [ "Substantiv", "Adjektivändelser", "Prepositioner", "Verb", "Konjunktioner","Ordförståelse", "Tabeller"];
+  const categories = [ "Ordförståelse", "Substantiv", "Verb", "Adverb" ,"Prepositioner",  "Konjunktioner", "Adjektivändelser",  "Tabeller"];
 
   const toggleCategory = (cat) => {
     setSelectedCategories(prev =>

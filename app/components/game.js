@@ -49,6 +49,7 @@ export default function Game({ selectedWords: initialWords, allWords }) {
     const hasConjugation = word.conjugation_presens !== undefined;
     const hasPreposition = word.preposition !== undefined;
     const hasFollowUp = hasArtikel || hasConjugation || hasPreposition;
+    
 
     if (correct && hasFollowUp) {
       setShowFollowUpQuestion(true);

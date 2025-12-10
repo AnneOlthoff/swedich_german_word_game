@@ -41,6 +41,7 @@ const handleSelect = (option) => {
 
 const flattenQuestions = (questions) => {
   return [
+    ...(questions.adverb || []),
     ...(questions.nouns || []),
     ...(questions.verbs || []),
     ...(questions.adj_declension || []),
